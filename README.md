@@ -31,8 +31,8 @@ A: 后续我会编写一个脚本来批处理生成到对应语言文件夹的 `
 | SearchBox | PlaceholderText | Search Core | 搜索核心 | 搜索核心 | поисковое ядро |
 | ---    | ---        |---        | ---      | ---      | ---  |
 
-生成对应语言文件中的 `data` 块，在不同的语言文件中生成的 value 值对应那一行的语言  
-name 值的拼接规则为 相对于Views文件夹的路径转换_.csv文件名字_资源Id.资源属性Id
+`value` 为对应语言的翻译内容
+`name` 的拼接规则为 相对于Views文件夹的路径转换_.csv文件名字_资源Id.资源属性Id
 
 相对路径转换规则
 `Views/CoresPage.csv` => `CoresPage`  

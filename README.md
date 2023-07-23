@@ -20,4 +20,29 @@
 | 资源Id | 资源属性Id | 英文原文 | 简体中文 | 繁体中文 | 俄文 |
 | ---    | ---        |---        | ---      | ---      | ---  |
 
+## 开发者事宜
+
+Q: .csv 文件如何使用到项目中
+A: 后续我会编写一个脚本来批处理生成到对应语言文件夹的 `Resources.resw` 文件  
+
+生成例子:
+
+在 Views/CoresPage.csv 中
+| SearchBox | PlaceholderText | Search Core | 搜索核心 | 搜索核心 | поисковое ядро |
+| ---    | ---        |---        | ---      | ---      | ---  |
+
+生成对应语言文件中的 `data` 块，在不同的语言文件中生成的 value 值对应那一行的语言  
+name 值的拼接规则为 相对于Views文件夹的路径转换_.csv文件名字_资源Id.资源属性Id
+
+相对路径转换规则
+`Views/CoresPage.csv` => `CoresPage`  
+`Views/Activities/ActivitiesNavigationPage.csv` => `Activities_ActivitiesNavigationPage`
+
+在 Strings/en-Us/Resources.resw 中
+```
+  <data name="CoresPage_SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Search Core</value>
+  </data>
+```
+
 #### 后续若还有疑问等待补充

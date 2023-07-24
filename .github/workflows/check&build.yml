@@ -28,7 +28,7 @@ jobs:
       
       - name: Run LocalizerScript
         run: |
-          cd .\bin\Debug\net7.0
+          cd .\Scripts\bin\Debug\net7.0
           .\LocalizerScript.exe "${{github.workspace}}/Views" "${{github.workspace}}/Strings"
           
       - name: Upload .msixupload to artifacts

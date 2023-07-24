@@ -1,0 +1,34 @@
+name: Push
+on: 
+    workflow_dispatch:
+    push: 
+      tags: 
+        - v*
+jobs:
+  push:
+    runs-on: windows-latest
+    steps:
+      - name: CheckOut
+        uses: actions/checkout@v3
+      
+      - name: Clone FluentLauncher
+        run: |
+          cd ..
+          git clone https://github.com/Xcube-Studio/Natsurainko.FluentLauncher.git
+          
+      - name: Copy String to FluentLauncher
+        run: Copy-Item -Path "/Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
+      
+      - name: Create new branch
+        run: |
+          cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/
+          git checkout -b "LocalizationProject/${{github.sha}}"
+          git add -a
+          git commit -m "LocalizationProject/${{github.sha}} From github action"
+          git push origin "LocalizationProject/${{github.sha}}"
+          
+      - name: Create PR
+        run: gh pr create --fill --head "LocalizationProject/${{github.sha}}" --base "main"
+      
+    
+    

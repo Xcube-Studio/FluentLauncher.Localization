@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T1,Text,Download,下载,下載,Скачать
+H1,Text,Current download sources:,当前下载源：,當前下載源：,Текущие источники загрузки:
+H2,Text,Maximum number of download threads:,最大下载线程数：,最大下載線程數：,Максимальное количество потоков загрузки:
+H3,Text,Enable fragmented download of large files:,启用大文件分片下载：,啟用大文件分片下載：,Включить фрагментированную загрузку больших файлов:
+D1,Text,Please optimize and adjust according to the actual network environment,请根据实际网络环境进行优化调整,請根據實際網絡環境進行優化調整,"Пожалуйста, оптимизируйте и настройте в соответствии с реальной сетевой средой"
+D2,Text,Can effectively speed up when encountering large files,遇到大文件时可以有效加速,遇到大文件時可以有效加速,Может эффективно ускориться при обнаружении больших файлов

@@ -177,7 +177,9 @@ internal class Program
 
     private static string BuildResw(Dictionary<string, string> values)
     {
-        var @string = new StringBuilder(head);
+        var @string = new StringBuilder();
+
+        @string.AppendLine(head);
 
         foreach (var item in values)
             @string.AppendLine(dataTemplate.Replace("${Name}", item.Key).Replace("${Value}", item.Value));

@@ -11,7 +11,20 @@
     </resheader>
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
+    </resheader>
+    <data name="Converters__Account" xml:space="preserve">
+        <value>счет</value>
+    </data>
+    <data name="Converters__Microsoft" xml:space="preserve">
+        <value>Майкрософт</value>
+    </data>
+    <data name="Converters__Offline" xml:space="preserve">
+        <value>не в сети</value>
+    </data>
+    <data name="Converters__Yggdrasil" xml:space="preserve">
+        <value>внешний</value>
+    </data>
+    <data name="ExceptionPage_Title.Text" xml:space="preserve">
         <value></value>
     </data>
     <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
@@ -24,19 +37,19 @@
         <value></value>
     </data>
     <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
-        <value></value>
+        <value>Домашняя страница</value>
     </data>
     <data name="ShellPage_NV_Item_2.Content" xml:space="preserve">
-        <value></value>
+        <value>Ядра Управление</value>
     </data>
     <data name="ShellPage_NV_Item_3.Content" xml:space="preserve">
-        <value></value>
+        <value>Задачи Управление</value>
     </data>
     <data name="ShellPage_NV_Item_4.Content" xml:space="preserve">
-        <value></value>
+        <value>Загрузка ресурсов</value>
     </data>
     <data name="ShellPage_NV_Item_5.Content" xml:space="preserve">
-        <value></value>
+        <value>Настройки</value>
     </data>
     <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value></value>
@@ -52,6 +65,18 @@
     </data>
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value></value>
+    </data>
+    <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
+        <value>Нет аккаунта</value>
+    </data>
+    <data name="Home_HomePage_LaunchButton.Text" xml:space="preserve">
+        <value>Запустить Minecraft</value>
+    </data>
+    <data name="Home_HomePage_ComboBox.PlaceholderText" xml:space="preserve">
+        <value>Выберите игровое ядро</value>
+    </data>
+    <data name="Home_HomePage__NoCore" xml:space="preserve">
+        <value>Ядро не выбрано</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>О Fluent Launcher</value>
@@ -69,7 +94,7 @@
         <value>Заявление</value>
     </data>
     <data name="Settings_AboutPage_H3.Text" xml:space="preserve">
-        <value></value>
+        <value>Информация об авторских правах и лицензии</value>
     </data>
     <data name="Settings_AboutPage_H4.Text" xml:space="preserve">
         <value>Особая благодарность</value>
@@ -78,7 +103,7 @@
         <value>Ссылки</value>
     </data>
     <data name="Settings_AboutPage_SH1.Text" xml:space="preserve">
-        <value></value>
+        <value>Обновлять</value>
     </data>
     <data name="Settings_AboutPage_SH2.Text" xml:space="preserve">
         <value>Разработчик лаунчера</value>
@@ -87,10 +112,10 @@
         <value>Проверить обновление в Microsoft Store</value>
     </data>
     <data name="Settings_AboutPage_B2.Text" xml:space="preserve">
-        <value></value>
+        <value>Показать детали</value>
     </data>
     <data name="Settings_AboutPage_D1.Text" xml:space="preserve">
-        <value></value>
+        <value>Студия Xcube © 2022-2023. Все права защищены.</value>
     </data>
     <data name="Settings_AboutPage_D2.Text" xml:space="preserve">
         <value>Посетить репозиторий GitHub</value>
@@ -106,5 +131,20 @@
     </data>
     <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>Источник скачивания</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
+        <value>Запуск</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_2.Content" xml:space="preserve">
+        <value>Счет</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_3.Content" xml:space="preserve">
+        <value>Скачать</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_4.Content" xml:space="preserve">
+        <value>Появление</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_5.Content" xml:space="preserve">
+        <value>О</value>
     </data>
 </root>

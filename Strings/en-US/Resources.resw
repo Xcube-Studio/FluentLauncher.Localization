@@ -11,7 +11,20 @@
     </resheader>
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
+    </resheader>
+    <data name="Converters__Account" xml:space="preserve">
+        <value>Account</value>
+    </data>
+    <data name="Converters__Microsoft" xml:space="preserve">
+        <value>Microsoft</value>
+    </data>
+    <data name="Converters__Offline" xml:space="preserve">
+        <value>Offline</value>
+    </data>
+    <data name="Converters__Yggdrasil" xml:space="preserve">
+        <value>Yggdrasil</value>
+    </data>
+    <data name="ExceptionPage_Title.Text" xml:space="preserve">
         <value>An error has occurred when starting Fluent Launcher</value>
     </data>
     <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
@@ -52,6 +65,18 @@
     </data>
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value>Cores Manage</value>
+    </data>
+    <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
+        <value>No Account</value>
+    </data>
+    <data name="Home_HomePage_LaunchButton.Text" xml:space="preserve">
+        <value>Launch Minecraft</value>
+    </data>
+    <data name="Home_HomePage_ComboBox.PlaceholderText" xml:space="preserve">
+        <value>Select Game Core</value>
+    </data>
+    <data name="Home_HomePage__NoCore" xml:space="preserve">
+        <value>Core Not Selected</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>About Fluent Launcher</value>
@@ -106,5 +131,20 @@
     </data>
     <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>Provide Download Source</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
+        <value>Launch</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_2.Content" xml:space="preserve">
+        <value>Account</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_3.Content" xml:space="preserve">
+        <value>Download</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_4.Content" xml:space="preserve">
+        <value>Appearance</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_5.Content" xml:space="preserve">
+        <value>About</value>
     </data>
 </root>

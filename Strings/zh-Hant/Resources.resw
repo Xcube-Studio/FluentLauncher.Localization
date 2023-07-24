@@ -11,7 +11,20 @@
     </resheader>
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
+    </resheader>
+    <data name="Converters__Account" xml:space="preserve">
+        <value>賬戶</value>
+    </data>
+    <data name="Converters__Microsoft" xml:space="preserve">
+        <value>微軟</value>
+    </data>
+    <data name="Converters__Offline" xml:space="preserve">
+        <value>離線</value>
+    </data>
+    <data name="Converters__Yggdrasil" xml:space="preserve">
+        <value>外置</value>
+    </data>
+    <data name="ExceptionPage_Title.Text" xml:space="preserve">
         <value></value>
     </data>
     <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
@@ -24,19 +37,19 @@
         <value></value>
     </data>
     <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
-        <value></value>
+        <value>主頁面</value>
     </data>
     <data name="ShellPage_NV_Item_2.Content" xml:space="preserve">
-        <value></value>
+        <value>核心管理</value>
     </data>
     <data name="ShellPage_NV_Item_3.Content" xml:space="preserve">
-        <value></value>
+        <value>任務管理</value>
     </data>
     <data name="ShellPage_NV_Item_4.Content" xml:space="preserve">
-        <value></value>
+        <value>資源下載</value>
     </data>
     <data name="ShellPage_NV_Item_5.Content" xml:space="preserve">
-        <value></value>
+        <value>設置</value>
     </data>
     <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value></value>
@@ -52,6 +65,18 @@
     </data>
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value></value>
+    </data>
+    <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
+        <value>沒有賬戶</value>
+    </data>
+    <data name="Home_HomePage_LaunchButton.Text" xml:space="preserve">
+        <value>啟動游戏</value>
+    </data>
+    <data name="Home_HomePage_ComboBox.PlaceholderText" xml:space="preserve">
+        <value>選擇遊戲核心</value>
+    </data>
+    <data name="Home_HomePage__NoCore" xml:space="preserve">
+        <value>未選擇核心</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>關於 Fluent Launcher</value>
@@ -69,7 +94,7 @@
         <value>聲明</value>
     </data>
     <data name="Settings_AboutPage_H3.Text" xml:space="preserve">
-        <value></value>
+        <value>版權與協議信息</value>
     </data>
     <data name="Settings_AboutPage_H4.Text" xml:space="preserve">
         <value>特別鳴謝</value>
@@ -78,7 +103,7 @@
         <value>引用</value>
     </data>
     <data name="Settings_AboutPage_SH1.Text" xml:space="preserve">
-        <value></value>
+        <value>更新</value>
     </data>
     <data name="Settings_AboutPage_SH2.Text" xml:space="preserve">
         <value>本應用的開發者</value>
@@ -87,10 +112,10 @@
         <value>在 Microsoft Store 中檢查更新</value>
     </data>
     <data name="Settings_AboutPage_B2.Text" xml:space="preserve">
-        <value></value>
+        <value>顯示細節</value>
     </data>
     <data name="Settings_AboutPage_D1.Text" xml:space="preserve">
-        <value></value>
+        <value>Xcube Studio ©2022-2023. 所有權利保留</value>
     </data>
     <data name="Settings_AboutPage_D2.Text" xml:space="preserve">
         <value>轉到 GitHub 倉庫</value>
@@ -106,5 +131,20 @@
     </data>
     <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>提供下載源</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
+        <value>啟動</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_2.Content" xml:space="preserve">
+        <value>賬戶</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_3.Content" xml:space="preserve">
+        <value>下載</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_4.Content" xml:space="preserve">
+        <value>外觀</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_5.Content" xml:space="preserve">
+        <value>關於</value>
     </data>
 </root>

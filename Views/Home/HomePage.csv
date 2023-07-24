@@ -1,0 +1,5 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+NoAccount,Text,No Account,没有账户,沒有賬戶,Нет аккаунта
+LaunchButton,Text,Launch Minecraft,启动游戏,啟動游戏,Запустить Minecraft
+ComboBox,PlaceholderText,Select Game Core,选择游戏核心,選擇遊戲核心,Выберите игровое ядро
+_NoCore,,Core Not Selected,未选择核心,未選擇核心,Ядро не выбрано

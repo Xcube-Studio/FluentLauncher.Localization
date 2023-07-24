@@ -11,7 +11,20 @@
     </resheader>
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
+    </resheader>
+    <data name="Converters__Account" xml:space="preserve">
+        <value>账户</value>
+    </data>
+    <data name="Converters__Microsoft" xml:space="preserve">
+        <value>微软</value>
+    </data>
+    <data name="Converters__Offline" xml:space="preserve">
+        <value>离线</value>
+    </data>
+    <data name="Converters__Yggdrasil" xml:space="preserve">
+        <value>外置</value>
+    </data>
+    <data name="ExceptionPage_Title.Text" xml:space="preserve">
         <value>启动 Fluent Launcher 时出现错误</value>
     </data>
     <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
@@ -52,6 +65,18 @@
     </data>
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value>核心管理</value>
+    </data>
+    <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
+        <value>没有账户</value>
+    </data>
+    <data name="Home_HomePage_LaunchButton.Text" xml:space="preserve">
+        <value>启动游戏</value>
+    </data>
+    <data name="Home_HomePage_ComboBox.PlaceholderText" xml:space="preserve">
+        <value>选择游戏核心</value>
+    </data>
+    <data name="Home_HomePage__NoCore" xml:space="preserve">
+        <value>未选择核心</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>关于 Fluent Launcher</value>
@@ -106,5 +131,20 @@
     </data>
     <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>提供下载源</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
+        <value>启动</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_2.Content" xml:space="preserve">
+        <value>账户</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_3.Content" xml:space="preserve">
+        <value>下载</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_4.Content" xml:space="preserve">
+        <value>外观</value>
+    </data>
+    <data name="Settings_NavigationPage_NV_Item_5.Content" xml:space="preserve">
+        <value>关于</value>
     </data>
 </root>

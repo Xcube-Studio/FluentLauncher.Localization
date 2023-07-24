@@ -40,7 +40,7 @@ jobs:
   build:
     runs-on: windows-latest
     needs: check
-    if: ${{(inputs.is_build||github.EVENT_NAME=='push')&&github.REF_NAME=="main"&&!failure()}}
+    if: ${{(inputs.is_build||github.EVENT_NAME=='push')&&github.REF_NAME=='main'&&!failure()}}
     env:
       Artifacts_Path: .artifacts
     steps:

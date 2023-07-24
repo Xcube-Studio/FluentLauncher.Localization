@@ -17,7 +17,7 @@ jobs:
           git clone https://github.com/Xcube-Studio/Natsurainko.FluentLauncher.git
           
       - name: Copy String to FluentLauncher
-        run: Copy-Item -Path "/Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
+        run: Copy-Item -Path "./Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
       
       - name: Create new branch
         run: |

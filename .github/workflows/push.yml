@@ -14,7 +14,7 @@ jobs:
       - name: Clone FluentLauncher
         run: |
           cd ..
-          git clone https://github.com/Xcube-Studio/Natsurainko.FluentLauncher.git
+          git clone 'https://${{secrets.PERSONAL_GHP}}@github.com/Xcube-Studio/Natsurainko.FluentLauncher.git'
           
       - name: Copy String to FluentLauncher
         run: Copy-Item -Path "./Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
@@ -24,8 +24,6 @@ jobs:
           cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub-actions[bot]"
-          git remote rm origin
-          git config remote.origin.url 'https://${{secrets.PERSONAL_GHP}}@github.com/Xcube-Studio/Natsurainko.FluentLauncher.git'
           
       - name: Create new branch
         run: |

@@ -19,6 +19,11 @@ jobs:
       - name: Copy String to FluentLauncher
         run: Copy-Item -Path "./Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
       
+      - name: config git
+        run: |
+          git config --global "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub-actions[bot]"
+          
       - name: Create new branch
         run: |
           cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/

@@ -28,7 +28,7 @@ jobs:
         run: |
           cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/
           git checkout -b "LocalizationProject/${{github.sha}}"
-          git add -a
+          git add -A
           git commit -m "LocalizationProject/${{github.sha}} From github action"
           git push origin "LocalizationProject/${{github.sha}}"
           

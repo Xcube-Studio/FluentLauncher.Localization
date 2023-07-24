@@ -44,6 +44,9 @@ jobs:
     env:
       Artifacts_Path: .artifacts
     steps:
+      - name: Check Out
+        uses: actions/checkout@v3
+        
       - name: Download Strings
         uses: actions/download-artifact@v3
         with:

@@ -2,7 +2,8 @@
   "profiles": {
     "LocalizerScript": {
       "commandName": "Project",
-      "commandLineArgs": "D:\\Git\\FluentLauncher.LocalizationPoroject\\Views D:\\Git\\FluentLauncher.LocalizationPoroject"
+      "commandLineArgs": ".\\Views .\\",
+      "workingDirectory": "..\\..\\"
     }
   }
 }

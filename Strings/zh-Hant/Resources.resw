@@ -11,100 +11,100 @@
     </resheader>
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    </resheader>    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ExceptionPage_Title.Text" xml:space="preserve">
+    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ExceptionPage_Description_1.Text" xml:space="preserve">
+    <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ExceptionPage_Description_2.Text" xml:space="preserve">
+    <data name="ExceptionPage_Description_2.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ExceptionPage_Button.Content" xml:space="preserve">
+    <data name="ExceptionPage_Button.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ShellPage_NV_Item_1.Content" xml:space="preserve">
+    <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ShellPage_NV_Item_2.Content" xml:space="preserve">
+    <data name="ShellPage_NV_Item_2.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ShellPage_NV_Item_3.Content" xml:space="preserve">
+    <data name="ShellPage_NV_Item_3.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ShellPage_NV_Item_4.Content" xml:space="preserve">
+    <data name="ShellPage_NV_Item_4.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_ShellPage_NV_Item_5.Content" xml:space="preserve">
+    <data name="ShellPage_NV_Item_5.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
+    <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Cores_ManageNavigationPage_NV_Item_2.Content" xml:space="preserve">
+    <data name="Cores_ManageNavigationPage_NV_Item_2.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Cores_ManageNavigationPage_NV_Item_3.Content" xml:space="preserve">
+    <data name="Cores_ManageNavigationPage_NV_Item_3.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Cores_ManageNavigationPage_NV_Item_4.Content" xml:space="preserve">
+    <data name="Cores_ManageNavigationPage_NV_Item_4.Content" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
+    <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_T1.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>關於 Fluent Launcher</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_T2.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_T2.Text" xml:space="preserve">
         <value>其它信息</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_T3.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_T3.Text" xml:space="preserve">
         <value>致謝</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_H1.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_H1.Text" xml:space="preserve">
         <value>開源</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_H2.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_H2.Text" xml:space="preserve">
         <value>聲明</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_H3.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_H3.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_H4.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_H4.Text" xml:space="preserve">
         <value>特別鳴謝</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_H5.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_H5.Text" xml:space="preserve">
         <value>引用</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_SH1.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_SH1.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_SH2.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_SH2.Text" xml:space="preserve">
         <value>本應用的開發者</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_B1.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_B1.Text" xml:space="preserve">
         <value>在 Microsoft Store 中檢查更新</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_B2.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_B2.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D1.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D1.Text" xml:space="preserve">
         <value></value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D2.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D2.Text" xml:space="preserve">
         <value>轉到 GitHub 倉庫</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D3.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D3.Text" xml:space="preserve">
         <value>Minecraft 版權歸 Mojang Studios 所有。 開發者對因使用本應用而引起的任何版權糾紛不承擔任何責任。</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D4.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D4.Text" xml:space="preserve">
         <value>感謝所有為本應用提供的服務</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D5.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D5.Text" xml:space="preserve">
         <value>本應用引用的庫</value>
     </data>
-    <data name="D:_Git_FluentLauncher.LocalizationPoroject_Views_Settings_AboutPage_D6.Text" xml:space="preserve">
+    <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>提供下載源</value>
     </data>
 </root>

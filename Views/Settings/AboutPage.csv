@@ -1,4 +1,5 @@
-﻿T1,Text,About Fluent Launcher,关于 Fluent Launcher,關於 Fluent Launcher,О Fluent Launcher
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T1,Text,About Fluent Launcher,关于 Fluent Launcher,關於 Fluent Launcher,О Fluent Launcher
 T2,Text,Other information,其它信息,其它信息,Дополнительная информация
 T3,Text,Credits,致谢,致謝,Спасибо
 H1,Text,Sources,开源,開源,Исходный код
@@ -10,7 +11,7 @@ SH1,Text,Update,更新,,
 SH2,Text,The Developers of this Application,本应用的开发者,本應用的開發者,Разработчик лаунчера
 B1,Text,Check Updates in the Microsoft Store,在 Microsoft Store 中检查更新,在 Microsoft Store 中檢查更新,Проверить обновление в Microsoft Store
 B2,Text,Display Details,显示细节,,
-D1,Text,Xcube Studio ?2022-2023. All rights reserved.,Xcube Studio ?2022-2023. 所有权利保留,,
+D1,Text,Xcube Studio ©2022-2023. All rights reserved.,Xcube Studio ©2022-2023. 所有权利保留,,
 D2,Text,Navigate to the GitHub repository,转到 GitHub 仓库,轉到 GitHub 倉庫,Посетить репозиторий GitHub
 D3,Text,Minecraft is copyrighted by Mojang Studios. We are not responsible for any copyright infringement arising from use of this software.,Minecraft 版权归 Mojang Studios 所有。 开发者对因使用本软件而引起的任何版权侵权不承担任何责任。,Minecraft 版權歸 Mojang Studios 所有。 開發者對因使用本應用而引起的任何版權糾紛不承擔任何責任。,"Авторские права на Minecraft принадлежат Mojang Studios. Мы не несем ответственности за любые нарушения авторских прав, связанные с использованием этого программного обеспечения."
 D4,Text,Thanks for all the services provided to this app,感谢所有为本应用提供的服务,感謝所有為本應用提供的服務,"Спасибо за все сервисы, предоставленные лаунчеру"

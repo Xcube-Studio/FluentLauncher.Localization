@@ -12,17 +12,18 @@ internal class Program
         "ru-RU"
     };
 
-    private static string OutputsFolder;
-    private static string SourcesFolder;
+    private static DirectoryInfo OutputsFolder;
+    private static DirectoryInfo SourcesFolder;
 
     private static readonly List<string> Warns = new();
+    private static readonly List<string> Errors = new();
 
     static void Main(string[] args)
     {
-        SourcesFolder = args[0];
-        OutputsFolder = args[1];
+        SourcesFolder = new DirectoryInfo(args[0]);
+        OutputsFolder = new DirectoryInfo(args[1]);
 
-        var keyValuePairs = GetResources(new DirectoryInfo(SourcesFolder));
+        var keyValuePairs = GetResources(SourcesFolder);
 
         var languages = new Dictionary<string, Dictionary<string,string>>();
 
@@ -36,7 +37,7 @@ internal class Program
             foreach (var @string in keyValuePair.Value)
             {
                 var Path_Name = relativePath.Replace(".csv", string.Empty).Replace('\\', '_') + "_" + @string.GetName();
-                Console.WriteLine("[检索] 已找到资源：" + Path_Name);
+                Console.WriteLine($"[INFO] 已找到资源: {Path_Name}");
 
                 int empty = 0;
 
@@ -49,7 +50,7 @@ internal class Program
                 }
 
                 if (empty > 0)
-                    Warns.Add("[警告]：在文件 " + relativePath + " 中，" + @string.GetName() + " 有" + empty.ToString() + "个空项");
+                    Warns.Add($"[WARN]：at {relativePath}, 资源 {@string.GetName()} 有 {empty} 个空项");
             }
         }
 
@@ -58,19 +59,26 @@ internal class Program
         foreach (var item in Warns) 
             Console.WriteLine(item);
 
+        Console.ForegroundColor = ConsoleColor.Red;
+
+        foreach (var item in Errors)
+            Console.WriteLine(item);
+
+        if (Errors.Count > 0)
+            throw new Exception("Invalid Csvs");
+
         Console.ForegroundColor = ConsoleColor.Green;
 
         foreach (var item in languages)
         {
-            var outputFile = new FileInfo(Path.Combine(OutputsFolder, "Strings", item.Key, "Resources.resw"));
+            var outputFile = new FileInfo(Path.Combine(OutputsFolder.FullName, "Strings", item.Key, "Resources.resw"));
 
             if (!outputFile.Directory.Exists)
                 outputFile.Directory.Create();
 
             File.WriteAllText(outputFile.FullName, BuildResw(item.Value));
-            Console.WriteLine("[输出] 已生成资源文件：" + outputFile.FullName);
+            Console.WriteLine($"[INFO] 已生成资源文件：{outputFile.FullName}");
         }
-
 
         Console.ReadLine();
     }
@@ -83,13 +91,10 @@ internal class Program
         {
             if (file.Extension.Equals(".csv"))
             {
-                var csvLines = Csv.CsvReader.ReadFromText(File.ReadAllText(file.FullName), options: new Csv.CsvOptions
-                {
-                    HeaderMode = Csv.HeaderMode.HeaderAbsent
-                });
+                var csvLines = Csv.CsvReader.ReadFromText(File.ReadAllText(file.FullName));
 
-                var lines = csvLines.Select(x => ParseLine(x));
-                var relativePath = file.FullName.Replace(SourcesFolder, string.Empty);
+                var relativePath = file.FullName.Replace(SourcesFolder.FullName, string.Empty);
+                var lines = csvLines.Select(x => ParseLine(relativePath, x)).Where(x => x != null).ToList();
 
                 dic.Add(relativePath, lines);
             }
@@ -102,12 +107,27 @@ internal class Program
         return dic;
     }
 
-    private static StringResource ParseLine(Csv.ICsvLine line)
+    private static StringResource ParseLine(string relativePath, Csv.ICsvLine line)
     {
         var values = line.Values.ToList();
 
-        while (values.Count - 2 < Languages.Count)
-            values.Add(string.Empty);
+        if (values.Count != Languages.Count + 2)
+        {
+            Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 项数目不正确");
+            return null;
+        }
+
+        if (string.IsNullOrEmpty(values[0]))
+        {
+            Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 不能为空");
+            return null;
+        }
+
+        if (values[0].StartsWith('_') && !string.IsNullOrEmpty(values[1]))
+        {
+            Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 标记为后台代码，但 资源属性Id 又不为空");
+            return null;
+        }
 
         var @string = new StringResource
         {

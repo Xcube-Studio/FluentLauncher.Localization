@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>    <data name="ExceptionPage_Title.Text" xml:space="preserve">
+        <value>An error has occurred when starting Fluent Launcher</value>
+    </data>
+    <data name="ExceptionPage_Description_1.Text" xml:space="preserve">
+        <value>Please report this issue on GitHub.</value>
+    </data>
+    <data name="ExceptionPage_Description_2.Text" xml:space="preserve">
+        <value>Providing the following information might help us fix the issue:</value>
+    </data>
+    <data name="ExceptionPage_Button.Content" xml:space="preserve">
+        <value>Copy and go to GitHub</value>
+    </data>
+    <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
+        <value>Home</value>
+    </data>
+    <data name="ShellPage_NV_Item_2.Content" xml:space="preserve">
+        <value>Cores Manage</value>
+    </data>
+    <data name="ShellPage_NV_Item_3.Content" xml:space="preserve">
+        <value>Tasks Manage</value>
+    </data>
+    <data name="ShellPage_NV_Item_4.Content" xml:space="preserve">
+        <value>Resources Download</value>
+    </data>
+    <data name="ShellPage_NV_Item_5.Content" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+    <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
+        <value>Cores Settings</value>
+    </data>
+    <data name="Cores_ManageNavigationPage_NV_Item_2.Content" xml:space="preserve">
+        <value>Mods Manage</value>
+    </data>
+    <data name="Cores_ManageNavigationPage_NV_Item_3.Content" xml:space="preserve">
+        <value>Saves Manage</value>
+    </data>
+    <data name="Cores_ManageNavigationPage_NV_Item_4.Content" xml:space="preserve">
+        <value>Statistics Data</value>
+    </data>
+    <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
+        <value>Cores Manage</value>
+    </data>
+    <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
+        <value>About Fluent Launcher</value>
+    </data>
+    <data name="Settings_AboutPage_T2.Text" xml:space="preserve">
+        <value>Other information</value>
+    </data>
+    <data name="Settings_AboutPage_T3.Text" xml:space="preserve">
+        <value>Credits</value>
+    </data>
+    <data name="Settings_AboutPage_H1.Text" xml:space="preserve">
+        <value>Sources</value>
+    </data>
+    <data name="Settings_AboutPage_H2.Text" xml:space="preserve">
+        <value>Statements</value>
+    </data>
+    <data name="Settings_AboutPage_H3.Text" xml:space="preserve">
+        <value>Copyright &amp; License Information</value>
+    </data>
+    <data name="Settings_AboutPage_H4.Text" xml:space="preserve">
+        <value>Acknowledgments</value>
+    </data>
+    <data name="Settings_AboutPage_H5.Text" xml:space="preserve">
+        <value>References</value>
+    </data>
+    <data name="Settings_AboutPage_SH1.Text" xml:space="preserve">
+        <value>Update</value>
+    </data>
+    <data name="Settings_AboutPage_SH2.Text" xml:space="preserve">
+        <value>The Developers of this Application</value>
+    </data>
+    <data name="Settings_AboutPage_B1.Text" xml:space="preserve">
+        <value>Check Updates in the Microsoft Store</value>
+    </data>
+    <data name="Settings_AboutPage_B2.Text" xml:space="preserve">
+        <value>Display Details</value>
+    </data>
+    <data name="Settings_AboutPage_D1.Text" xml:space="preserve">
+        <value>Xcube Studio ?2022-2023. All rights reserved.</value>
+    </data>
+    <data name="Settings_AboutPage_D2.Text" xml:space="preserve">
+        <value>Navigate to the GitHub repository</value>
+    </data>
+    <data name="Settings_AboutPage_D3.Text" xml:space="preserve">
+        <value>Minecraft is copyrighted by Mojang Studios. We are not responsible for any copyright infringement arising from use of this software.</value>
+    </data>
+    <data name="Settings_AboutPage_D4.Text" xml:space="preserve">
+        <value>Thanks for all the services provided to this app</value>
+    </data>
+    <data name="Settings_AboutPage_D5.Text" xml:space="preserve">
+        <value>Libraries used for this application development</value>
+    </data>
+    <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
+        <value>Provide Download Source</value>
+    </data>
+</root>

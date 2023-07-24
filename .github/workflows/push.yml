@@ -25,7 +25,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub-actions[bot]"
           git remote rm origin
-          git remote add origin 'https://${{github.token}}@github.com/Xcube-Studio/Natsurainko.FluentLauncher.git'
+          git config remote.origin.url 'https://${{github.token}}@github.com/Xcube-Studio/Natsurainko.FluentLauncher.git'
           
       - name: Create new branch
         run: |

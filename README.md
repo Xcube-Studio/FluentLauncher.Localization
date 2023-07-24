@@ -10,6 +10,7 @@
 1. 所有的语言文件均以 `.csv` 格式储存
 2. `.csv` 的文件名与 `View.xaml` 的文件名一致 如 `HomePage.xaml` 对应 `HomePage.csv`
 3. 一个 `.csv` 文件应对应一个 **视图单位** （零碎汇总除外）
+4. 所有的 `.csv` 必须以 UTF8-BOM 格式储存
 
 ## .csv 文件中的存储规范
 

@@ -1,0 +1,65 @@
+name: Check&Build
+
+on: 
+  pull_request:
+  push:
+  workflow_dispatch:
+    inputs: 
+      is_build:
+        description: 'Need to Build?'
+        required: true
+        type: boolean
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v3
+        
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.x
+      
+      - name: Build LocalizerScript
+        run: |
+          cd .\Scripts
+          dotnet build
+      
+      - name: Run LocalizerScript
+        run: |
+          cd .\bin\Debug\net7.0
+          .\LocalizerScript.exe "${{github.workspace}}/Views" "${{github.workspace}}/Strings"
+          
+      - name: Upload .msixupload to artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Strings
+          path: "${{github.workspace}}/Strings"
+          
+  build:
+    runs-on: windows-latest
+    needs: check
+    if: (is_build||$GITHUB_EVENT_NAME=="push")&&!failure()
+    env:
+      Artifacts_Path: .artifacts
+    steps:
+      - name: Download Strings
+        uses: actions/download-artifact@v3
+        with:
+          name: Strings
+          path: "../${{env.Artifacts_Path}}"
+      
+      - name: Copy Strings 
+        run: Copy-Item -Path "../${{env.Artifacts_Path}}" -Destination "/" -Force
+        
+      - name: Create Commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          pathspec_error_handling: exitAtEnd
+      
+    
+        
+      
+
+      

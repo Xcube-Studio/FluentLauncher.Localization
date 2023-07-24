@@ -40,7 +40,7 @@ jobs:
   build:
     runs-on: windows-latest
     needs: check
-    if: (is_build||$GITHUB_EVENT_NAME=="push")&&!failure()
+    if: ($is_build||$GITHUB_EVENT_NAME=="push")&&!failure()
     env:
       Artifacts_Path: .artifacts
     steps:

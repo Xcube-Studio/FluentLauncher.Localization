@@ -37,6 +37,8 @@ jobs:
           
       - name: Create PR
         run: gh pr create --fill --head "LocalizationProject/${{github.sha}}" --base "main"
+        env:
+            GH_TOKEN: ${{secrets.PERSONAL_GHP}}
       
     
     

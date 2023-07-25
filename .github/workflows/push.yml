@@ -15,6 +15,11 @@ jobs:
         run: |
           cd ..
           git clone 'https://${{secrets.PERSONAL_GHP}}@github.com/Xcube-Studio/Natsurainko.FluentLauncher.git'
+
+      - name: Create new branch
+        run: |
+          cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/
+          git checkout -b "LocalizationProject/${{github.sha}}"
           
       - name: Copy String to FluentLauncher
         run: Copy-Item -Path "./Strings" -Destination "../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/" -Force
@@ -25,10 +30,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub-actions[bot]"
           
-      - name: Create new branch
-        run: |
-          cd ../Natsurainko.FluentLauncher/Natsurainko.FluentLauncher/
-          git checkout -b "LocalizationProject/${{github.sha}}"
+      - name: Create new Commit
+        run: |  
           git add -A
           git commit -m "LocalizationProject/${{github.sha}} From github action"
           git push origin "LocalizationProject/${{github.sha}}"

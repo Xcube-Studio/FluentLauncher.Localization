@@ -12,6 +12,39 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="Buttons_Browse.Text" xml:space="preserve">
+        <value>Просматривать</value>
+    </data>
+    <data name="Buttons_Remove.Text" xml:space="preserve">
+        <value>Удалять</value>
+    </data>
+    <data name="Buttons_Search.Text" xml:space="preserve">
+        <value>Поиск</value>
+    </data>
+    <data name="Buttons_Refresh.Text" xml:space="preserve">
+        <value>Обновить</value>
+    </data>
+    <data name="Buttons_SwitchAccount.Text" xml:space="preserve">
+        <value>Сменить аккаунт</value>
+    </data>
+    <data name="Buttons_SignIn.Text" xml:space="preserve">
+        <value>Войти</value>
+    </data>
+    <data name="Buttons_Add.Text" xml:space="preserve">
+        <value>Добавлять</value>
+    </data>
+    <data name="Buttons_Back.Text" xml:space="preserve">
+        <value>Назад</value>
+    </data>
+    <data name="Buttons_Next.Text" xml:space="preserve">
+        <value>Следующий</value>
+    </data>
+    <data name="Buttons_Open.Text" xml:space="preserve">
+        <value>Открыть</value>
+    </data>
+    <data name="Buttons_Go.Text" xml:space="preserve">
+        <value>Идти</value>
+    </data>
     <data name="Converters__Account" xml:space="preserve">
         <value>счет</value>
     </data>
@@ -35,6 +68,18 @@
     </data>
     <data name="ExceptionPage_Button.Content" xml:space="preserve">
         <value></value>
+    </data>
+    <data name="Notifications__AccountRefreshFailedTitle" xml:space="preserve">
+        <value>Не удалось обновить учетную запись</value>
+    </data>
+    <data name="Notifications__AccountRefreshFailedDescription" xml:space="preserve">
+        <value>Срок действия учетной записи истек, и вам необходимо снова войти в систему или вы не можете подключиться к серверу из-за проблем с сетью.</value>
+    </data>
+    <data name="Notifications__AccountRefreshedTitle" xml:space="preserve">
+        <value>Аккаунт успешно обновлен</value>
+    </data>
+    <data name="Notifications__AccountRefreshedDescription" xml:space="preserve">
+        <value>С возвращением, ${name}</value>
     </data>
     <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
         <value>Домашняя страница</value>
@@ -63,6 +108,12 @@
     <data name="Activities_ActivitiesNavigationPage_NV_Item4.Content" xml:space="preserve">
         <value>Приложение</value>
     </data>
+    <data name="Activities_LaunchPage_Tip.Text" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="Activities_LaunchPage_Hyperlink.Content" xml:space="preserve">
+        <value></value>
+    </data>
     <data name="Cores_CoresPage_SearchBox.PlaceholderText" xml:space="preserve">
         <value>Ядро поиска</value>
     </data>
@@ -77,6 +128,9 @@
     </data>
     <data name="Cores_CoresPage__Items2" xml:space="preserve">
         <value>Имя;Дата запуска</value>
+    </data>
+    <data name="Cores_CoresPage_InstallButton.Text" xml:space="preserve">
+        <value>Установить ядра</value>
     </data>
     <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value>Настройки ядер</value>
@@ -93,6 +147,72 @@
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value>Ядра Управление</value>
     </data>
+    <data name="Cores_Manage_CoreModsPage_T.Text" xml:space="preserve">
+        <value>Моды</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_H1.Text" xml:space="preserve">
+        <value>Ядро игры не поддерживает моды</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_H2.Text" xml:space="preserve">
+        <value>Папка модов</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_D.Text" xml:space="preserve">
+        <value>Установка ядра с загрузчиком модов</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_SearchBox.PlaceholderText" xml:space="preserve">
+        <value>Поиск Мод</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T1.Text" xml:space="preserve">
+        <value>Настройки запуска</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T2.Text" xml:space="preserve">
+        <value>Настройки учетной записи</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T3.Text" xml:space="preserve">
+        <value>Настройки JVM</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H1.Text" xml:space="preserve">
+        <value>Основное прозвище:</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H2.Text" xml:space="preserve">
+        <value>Включить определенные основные настройки</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H3.Text" xml:space="preserve">
+        <value>Независимый от ядра</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H4.Text" xml:space="preserve">
+        <value>Автоматический полноэкранный режим после входа в игру</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H5.Text" xml:space="preserve">
+        <value>Разрешение окна игры</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H6.Text" xml:space="preserve">
+        <value>Адрес сервера для подключения после входа в игру</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H7.Text" xml:space="preserve">
+        <value>Заголовок игрового окна</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H8.Text" xml:space="preserve">
+        <value>Учетная запись, используемая для запуска этой игры</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H9.Text" xml:space="preserve">
+        <value>Дополнительные настройки параметров JVM</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D1.Text" xml:space="preserve">
+        <value>Только в качестве отображаемого имени, фактический идентификатор не будет изменен.</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D2.Text" xml:space="preserve">
+        <value>Только если вы включите этот пункт, вступят в силу следующие настройки</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D3.Text" xml:space="preserve">
+        <value>Игра будет работать в каталоге version\${version}</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D4.Text" xml:space="preserve">
+        <value>Если выбранная учетная запись не может быть найдена в списке учетных записей после ее включения, будет сообщено об ошибке</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D5.Text" xml:space="preserve">
+        <value>Они будут добавлены к сгенерированным параметрам запуска.</value>
+    </data>
     <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
         <value>Нет аккаунта</value>
     </data>
@@ -104,6 +224,66 @@
     </data>
     <data name="Home_HomePage__NoCore" xml:space="preserve">
         <value>Ядро не выбрано</value>
+    </data>
+    <data name="OOBE_AccountPage_T.Text" xml:space="preserve">
+        <value>Настройки учетной записи</value>
+    </data>
+    <data name="OOBE_AccountPage_H.Text" xml:space="preserve">
+        <value>Счета</value>
+    </data>
+    <data name="OOBE_AccountPage_D1.Text" xml:space="preserve">
+        <value>У вас должен быть хотя бы один аккаунт, чтобы начать игру</value>
+    </data>
+    <data name="OOBE_AccountPage_D2.Text" xml:space="preserve">
+        <value>Доступ к онлайн-серверам возможен только с учетной записью Microsoft.</value>
+    </data>
+    <data name="OOBE_AccountPage_D3.Text" xml:space="preserve">
+        <value>Офлайн-аккаунты не будут проверяться сервером</value>
+    </data>
+    <data name="OOBE_AccountPage_L.Text" xml:space="preserve">
+        <value>Официальный сайт Майнкрафт</value>
+    </data>
+    <data name="OOBE_BasicPage_T.Text" xml:space="preserve">
+        <value>Основные параметры запуска</value>
+    </data>
+    <data name="OOBE_BasicPage_D1.Text" xml:space="preserve">
+        <value>Вам нужен как минимум каталог .minecraft для хранения игровых ядер.</value>
+    </data>
+    <data name="OOBE_BasicPage_D2.Text" xml:space="preserve">
+        <value>Вам нужна как минимум среда выполнения Java, чтобы запустить ядро ​​игры.</value>
+    </data>
+    <data name="OOBE_BasicPage_D3.Text" xml:space="preserve">
+        <value>После этого вы также можете изменить эти настройки в глобальных настройках игры.</value>
+    </data>
+    <data name="OOBE_BasicPage_H1.Text" xml:space="preserve">
+        <value>.minecraft Папка:</value>
+    </data>
+    <data name="OOBE_BasicPage_H2.Text" xml:space="preserve">
+        <value>Среды выполнения Java:</value>
+    </data>
+    <data name="OOBE_GetStartedPage_T.Text" xml:space="preserve">
+        <value>Все закончено</value>
+    </data>
+    <data name="OOBE_GetStartedPage_ST.Text" xml:space="preserve">
+        <value>Вы выполнили все основные настройки</value>
+    </data>
+    <data name="OOBE_GetStartedPage_B.Text" xml:space="preserve">
+        <value>Давайте начнем</value>
+    </data>
+    <data name="OOBE_LanguagePage_Welcome.Text" xml:space="preserve">
+        <value>Добро пожаловать</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item1.Text" xml:space="preserve">
+        <value>Язык</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item2.Text" xml:space="preserve">
+        <value>Базовые настройки</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item3.Text" xml:space="preserve">
+        <value>Счет</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item4.Text" xml:space="preserve">
+        <value>Начать</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>О Fluent Launcher</value>
@@ -205,7 +385,7 @@
         <value>Темные и светлые цветовые темы, вступающие в силу после перезапуска приложения.</value>
     </data>
     <data name="Settings_AppearancePage_D2.Text" xml:space="preserve">
-        <value>Настройки фона приложения.</value>
+        <value>Настройки фона приложения, вступающие в силу после перезапуска приложения.</value>
     </data>
     <data name="Settings_AppearancePage_D3.Text" xml:space="preserve">
         <value>Макет NavigationView</value>
@@ -305,6 +485,9 @@
     </data>
     <data name="Settings_LaunchPage_SH14.Text" xml:space="preserve">
         <value>Заголовок игрового окна:</value>
+    </data>
+    <data name="Settings_LaunchPage_SH15.Text" xml:space="preserve">
+        <value>Перейдите к сторонним источникам загрузки Java:</value>
     </data>
     <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value>Запуск</value>

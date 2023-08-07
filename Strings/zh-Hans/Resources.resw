@@ -12,6 +12,39 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <data name="Buttons_Browse.Text" xml:space="preserve">
+        <value>浏览</value>
+    </data>
+    <data name="Buttons_Remove.Text" xml:space="preserve">
+        <value>移除</value>
+    </data>
+    <data name="Buttons_Search.Text" xml:space="preserve">
+        <value>搜索</value>
+    </data>
+    <data name="Buttons_Refresh.Text" xml:space="preserve">
+        <value>刷新</value>
+    </data>
+    <data name="Buttons_SwitchAccount.Text" xml:space="preserve">
+        <value>切换账户</value>
+    </data>
+    <data name="Buttons_SignIn.Text" xml:space="preserve">
+        <value>登入</value>
+    </data>
+    <data name="Buttons_Add.Text" xml:space="preserve">
+        <value>添加</value>
+    </data>
+    <data name="Buttons_Back.Text" xml:space="preserve">
+        <value>上一步</value>
+    </data>
+    <data name="Buttons_Next.Text" xml:space="preserve">
+        <value>下一步</value>
+    </data>
+    <data name="Buttons_Open.Text" xml:space="preserve">
+        <value>打开</value>
+    </data>
+    <data name="Buttons_Go.Text" xml:space="preserve">
+        <value>前往</value>
+    </data>
     <data name="Converters__Account" xml:space="preserve">
         <value>账户</value>
     </data>
@@ -35,6 +68,18 @@
     </data>
     <data name="ExceptionPage_Button.Content" xml:space="preserve">
         <value>复制并转到 GitHub</value>
+    </data>
+    <data name="Notifications__AccountRefreshFailedTitle" xml:space="preserve">
+        <value>刷新帐户失败</value>
+    </data>
+    <data name="Notifications__AccountRefreshFailedDescription" xml:space="preserve">
+        <value>该账户已过期需重新登录或因网络问题导致无法连接服务器</value>
+    </data>
+    <data name="Notifications__AccountRefreshedTitle" xml:space="preserve">
+        <value>账户刷新成功</value>
+    </data>
+    <data name="Notifications__AccountRefreshedDescription" xml:space="preserve">
+        <value>欢迎回来，${name}</value>
     </data>
     <data name="ShellPage_NV_Item_1.Content" xml:space="preserve">
         <value>主页面</value>
@@ -63,6 +108,12 @@
     <data name="Activities_ActivitiesNavigationPage_NV_Item4.Content" xml:space="preserve">
         <value>应用</value>
     </data>
+    <data name="Activities_LaunchPage_Tip.Text" xml:space="preserve">
+        <value>无启动任务</value>
+    </data>
+    <data name="Activities_LaunchPage_Hyperlink.Content" xml:space="preserve">
+        <value>进入主页面来创建</value>
+    </data>
     <data name="Cores_CoresPage_SearchBox.PlaceholderText" xml:space="preserve">
         <value>搜索核心</value>
     </data>
@@ -77,6 +128,9 @@
     </data>
     <data name="Cores_CoresPage__Items2" xml:space="preserve">
         <value>名称;启动日期</value>
+    </data>
+    <data name="Cores_CoresPage_InstallButton.Text" xml:space="preserve">
+        <value>安装核心</value>
     </data>
     <data name="Cores_ManageNavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value>核心设置</value>
@@ -93,6 +147,72 @@
     <data name="Cores_ManageNavigationPage__BreadcrumbBar_First" xml:space="preserve">
         <value>核心管理</value>
     </data>
+    <data name="Cores_Manage_CoreModsPage_T.Text" xml:space="preserve">
+        <value>模组</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_H1.Text" xml:space="preserve">
+        <value>该游戏核心不支持模组</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_H2.Text" xml:space="preserve">
+        <value>模组文件夹</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_D.Text" xml:space="preserve">
+        <value>安装一个带有模组加载器的核心</value>
+    </data>
+    <data name="Cores_Manage_CoreModsPage_SearchBox.PlaceholderText" xml:space="preserve">
+        <value>搜索已有模组</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T1.Text" xml:space="preserve">
+        <value>启动设置</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T2.Text" xml:space="preserve">
+        <value>账户设置</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_T3.Text" xml:space="preserve">
+        <value>Java 虚拟机设置</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H1.Text" xml:space="preserve">
+        <value>核心的昵称:</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H2.Text" xml:space="preserve">
+        <value>启用特定核心设置</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H3.Text" xml:space="preserve">
+        <value>版本独立</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H4.Text" xml:space="preserve">
+        <value>进入游戏后自动全屏模式</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H5.Text" xml:space="preserve">
+        <value>游戏窗口分辨率</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H6.Text" xml:space="preserve">
+        <value>进入游戏后自动连接的服务器地址</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H7.Text" xml:space="preserve">
+        <value>游戏窗口标题</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H8.Text" xml:space="preserve">
+        <value>用于启动这个游戏的账户</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_H9.Text" xml:space="preserve">
+        <value>额外 Java 虚拟机参数设置</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D1.Text" xml:space="preserve">
+        <value>仅作为显示名称，不会修改实际Id</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D2.Text" xml:space="preserve">
+        <value>只有你启用了这一项，下面的设置才会生效</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D3.Text" xml:space="preserve">
+        <value>游戏将运行在 versions\${version} 目录下</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D4.Text" xml:space="preserve">
+        <value>若启用后在账户列表中找不到选中的账户，则会报错</value>
+    </data>
+    <data name="Cores_Manage_CoreSettingsPage_D5.Text" xml:space="preserve">
+        <value>会添加到生成的启动参数中</value>
+    </data>
     <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
         <value>没有账户</value>
     </data>
@@ -104,6 +224,66 @@
     </data>
     <data name="Home_HomePage__NoCore" xml:space="preserve">
         <value>未选择核心</value>
+    </data>
+    <data name="OOBE_AccountPage_T.Text" xml:space="preserve">
+        <value>账户设置</value>
+    </data>
+    <data name="OOBE_AccountPage_H.Text" xml:space="preserve">
+        <value>账户</value>
+    </data>
+    <data name="OOBE_AccountPage_D1.Text" xml:space="preserve">
+        <value>您需要至少一个帐户才能开始游戏</value>
+    </data>
+    <data name="OOBE_AccountPage_D2.Text" xml:space="preserve">
+        <value>仅可使用微软帐户访问在线服务器</value>
+    </data>
+    <data name="OOBE_AccountPage_D3.Text" xml:space="preserve">
+        <value>离线账户将无法被服务器验证</value>
+    </data>
+    <data name="OOBE_AccountPage_L.Text" xml:space="preserve">
+        <value>我的世界官方网站</value>
+    </data>
+    <data name="OOBE_BasicPage_T.Text" xml:space="preserve">
+        <value>基本启动设置</value>
+    </data>
+    <data name="OOBE_BasicPage_D1.Text" xml:space="preserve">
+        <value>您至少需要一个 .minecraft 目录来存储您的游戏核心</value>
+    </data>
+    <data name="OOBE_BasicPage_D2.Text" xml:space="preserve">
+        <value>您至少需要一个 Java 运行时来启动您的游戏核心</value>
+    </data>
+    <data name="OOBE_BasicPage_D3.Text" xml:space="preserve">
+        <value>完成后，您还可以在全局游戏设置中修改这些设置</value>
+    </data>
+    <data name="OOBE_BasicPage_H1.Text" xml:space="preserve">
+        <value>.minecraft 文件夹：</value>
+    </data>
+    <data name="OOBE_BasicPage_H2.Text" xml:space="preserve">
+        <value>Java 运行时：</value>
+    </data>
+    <data name="OOBE_GetStartedPage_T.Text" xml:space="preserve">
+        <value>全部完成</value>
+    </data>
+    <data name="OOBE_GetStartedPage_ST.Text" xml:space="preserve">
+        <value>您已完成所有基本设置</value>
+    </data>
+    <data name="OOBE_GetStartedPage_B.Text" xml:space="preserve">
+        <value>让我们开始吧</value>
+    </data>
+    <data name="OOBE_LanguagePage_Welcome.Text" xml:space="preserve">
+        <value>欢迎使用</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item1.Text" xml:space="preserve">
+        <value>语言</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item2.Text" xml:space="preserve">
+        <value>基础设置</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item3.Text" xml:space="preserve">
+        <value>账户</value>
+    </data>
+    <data name="OOBE_OOBENavigationPage_NV_Item4.Text" xml:space="preserve">
+        <value>开始使用</value>
     </data>
     <data name="Settings_AboutPage_T1.Text" xml:space="preserve">
         <value>关于 Fluent Launcher</value>
@@ -205,7 +385,7 @@
         <value>深色和浅色主题，重启应用后生效</value>
     </data>
     <data name="Settings_AppearancePage_D2.Text" xml:space="preserve">
-        <value>应用程序背景设置。</value>
+        <value>应用程序背景设置，重启应用后生效</value>
     </data>
     <data name="Settings_AppearancePage_D3.Text" xml:space="preserve">
         <value>导航栏布局</value>
@@ -214,7 +394,7 @@
         <value>跟随系统;亮色;暗色</value>
     </data>
     <data name="Settings_AppearancePage__Items2" xml:space="preserve">
-        <value>云母;亚克力;纯色;图像</value>
+        <value>云母;亚克力;纯色;图片</value>
     </data>
     <data name="Settings_AppearancePage__Items3" xml:space="preserve">
         <value>默认;最小化</value>
@@ -305,6 +485,9 @@
     </data>
     <data name="Settings_LaunchPage_SH14.Text" xml:space="preserve">
         <value>游戏窗口标题：</value>
+    </data>
+    <data name="Settings_LaunchPage_SH15.Text" xml:space="preserve">
+        <value>转到第三方 Java 下载源：</value>
     </data>
     <data name="Settings_NavigationPage_NV_Item_1.Content" xml:space="preserve">
         <value>启动</value>

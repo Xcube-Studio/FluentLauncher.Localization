@@ -26,6 +26,7 @@ internal class Program
         var keyValuePairs = GetResources(SourcesFolder);
 
         var languages = new Dictionary<string, Dictionary<string,string>>();
+        int found = 0;
 
         foreach (var item in Languages)
             languages.Add(item, new());
@@ -37,7 +38,7 @@ internal class Program
             foreach (var @string in keyValuePair.Value)
             {
                 var Path_Name = relativePath.Replace(".csv", string.Empty).Replace('\\', '_') + "_" + @string.GetName();
-                Console.WriteLine($"[INFO] 已找到资源: {Path_Name}");
+                found++;
 
                 int empty = 0;
 
@@ -53,6 +54,8 @@ internal class Program
                     Warns.Add($"[WARN]：at {relativePath}, 资源 {@string.GetName()} 有 {empty} 个空项");
             }
         }
+
+        Console.WriteLine($"[INFO] 已找到 {found} 个资源");
 
         Console.ForegroundColor = ConsoleColor.Yellow;
 

@@ -1,0 +1,5 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+_AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить учетную запись
+_AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия учетной записи истек, и вам необходимо снова войти в систему или вы не можете подключиться к серверу из-за проблем с сетью."
+_AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлен
+_AccountRefreshedDescription,,"Welcome back, ${name}",欢迎回来，${name},歡迎回來，${name},"С возвращением, ${name}"

@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T,Text,Basic Launch Settings,基本启动设置,基本啟動設置,Основные параметры запуска
+D1,Text,You need at least a .minecraft directory to store your game cores,您至少需要一个 .minecraft 目录来存储您的游戏核心,您至少需要一個 .minecraft 目錄來存儲您的遊戲核心,Вам нужен как минимум каталог .minecraft для хранения игровых ядер.
+D2,Text,You need at least a Java Runtime to start your game core,您至少需要一个 Java 运行时来启动您的游戏核心,您至少需要一個 Java 運行時來啟動您的遊戲核心,"Вам нужна как минимум среда выполнения Java, чтобы запустить ядро ​​игры."
+D3,Text,"Once done, you can also modify these settings in the global game settings",完成后，您还可以在全局游戏设置中修改这些设置,完成後，您還可以在全局遊戲設置中修改這些設置,После этого вы также можете изменить эти настройки в глобальных настройках игры.
+H1,Text,.minecraft Folder:,.minecraft 文件夹：,.minecraft 文件夾：,.minecraft Папка:
+H2,Text,Java Runtimes:,Java 运行时：,Java 運行時：,Среды выполнения Java:

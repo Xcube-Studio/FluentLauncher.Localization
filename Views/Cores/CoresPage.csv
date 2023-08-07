@@ -4,3 +4,4 @@ Text1,Text,Filter criteria: ,过滤条件：,過濾條件：,Критерии ф
 Text2,Text,Sort by: ,排序方式：,排序方式：,Сортировать по:
 _Items1,,All;Release;Snapshot;Old,全部;正式版;快照版;远古版,全部;正式版;快照版;遠古版,Все;Выпуск;Снимок;Старый
 _Items2,,Name;Launch Date,名称;启动日期,名稱;啟動日期,Имя;Дата запуска
+InstallButton,Text,Install Cores,安装核心,安裝核心,Установить ядра

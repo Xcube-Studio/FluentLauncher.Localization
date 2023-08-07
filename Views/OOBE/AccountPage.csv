@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T,Text,Account Settings,账户设置,賬戶設置,Настройки учетной записи
+H,Text,Accounts,账户,賬戶,Счета
+D1,Text,You need at least one account to start the game,您需要至少一个帐户才能开始游戏,您需要至少一個帳戶才能開始遊戲,"У вас должен быть хотя бы один аккаунт, чтобы начать игру"
+D2,Text,Access to online servers is only possible with a Microsoft account,仅可使用微软帐户访问在线服务器,僅可使用微軟帳戶訪問在線服務器,Доступ к онлайн-серверам возможен только с учетной записью Microsoft.
+D3,Text,Offline accounts will not be verified by the server,离线账户将无法被服务器验证,離線賬戶將無法被服務器驗證,Офлайн-аккаунты не будут проверяться сервером
+L,Text,Minecraft Official Website,我的世界官方网站,我的世界官方網站,Официальный сайт Майнкрафт

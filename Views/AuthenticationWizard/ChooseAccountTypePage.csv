@@ -1,0 +1,9 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+Page,Tag,Choose Account Type (1/3),选择账户类型 (1/3),選擇賬戶類型 (1/3),Выберите тип учетной записи (1/3)
+H1,Text,Microsoft Account,微软帐户,微軟帳戶,Учетная запись Майкрософт
+H2,Text,Yggdrasil Account,外置帐户,外置帳戶,Аккаунт Иггдрасиль
+H3,Text,Offline Account,离线账户,離線賬戶,Автономный аккаунт
+D1,Text,Genuine account to play online servers,正版账号才能游玩在线服务器,正版賬號才能遊玩在線服務器,Подлинная учетная запись для игры на онлайн-серверах
+D2,Text,Can enter the third-party Yggdrasil verification server,可以进入第三方 Yggdrasil 验证服务器,可以進入第三方 Yggdrasil 驗證服務器,Можно войти на сторонний сервер проверки Yggdrasil
+D3,Text,Can only be played locally and offline,只能在本地离线游玩,只能在本地離線遊玩,Можно играть только локально и в автономном режиме
+NoMc,Text,Don't have Minecraft?,没有 Minecraft ？,沒有 Minecraft ？,У вас нет майнкрафта?

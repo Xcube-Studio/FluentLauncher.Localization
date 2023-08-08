@@ -1,0 +1,4 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+Page,Tag,Enter Offline Account Profile (2/3),输入离线帐户资料 (2/3),輸入離線帳戶資料 (2/3),Введите профиль автономной учетной записи (2/3)
+TB1,PlaceholderText,Name:,名字：,名字：,Имя:
+TB2,PlaceholderText,UUID: (Optional),UUID：（可选）,UUID：（可選）,UUID: (необязательно)

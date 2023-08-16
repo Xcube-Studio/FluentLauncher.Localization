@@ -17,3 +17,5 @@ D3,Text,Minecraft is copyrighted by Mojang Studios. We are not responsible for a
 D4,Text,Thanks for all the services provided to this app,感谢所有为本应用提供的服务,感謝所有為本應用提供的服務,"Спасибо за все сервисы, предоставленные лаунчеру"
 D5,Text,Libraries used for this application development,本应用引用的库,本應用引用的庫,"Библиотеки, используемые для разработки лаунчера"
 D6,Text,Provide Download Source,提供下载源,提供下載源,Источник скачивания
+_Debug,,Debug Edition,调试版,調試版,Отладочная версия
+_Release,,Release Edition,发布版,發布版,Релизное издание

@@ -48,6 +48,9 @@
     <data name="Buttons_Cancel.Text" xml:space="preserve">
         <value>取消</value>
     </data>
+    <data name="Buttons_Download.Text" xml:space="preserve">
+        <value>下載</value>
+    </data>
     <data name="Converters__Account" xml:space="preserve">
         <value>賬戶</value>
     </data>
@@ -426,6 +429,72 @@
     <data name="Cores_Manage_CoreSettingsPage_D5.Text" xml:space="preserve">
         <value>會添加到生成的啟動參數中</value>
     </data>
+    <data name="Downloads_DownloadsPage_T1.Text" xml:space="preserve">
+        <value>Minecraft 本體</value>
+    </data>
+    <data name="Downloads_DownloadsPage_T2.Text" xml:space="preserve">
+        <value>CurseForge 熱門模組資源</value>
+    </data>
+    <data name="Downloads_DownloadsPage_T3.Text" xml:space="preserve">
+        <value>CurseForge 熱門整合包資源</value>
+    </data>
+    <data name="Downloads_DownloadsPage_H.Text" xml:space="preserve">
+        <value>列出全部版本核心</value>
+    </data>
+    <data name="Downloads_DownloadsPage_D.Text" xml:space="preserve">
+        <value>查找版本核心並安裝</value>
+    </data>
+    <data name="Downloads_DownloadsPage_SearchBox.PlaceholderText" xml:space="preserve">
+        <value>搜索..</value>
+    </data>
+    <data name="Downloads_DownloadsPage_C1.PlaceholderText" xml:space="preserve">
+        <value>資源類型</value>
+    </data>
+    <data name="Downloads_DownloadsPage_C2.PlaceholderText" xml:space="preserve">
+        <value>版本</value>
+    </data>
+    <data name="Downloads_DownloadsPage_C3.PlaceholderText" xml:space="preserve">
+        <value>來源</value>
+    </data>
+    <data name="Downloads_DownloadsPage_ST.Text" xml:space="preserve">
+        <value>模組搜索選項：</value>
+    </data>
+    <data name="Downloads_DownloadsPage__Items" xml:space="preserve">
+        <value>遊戲本體;模組;整合包;資源包;地圖</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_Hyperlink.Text" xml:space="preserve">
+        <value>在網頁中查看</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_T1.Text" xml:space="preserve">
+        <value>屏幕截圖</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_T2.Text" xml:space="preserve">
+        <value>詳細描述</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_D1.Text" xml:space="preserve">
+        <value>作者</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_D2.Text" xml:space="preserve">
+        <value>下載數</value>
+    </data>
+    <data name="Downloads_ResourceItemPage_D3.Text" xml:space="preserve">
+        <value>更新日期</value>
+    </data>
+    <data name="Downloads_ResourcesSearchPage_SearchBox.PlaceholderText" xml:space="preserve">
+        <value>搜索..</value>
+    </data>
+    <data name="Downloads_ResourcesSearchPage_C1.PlaceholderText" xml:space="preserve">
+        <value>資源類型</value>
+    </data>
+    <data name="Downloads_ResourcesSearchPage_C2.PlaceholderText" xml:space="preserve">
+        <value>版本</value>
+    </data>
+    <data name="Downloads_ResourcesSearchPage_C3.PlaceholderText" xml:space="preserve">
+        <value>來源</value>
+    </data>
+    <data name="Downloads_ResourcesSearchPage__Items" xml:space="preserve">
+        <value>遊戲本體;模組;整合包;資源包;地圖</value>
+    </data>
     <data name="Home_HomePage_NoAccount.Text" xml:space="preserve">
         <value>沒有賬戶</value>
     </data>
@@ -560,6 +629,12 @@
     </data>
     <data name="Settings_AboutPage_D6.Text" xml:space="preserve">
         <value>提供下載源</value>
+    </data>
+    <data name="Settings_AboutPage__Debug" xml:space="preserve">
+        <value>調試版</value>
+    </data>
+    <data name="Settings_AboutPage__Release" xml:space="preserve">
+        <value>發布版</value>
     </data>
     <data name="Settings_AccountPage_T1.Text" xml:space="preserve">
         <value>賬戶</value>

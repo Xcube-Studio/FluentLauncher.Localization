@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+Tip,Text,No Download Arrangements,无下载任务,無下載任務,Нет механизмов загрузки
+Hyperlink,Content,Go to ResoucesDownloadPage to create,进入资源下载页面进行创建,進入資源下載頁面進行創建,"Перейдите на ResoucesDownloadPage, чтобы создать"
+Item_T,Text,Download Task,下载任务,下載任務,Загрузить задачу
+Item_TD,Text,State,状态,狀態,Состояние
+Item_H1,Text,Progress: ,进度：,進度：,Прогресс:
+Item_H2,Text,Open File Folder:,打开文件夹：,打開文件夾：,Открыть папку с файлами:

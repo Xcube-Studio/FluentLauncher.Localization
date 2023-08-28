@@ -1,0 +1,5 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+NV_Item1,Text,Mod Loader Options (Optional),模组加载器选项 (可选),Mod 加載器選項（可選）,Параметры загрузчика модов (необязательно)
+NV_Item2,Text,Basic Core Settings,基本核心设置,基本核心設置,Основные основные настройки
+NV_Item3,Text,Additional Installation Options (Optional),附属安装选项 (可选),附加安裝選項（可選）,Дополнительные варианты установки (необязательно)
+_BreadcrumbBar_First,,Core Install Wizard,核心安装向导,核心安裝嚮導,Мастер установки ядра

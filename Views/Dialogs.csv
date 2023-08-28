@@ -12,3 +12,4 @@ SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтвержда
 SwitchAccountDialog,SecondaryButtonText,Cancel,取消,取消,Отмена
 SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранную учетную запись
 AuthenticationWizardDialog_T,Text,Account Add Wizard:,帐户添加向导：,帳戶添加嚮導：,Мастер добавления учетной записи:
+ResourceItemFilesDialog_T,Text,Choose a File to Download:,选择要下载的文件：,選擇要下載的文件：,Выберите файл для скачивания:

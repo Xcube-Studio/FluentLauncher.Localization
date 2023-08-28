@@ -20,3 +20,7 @@ _LaunchState_GameExited,,The game has exited normally,游戏已正常退出,遊�
 _LaunchState_Faulted,,Launch failed,启动失败,啟動失敗,Ошибка запуска
 _LaunchState_Killed,,The game was forced to quit,进程强制退出,進程強制退出,Игра была вынуждена выйти
 _LaunchState_GameCrashed,,The game crashed,游戏崩溃,遊戲崩潰,Игра вылетела
+_ResourceDownloadProcessState_Created,,The download task is created,下载任务已创建,下載任務已創建,Задача загрузки создана.
+_ResourceDownloadProcessState_Downloading,,The download task is in progress,下载任务正在进行中,下載任務正在進行中,Задача загрузки выполняется.
+_ResourceDownloadProcessState_Finished,,Download completed,下载完成,下載完成,Загрузка завершена
+_ResourceDownloadProcessState_Faulted,,Download failed,下载失败,下載失敗,Загрузка не удалась

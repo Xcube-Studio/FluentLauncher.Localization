@@ -129,6 +129,33 @@
     <data name="Converters__ResourceDownloadProcessState_Faulted" xml:space="preserve">
         <value>下載失敗</value>
     </data>
+    <data name="Converters__CoreInstallProcessState_Created" xml:space="preserve">
+        <value>安裝任務已創建</value>
+    </data>
+    <data name="Converters__CoreInstallProcessState_Installing" xml:space="preserve">
+        <value>安裝任務正在進行中</value>
+    </data>
+    <data name="Converters__CoreInstallProcessState_Finished" xml:space="preserve">
+        <value>安裝完成</value>
+    </data>
+    <data name="Converters__CoreInstallProcessState_Faulted" xml:space="preserve">
+        <value>安裝失敗</value>
+    </data>
+    <data name="Converters__ProgressItem_InstallVanilla" xml:space="preserve">
+        <value>安裝原版遊戲 ${id}</value>
+    </data>
+    <data name="Converters__ProgressItem_CompleteResources" xml:space="preserve">
+        <value>補全遊戲資源</value>
+    </data>
+    <data name="Converters__ProgressItem_RunExecutor" xml:space="preserve">
+        <value>運行 ${type} 安裝執行器</value>
+    </data>
+    <data name="Converters__ProgressItem_DownloadPackage" xml:space="preserve">
+        <value>下載 ${loader} 安裝包</value>
+    </data>
+    <data name="Converters__ProgressItem_ApplySettings" xml:space="preserve">
+        <value>應用核心設置</value>
+    </data>
     <data name="Dialogs_JavaMirrorsDialog.Title" xml:space="preserve">
         <value>第三方 Java 下载源</value>
     </data>
@@ -389,6 +416,30 @@
     </data>
     <data name="CoreInstallWizard_ChooseModLoaderPage_Page.Tag" xml:space="preserve">
         <value>模组加載器選項 (1/3)</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_Page.Tag" xml:space="preserve">
+        <value>基本核心設置 (2/3)</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_H1.Text" xml:space="preserve">
+        <value>核心實際 Id：</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_H2.Text" xml:space="preserve">
+        <value>核心的暱稱：</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_H3.Text" xml:space="preserve">
+        <value>版本獨立</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_D1.Text" xml:space="preserve">
+        <value>目錄 versions/{version} 的名稱，改名稱不能重複</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_D2.Text" xml:space="preserve">
+        <value>僅作為顯示名稱，實際 Id 不會被修改</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_D3.Text" xml:space="preserve">
+        <value>遊戲將運行在 versions\${version} 目錄下</value>
+    </data>
+    <data name="CoreInstallWizard_EnterCoreSettingsPage_NotAvailableText.Text" xml:space="preserve">
+        <value>該 Id 不可用</value>
     </data>
     <data name="Cores_CoresPage_SearchBox.PlaceholderText" xml:space="preserve">
         <value>搜索核心</value>

@@ -24,3 +24,12 @@ _ResourceDownloadProcessState_Created,,The download task is created,下载任务
 _ResourceDownloadProcessState_Downloading,,The download task is in progress,下载任务正在进行中,下載任務正在進行中,Задача загрузки выполняется.
 _ResourceDownloadProcessState_Finished,,Download completed,下载完成,下載完成,Загрузка завершена
 _ResourceDownloadProcessState_Faulted,,Download failed,下载失败,下載失敗,Загрузка не удалась
+_CoreInstallProcessState_Created,,The install task is created,安装任务已创建,安裝任務已創建,Задача установки создана.
+_CoreInstallProcessState_Installing,,The install task is in progress,安装任务正在进行中,安裝任務正在進行中,Задача установки находится в процессе
+_CoreInstallProcessState_Finished,,Install completed,安装完成,安裝完成,Установка завершена
+_CoreInstallProcessState_Faulted,,Install failed,安装失败,安裝失敗,Установка не удалась
+_ProgressItem_InstallVanilla,,Install vanilla game ${id},安装原版游戏 ${id},安裝原版遊戲 ${id},Установите ванильную игру ${id}
+_ProgressItem_CompleteResources,,Complete the game resources,补全游戏资源,補全遊戲資源,Заполните игровые ресурсы
+_ProgressItem_RunExecutor,,Run ${type} install executor,运行 ${type} 安装执行器,運行 ${type} 安裝執行器,Запустите программу установки ${type}.
+_ProgressItem_DownloadPackage,,Download ${loader} installer package,下载 ${loader} 安装包,下載 ${loader} 安裝包,Загрузите установочный пакет ${loader}
+_ProgressItem_ApplySettings,,Apply core settings,应用核心设置,應用核心設置,Применить основные настройки

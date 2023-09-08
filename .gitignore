@@ -30,10 +30,11 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-[Ss]trings/
 
 .vs/
 AppPackages
 *.cache
 .editorconfig
 *.pfx
+
+*.resw

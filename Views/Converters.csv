@@ -33,3 +33,4 @@ _ProgressItem_CompleteResources,,Complete the game resources,补全游戏资源,
 _ProgressItem_RunExecutor,,Run ${type} install executor,运行 ${type} 安装执行器,運行 ${type} 安裝執行器,Запустите программу установки ${type}.
 _ProgressItem_DownloadPackage,,Download ${loader} installer package,下载 ${loader} 安装包,下載 ${loader} 安裝包,Загрузите установочный пакет ${loader}
 _ProgressItem_ApplySettings,,Apply core settings,应用核心设置,應用核心設置,Применить основные настройки
+_ProgressItem_InstallMod,,Install Mod: ${file},安装模组：${file},安裝模組：${file},Установить мод: ${file}

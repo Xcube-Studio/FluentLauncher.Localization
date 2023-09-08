@@ -1,11 +1,11 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Tip,Text,No Launch Arrangements,无启动任务,無啟動任務,Нет договоренностей о запуске
-Hyperlink,Content,Go to HomePage to create,转到主页面来创建,轉到主頁面來創建,"Перейдите на главную страницу, чтобы создать"
-Item_T,Text,Launch Task,启动任务,啟動任務,Запустить задачу
+Tip,Text,No Launch Tasks,无启动任务,無啟動任務,Нет договоренностей о запуске
+Hyperlink,Content,Launch a game at Home,转到主页面来创建,轉到主頁面來創建,
+Item_T,Text,Launch Tasks,启动任务,啟動任務,Запустить задачу
 Item_TD,Text,State,状态,狀態,Состояние
-Item_H1,Text,Progress: ,进度：,進度：,Прогресс:
-Item_H2,Text,The game has been launched successfully,游戏已成功启动,遊戲已成功啟動,Игра успешно запущена
-Item_H3,Text,Game progress management,游戏进程管理,遊戲進程管理,Управление игровым прогрессом
+Item_H1,Text,"Progress: ",进度：,進度：,Прогресс:
+Item_H2,Text,Game launched successfully,游戏已成功启动,遊戲已成功啟動,Игра успешно запущена
+Item_H3,Text,Game process management,游戏进程管理,遊戲進程管理,Управление игровым прогрессом
 Item_H4,Text,Crash analysis report,崩溃分析报告,崩潰分析報告,Отчет об анализе сбоев
 Item_H5,Text,Reason:,原因：,原因：,Причина:
 B1,Text,Open Log,显示日志,顯示日誌,Открыть журнал

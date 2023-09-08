@@ -1,6 +1,6 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 NV_Item_1,Content,Home,主页面,主頁面,Домашняя страница
-NV_Item_2,Content,Cores Manage,核心管理,核心管理,Ядра Управление
-NV_Item_3,Content,Tasks Manage,任务管理,任務管理,Задачи Управление
-NV_Item_4,Content,Resources Download,资源下载,資源下載,Загрузка ресурсов
+NV_Item_2,Content,Cores,核心,核心,Ядра Управление
+NV_Item_3,Content,Activities,活动,,
+NV_Item_4,Content,Download resources,资源下载,資源下載,Загрузка ресурсов
 NV_Item_5,Content,Settings,设置,設置,Настройки

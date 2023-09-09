@@ -1,0 +1,4 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+_NoAccount,,Java is not selected,没有选中 Java,没有选中 Java,Java не выбрана
+_NoActiveJava,,No account selected,没有选中的账户,没有选中的账户,Аккаунт не выбран
+_NoASuitableJava,,"No suitable version of Java found to start this game, version ${version} is required",没有找到合适版本的 Java 来启动这个游戏，需要版本 ${version},没有找到合适版本的 Java 来启动这个游戏，需要版本 ${version},"Не найдено подходящей версии Java для запуска этой игры, требуется версия ${version}"

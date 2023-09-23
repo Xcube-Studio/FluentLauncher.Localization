@@ -14,3 +14,6 @@ _AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件�
 _AddSearchedJavaT,,Added the search Java to the list,已将搜索 Java 添加到列表,已將搜索 Java 添加到列表,Добавил поисковую Java в список
 AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"Добро пожаловать,"
 _AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Добавлено успешно
+_NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папок с данными Minecraft
+NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейдите в настройки
+_CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Ядро не найдено в текущем источнике загрузки, проверьте сеть или выберите другой источник загрузки."

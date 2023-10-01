@@ -12,3 +12,16 @@ D3,Text,NavigationView layout,导航栏布局,導航欄佈局,Макет Navigat
 _Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色,Система;Светлая;Темная
 _Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Слюда;Акрил;Твердый;Изображение
 _Items3,,Normal;Minimum,默认;最小化,默認;最小化,Нормальный;Минимальный
+H6,Text,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
+D4,Text,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,"Цвета темы для различных элементов управления, вступающие в силу после перезапуска приложения."
+SH1,Text,Use the system accent color,使用系统主题色,使用系統主題色,Используйте системный акцентный цвет
+SH2,Text,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к системе и доступен в различных оттенках цвета.
+SD1,Text,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы
+SD2,Text,All theme colors of varying shades will use this single color,所有不同深浅的主题颜色都将使用该单一颜色,所有不同深淺的主題顏色都將使用該單一顏色,Все цвета темы разных оттенков будут использовать этот один цвет.
+ColorSelectorButton,Content,Color Selector,颜色选择器,顏色選擇器,Выбор цвета
+SH3,Text,Tint Luminosity Opacity,亮度不透明度,亮度不透明度,Оттенок Яркость Непрозрачность
+SH4,Text,Tint Opacity,色调不透明度,色調不透明度,Непрозрачность оттенка
+SH5,Text,Use the default acrylic brush,使用默认的亚克力画笔,使用預設的壓克力畫筆,Используйте акриловую кисть по умолчанию.
+SH6,Text,Application background color,应用背景颜色,應用背景顏色,Цвет фона приложения
+SH7,Text,Image Path,背景图片路径,背景圖片路徑,Путь к изображению
+SH8,Text,No additional options,没有额外的选项,沒有額外的選項,Никаких дополнительных опций

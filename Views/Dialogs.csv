@@ -1,15 +1,15 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-JavaMirrorsDialog,Title,Third-party Java Download Sources,第三方 Java 下载源,第三方 Java 下载源,Сторонние источники загрузки Java
-JavaMirrorsDialog,PrimaryButtonText,Confirm,确认,确认,Подтверждать
-CopyrightLicenseDialog,Title,Copyright &amp; License Information,版权及开源协议信息,版权及开源协议信息,Авторское право &amp;amp; Информация о лицензии
-CopyrightLicenseDialog,PrimaryButtonText,Confirm,确认,确认,Подтверждать
-AddVmArgumentDialog_T,Text,Add a single JVM argument,添加单个 JVM 参数,添加单个 JVM 参数,Добавьте один аргумент JVM
-ExceptionDialog,Title,The program has encountered an error,应用程序未捕获的异常,应用程序未捕获的异常,Программа обнаружила ошибку
-ExceptionDialog,PrimaryButtonText,Copy and go to GitHub,复制并转到 GitHub,复制并转到 GitHub,Скопируйте и перейдите на GitHub
-ExceptionDialog,SecondaryButtonText,Close,关闭,关闭,Закрывать
+JavaMirrorsDialog,Title,Third-party Java Download Sources,第三方 Java 下载源,第三方 Java 下载源,Сторонний источник скачивания Java
+JavaMirrorsDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
+CopyrightLicenseDialog,Title,Copyright &amp; License Information,版权及开源协议信息,版权及开源协议信息,Информация об авторских правах и лицензии
+CopyrightLicenseDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
+AddVmArgumentDialog_T,Text,Add a single JVM argument,添加单个 JVM 参数,添加单个 JVM 参数,Добавить аргумент JVM
+ExceptionDialog,Title,The program has encountered an error,应用程序未捕获的异常,应用程序未捕获的异常,Программа столкнулась с ошибкой
+ExceptionDialog,PrimaryButtonText,Copy and go to GitHub,复制并转到 GitHub,复制并转到 GitHub,Скопировать и перейти на GitHub
+ExceptionDialog,SecondaryButtonText,Close,关闭,关闭,Закрыть
 SwitchAccountDialog,Title,Switch Account,切换账户,切换账户,Сменить аккаунт
-SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтверждать
+SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
 SwitchAccountDialog,SecondaryButtonText,Cancel,取消,取消,Отмена
-SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранную учетную запись
-AuthenticationWizardDialog_T,Text,Account Add Wizard:,帐户添加向导：,帳戶添加嚮導：,Мастер добавления учетной записи:
+SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранный аккаунт
+AuthenticationWizardDialog_T,Text,Account Add Wizard:,帐户添加向导：,帳戶添加嚮導：,Мастер добавления аккаунта:
 ResourceItemFilesDialog_T,Text,Choose a File to Download:,选择要下载的文件：,選擇要下載的文件：,Выберите файл для скачивания:

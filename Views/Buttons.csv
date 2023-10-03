@@ -1,16 +1,16 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Browse,Text,Browse,浏览,瀏覽,Просматривать
-Remove,Text,Remove,移除,移除,Удалять
+Browse,Text,Browse,浏览,瀏覽,Обзор
+Remove,Text,Remove,移除,移除,Удалить
 Search,Text,Search,搜索,搜索,Поиск
 Refresh,Text,Refresh,刷新,刷新,Обновить
 SwitchAccount,Text,Switch Account,切换账户,切換賬戶,Сменить аккаунт
 SignIn,Text,Sign in,登入,登入,Войти
-Add,Text,Add,添加,添加,Добавлять
+Add,Text,Add,添加,添加,Добавить
 Back,Text,Back,上一步,上一步,Назад
-Next,Text,Next,下一步,下一步,Следующий
+Next,Text,Next,下一步,下一步,Далее
 Open,Text,Open,打开,打開,Открыть
-Go,Text,Go,前往,前往,Идти
+Go,Text,Go,前往,前往,Перейти
 Cancel,Text,Cancel,取消,取消,Отмена
 Download,Text,Download,下载,下載,Скачать
-Confirm,Text,Confirm,确认,确认,Подтверждать
-Detect,Text,Detect,探测,探測,Обнаружить
+Confirm,Text,Confirm,确认,确认,Подтвердить
+Detect,Text,Detect,探测,探測,Найти

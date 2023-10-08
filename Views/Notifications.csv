@@ -17,3 +17,6 @@ _AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Добавл
 _NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папок с данными Minecraft
 NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейдите в настройки
 _CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Ядро не найдено в текущем источнике загрузки, проверьте сеть или выберите другой источник загрузки."
+_DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪除該核心,Ядро не может быть удалено
+_DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий основной файл занят другими процессами. Отмените процесс и повторите попытку.
+_DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено

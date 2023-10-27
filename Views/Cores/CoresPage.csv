@@ -1,7 +1,7 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-SearchBox,PlaceholderText,Search cores,搜索核心,搜索核心,Ядро поиска
-Text1,Text,"Filter: ",过滤条件：,過濾條件：,Критерии фильтрации:
-Text2,Text,"Sort by: ",排序方式：,排序方式：,Сортировать по:
-_Items1,,All;Release;Snapshot;Old,全部;正式版;快照版;远古版,全部;正式版;快照版;遠古版,Все;Выпуск;Снимок;Старый
-_Items2,,Name;Launch Date,名称;启动日期,名稱;啟動日期,Имя;Дата запуска
-InstallButton,Text,Install cores,安装核心,安裝核心,Установить ядра
+SearchBox,PlaceholderText,Search cores,搜索核心,搜索核心,Поиск ядер
+Text1,Text,"Filter: ",过滤条件：,過濾條件：,Фильтр: 
+Text2,Text,"Sort by: ",排序方式：,排序方式：,Сортировать по: 
+_Items1,,All;Release;Snapshot;Old,全部;正式版;快照版;远古版,全部;正式版;快照版;遠古版,Все;Release;Snapshot;Устаревшие
+_Items2,,Name;Launch Date,名称;启动日期,名稱;啟動日期,Названию;Дате запуска
+InstallButton,Text,Install cores,安装核心,安裝核心,Установить ядро

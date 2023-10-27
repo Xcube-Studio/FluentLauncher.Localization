@@ -1,22 +1,22 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить учетную запись
-_AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия учетной записи истек, и вам необходимо снова войти в систему или вы не можете подключиться к серверу из-за проблем с сетью."
-_AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлен
+_AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить аккаунт
+_AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия аккаунта истёк, необходимо повторить вход. Возможно не удаётся подключиться к серверу из-за проблем с сетью."
+_AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлён
 _AccountRefreshedDescription,,"Welcome back, ${name}",欢迎回来，${name},歡迎回來，${name},"С возвращением, ${name}"
-_AddOfficiaFolderExistedT,,Already added the official Minecraft Launcher data folder,已添加官方 Minecraft Launcher 数据文件夹,已添加官方 Minecraft Launcher 數據文件夾,Уже добавлена официальная папка данных Minecraft Launcher.
-_AddOfficiaFolderExistedD,,${path} has already been added.,${path} 已添加。,${path} 已添加。,${path} уже добавлен.
-_AddOfficialFolderNotExistT,,Cannot add the official Minecraft Launcher data folder,无法添加官方 Minecraft Launcher 数据文件夹,無法添加官方 Minecraft Launcher 數據文件夾,Невозможно добавить официальную папку данных Minecraft Launcher.
-_AddOfficialFolderNotExistD,,${path} does not exist.,${path} 不存在。,${path} 不存在。,${path} не существует.
-_AddOfficiaFolderAddedT,,Official Minecraft Launcher data folder added,添加了官方 Minecraft 启动器数据文件夹,添加了官方 Minecraft 啟動器數據文件夾,Добавлена официальная папка с данными Minecraft Launcher.
-_AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已添加到 Fluent Launcher。,${path} 已添加到 Fluent Launcher。,${path} добавлен в Fluent Launcher.
+_AddOfficiaFolderExistedT,,Already added the official Minecraft Launcher data folder,已添加官方 Minecraft Launcher 数据文件夹,已添加官方 Minecraft Launcher 數據文件夾,Добавлена официальная папка данных лаунчера Minecraft.
+_AddOfficiaFolderExistedD,,${path} has already been added.,${path} 已添加。,${path} 已添加。,Путь ${path} добавлен.
+_AddOfficialFolderNotExistT,,Cannot add the official Minecraft Launcher data folder,无法添加官方 Minecraft Launcher 数据文件夹,無法添加官方 Minecraft Launcher 數據文件夾,Невозможно добавить официальную папку данных лаунчера Minecraft.
+_AddOfficialFolderNotExistD,,${path} does not exist.,${path} 不存在。,${path} 不存在。,Пути ${path} не существует.
+_AddOfficiaFolderAddedT,,Official Minecraft Launcher data folder added,添加了官方 Minecraft 启动器数据文件夹,添加了官方 Minecraft 啟動器數據文件夾,Официальная папка данных лаунчера Minecraft добавлена.
+_AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已添加到 Fluent Launcher。,${path} 已添加到 Fluent Launcher。,Путь ${path} добавлен в Fluent Launcher.
 _AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку
 _AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует
-_AddSearchedJavaT,,Added the search Java to the list,已将搜索 Java 添加到列表,已將搜索 Java 添加到列表,Добавил поисковую Java в список
-AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"Добро пожаловать,"
-_AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Добавлено успешно
-_NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папок с данными Minecraft
-NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейдите в настройки
-_CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Ядро не найдено в текущем источнике загрузки, проверьте сеть или выберите другой источник загрузки."
+_AddSearchedJavaT,,Added the search Java to the list,已将搜索 Java 添加到列表,已將搜索 Java 添加到列表,Найденная Java добавлена в список
+AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,"
+_AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен
+_NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft
+NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейти в настройки
+_CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Это ядро не найдено в текущем источнике скачивания, проверьте свою сеть или выберите другой источник скачивания."
 _DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪除該核心,Ядро не может быть удалено
-_DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий основной файл занят другими процессами. Отмените процесс и повторите попытку.
+_DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий файл ядра занят другим процессом. Завершите процесс и повторите попытку.
 _DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено

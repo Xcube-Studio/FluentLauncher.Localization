@@ -1,6 +1,6 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-NV_Item_1,Content,Cores Settings,核心设置,核心設置,Настройки ядер
-NV_Item_2,Content,Mods Manage,模组管理,模組管理,Управление модами
-NV_Item_3,Content,Saves Manage,存档管理,存檔管理,Сохранить Управление
-NV_Item_4,Content,Statistics Data,统计数据,統計數據,Статистические данные
-_BreadcrumbBar_First,,Cores Manage,核心管理,核心管理,Ядра Управление
+NV_Item_1,Content,Cores Settings,核心设置,核心設置,Настройки
+NV_Item_2,Content,Mods Manage,模组管理,模組管理,Моды
+NV_Item_3,Content,Saves Manage,存档管理,存檔管理,Сохранения
+NV_Item_4,Content,Statistics Data,统计数据,統計數據,Данные статистик
+_BreadcrumbBar_First,,Cores Manage,核心管理,核心管理,Управление ядром

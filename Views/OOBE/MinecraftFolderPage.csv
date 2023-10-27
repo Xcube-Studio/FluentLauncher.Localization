@@ -1,7 +1,7 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T,Text,Minecraft Data Folders,Minecraft 数据文件夹,Minecraft 數據文件夾,Папки с данными Minecraft
-D1,Text,You need at least a .minecraft directory to store your game cores,您至少需要一个 .minecraft 目录来存储您的游戏核心,您至少需要一個 .minecraft 目錄來存儲您的遊戲核心,Вам нужен как минимум каталог .minecraft для хранения игровых ядер.
-D2,Text,"Once done, you can also modify these settings in the global game settings",完成后，您还可以在全局游戏设置中修改这些设置,完成後，您還可以在全局遊戲設置中修改這些設置,После этого вы также можете изменить эти настройки в глобальных настройках игры.
-DetectBtn,ToolTipService.ToolTip,Detect the .minecraft folder of the official Minecraft Launcher,检测官方启动器 .minecraft 文件夹,檢測官方啟動器 .minecraft 文件夾,Найдите папку .minecraft в официальном лаунчере Minecraft.
-AddBtn,ToolTipService.ToolTip,Add a Minecraft data folder manually,手动添加 Minecraft 数据文件夹,手動添加 Minecraft 數據文件夾,Добавьте папку данных Minecraft вручную
-H,Text,Existing:,现有的：,現有的：,Существующий:
+T,Text,Minecraft Data Folders,Minecraft 数据文件夹,Minecraft 數據文件夾,Расположение Minecraft
+D1,Text,You need at least a .minecraft directory to store your game cores,您至少需要一个 .minecraft 目录来存储您的游戏核心,您至少需要一個 .minecraft 目錄來存儲您的遊戲核心,Нужна хотя бы папка .minecraft для хранения игровых ядер
+D2,Text,"Once done, you can also modify these settings in the global game settings",完成后，您还可以在全局游戏设置中修改这些设置,完成後，您還可以在全局遊戲設置中修改這些設置,После этого вы также сможете изменить эти параметры в глобальных настройках игры
+DetectBtn,ToolTipService.ToolTip,Detect the .minecraft folder of the official Minecraft Launcher,检测官方启动器 .minecraft 文件夹,檢測官方啟動器 .minecraft 文件夾,Найдите папку .minecraft в официальном лаунчере Minecraft
+AddBtn,ToolTipService.ToolTip,Add a Minecraft data folder manually,手动添加 Minecraft 数据文件夹,手動添加 Minecraft 數據文件夾,Добавьте папку Minecraft вручную
+H,Text,Existing:,现有的：,現有的：,Текущая

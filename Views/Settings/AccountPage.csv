@@ -1,8 +1,8 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Accounts,账户,賬戶,Счета
-T2,Text,Account Settings,账户设置,賬戶設置,Настройки учетной записи
-H1,Text,Add new account:,添加新帐户：,添加新帳戶：,Добавить новую учетную запись:
-H2,Text,Launch the game with a Demo account:,使用 Demo 模式启动游戏：,使用 Demo 模式啟動遊戲：,Запустите игру с демо-счета:
-H3,Text,Auto refresh account:,自动刷新帐户：,自動刷新帳戶：,Автообновление учетной записи:
+T1,Text,Accounts,账户,賬戶,Аккаунты
+T2,Text,Account Settings,账户设置,賬戶設置,Настройки аккаунта
+H1,Text,Add new account:,添加新帐户：,添加新帳戶：,Добавить аккаунт
+H2,Text,Launch the game with a Demo account:,使用 Demo 模式启动游戏：,使用 Demo 模式啟動遊戲：,Запустить игру с демо-аккаунта
+H3,Text,Auto refresh account:,自动刷新帐户：,自動刷新帳戶：,Автообновление аккаунта
 D1,Text,Automatically refresh Token before each launch,每次启动前自动刷新验证令牌,每次啟動前自動刷新驗證令牌,Автоматически обновлять токен перед каждым запуском
-SH1,Text,Last Refresh Time:,最后刷新时间：,最後刷新時間：,Время последнего обновления:
+SH1,Text,Last Refresh Time:,最后刷新时间：,最後刷新時間：,Последнее обновление

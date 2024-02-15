@@ -1,14 +1,14 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_Account,,Account,账户,賬戶,Аккаунт
-_Microsoft,,Microsoft,微软,微軟,Майкрософт
-_Offline,,Offline,离线,離線,Автономный
-_Yggdrasil,,Yggdrasil,外置,外置,Yggdrasil
+_Account,,Account,账户,賬戶,аккаунт
+_Microsoft,,Microsoft,微软,微軟,Microsoft 
+_Offline,,Offline,离线,離線,Автономный 
+_Yggdrasil,,Yggdrasil,外置,外置,Yggdrasil 
 _Release,,Release,正式版,正式版,Release
 _Snapshot,,Snapshot,快照版,快照版,Snapshot
 _Old Beta,,Old Beta,远古版 β,遠古版 β,Устаревшая Beta
 _Old Alpha,,Old Alpha,远古版 α,遠古版 α,Устаревшая Alpha
 _Unknown,,Unknown,未知版本,未知版本,Неизвестная
-_Inherited From,,Inherited From,继承自,繼承自,Унаследовано от
+_Inherited From,,Inherited From,继承自,繼承自,Наследует
 _LaunchState_Created,,The launch task is created,启动任务已创建,啟動任務已創建,Задача запуска создана
 _LaunchState_Inspecting,,Checking required items before launching,启动前检查所需项目,啟動前檢查所需項目,Проверка необходимых элементов перед запуском
 _LaunchState_Authenticating,,Verifying and refreshing account token,验证并刷新帐户令牌,驗證並刷新帳戶令牌,Проверка и обновление токена аккаунта

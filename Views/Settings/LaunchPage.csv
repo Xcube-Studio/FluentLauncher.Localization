@@ -1,11 +1,11 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска
-T2,Text,Game specific settings,特定游戏设置,特定遊戲設置,Особые настройки игры
+T1,Text,Global launch settings,全局启动设置,全局啟動設置,Общее
+T2,Text,Game specific settings,特定游戏设置,特定遊戲設置,Дополнительно
 H1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft
 H2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime
 H3,Text,Game Settings,游戏设置,遊戲設置,Игровые настройки
-H4,Header,Edit game specific settings,更改特定游戏核心的设置,更改特定遊戲核心的設置,Изменение настроек конкретного игрового ядра
-D1,Text,Where to store the core of your game,储存你游戏核心的地方,儲存你游戲核心的地方,Где хранить игровые ядра
+H4,Header,Edit game specific settings,更改特定游戏核心的设置,更改特定遊戲核心的設置,Изменить настройки конкретного игрового ядра
+D1,Text,Where to store the core of your game,储存你游戏核心的地方,儲存你游戲核心的地方,Место для хранения игровых ядер
 D2,Text,Executable to launch the game,用于启动游戏的可执行文件,用於啟動遊戲的可執行文件,"Исполняемый файл, используемый для запуска игры"
 D3,Text,Game play settings,游戏运行设置,遊戲運行設置,Настройки игрового процесса
 SH1,Text,Current .minecraft folder:,当前 .minecraft 文件夹：,當前 .minecraft 文件夾：,Текущая папка .minecraft
@@ -19,7 +19,7 @@ SH8,Text,JVM memory:,Java 虚拟机内存：,Java 虛擬機內存：,Памят�
 SH9,Text,Automatically allocate JVM memory:,自动分配虚拟机内存：,自動分配虛擬機內存：,Автовыделять память JavaVM
 SH10,Text,Global core independent:,全局版本隔离：,全局版本隔離：,Отделить глобальное ядро
 SH11,Text,Full screen mode:,全屏模式：,全屏模式：,Полноэкранный режим
-SH12,Text,Game window resolution:,游戏窗口分辨率：,遊戲窗口分辨率：,Разрешение окна игры
+SH12,Text,Game window resolution:,游戏窗口分辨率：,遊戲窗口分辨率：,Размер окна игры
 SH13,Text,Server address:,服务器地址：,服務器地址：,Адрес сервера
 SH14,Text,Game window title:,游戏窗口标题：,遊戲窗口標題：,Заголовок игрового окна
 SH15,Text,Go to third-party Java download sources:,转到第三方 Java 下载源：,轉到第三方 Java 下載源：,Скачать Java на других сайтах

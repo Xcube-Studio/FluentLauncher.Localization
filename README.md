@@ -1,4 +1,4 @@
-# FluentLauncher.LocalizationPoroject
+# FluentLauncher.Localization
 #### Fluent Launcher 的 本地化计划
 
 ## 制定如下规定

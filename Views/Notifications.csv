@@ -11,7 +11,7 @@ _AddOfficiaFolderAddedT,,Official Minecraft Launcher data folder added,添加了
 _AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已添加到 Fluent Launcher。,${path} 已添加到 Fluent Launcher。,Путь ${path} добавлен в Fluent Launcher.
 _AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку
 _AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует
-_AddSearchedJavaT,,Added the search Java to the list,已将搜索 Java 添加到列表,已將搜索 Java 添加到列表,Найденная Java добавлена в список
+_AddSearchedJavaT,,Added searched Java to the launcher,已将添加搜索到的 Java 添加到启动器,已將新增搜尋的 Java 新增至啟動器,Добавлен поиск Java в лаунчер
 AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,"
 _AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен
 _NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft

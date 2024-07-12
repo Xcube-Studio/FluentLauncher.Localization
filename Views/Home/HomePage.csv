@@ -1,8 +1,4 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-NoAccount,Text,No Account,没有账户,沒有賬戶,Нет аккаунта
 LaunchButton,Text,Launch Minecraft,启动 Minecraft,啟動 Minecraft,Запустить Minecraft
-ComboBox,PlaceholderText,Select Game Core,选择游戏核心,選擇遊戲核心,Выберите игровое ядро
 _NoCore,,Core Not Selected,未选择核心,未選擇核心,Ядро не выбрано
-D1,Text,Click to switch,单击以切换,單擊以切換,"Нажмите, чтобы сменить"
-D2,Text,the currently selected core,当前选中的核心,當前選中的核心,Текущее выбранное ядро
 Hyperlink,Text,Manage cores,管理核心,管理核心,Управление ядрами

@@ -1,8 +1,14 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Accounts,账户,賬戶,Аккаунты
-T2,Text,Account Settings,账户设置,賬戶設置,Настройки аккаунта
-H1,Text,Add new account:,添加新帐户：,添加新帳戶：,Добавить аккаунт
-H2,Text,Launch the game with a Demo account:,使用 Demo 模式启动游戏：,使用 Demo 模式啟動遊戲：,Запустить игру с демо-аккаунта
-H3,Text,Auto refresh account:,自动刷新帐户：,自動刷新帳戶：,Автообновление аккаунта
-D1,Text,Automatically refresh Token before each launch,每次启动前自动刷新验证令牌,每次啟動前自動刷新驗證令牌,Автоматически обновлять токен перед каждым запуском
-SH1,Text,Last Refresh Time:,最后刷新时间：,最後刷新時間：,Последнее обновление
+T1,Text,Account,账户,賬戶,Аккаунты
+T2,Text,Skin,皮肤,皮膚,Кожа
+T3,Text,Other Settings,其他设置,其他設定,Другие настройки
+Card1,Description,"Sign in with a Microsoft account or from a third-party Yggdrasil server, or use an offline account",使用 Microsoft 帐户或第三方 Yggdrasil 服务器登录，或使用离线帐户,使用 Microsoft 帳戶或從第三方 Yggdrasil 伺服器登錄，或使用離線帳戶,Войдите в систему с учетной записью Microsoft или со стороннего сервера Yggdrasil или используйте автономную учетную запись.
+Card1,Header,Add new account,添加新帐户,添加新帳戶,Добавить аккаунт
+Card2,Description,Will run Minecraft in trial mode,将在试玩模式下运行 Minecraft,將在試玩模式下運行 Minecraft,Запущу Minecraft в пробном режиме.
+Card2,Header,Launch the game with a Demo account,使用 Demo 帐户启动游戏,使用 Demo 帳號啟動遊戲,Запустите игру на демо-счете.
+Card3,Description,Automatically refresh Token before each launch,每次启动前自动刷新令牌,每次啟動前自動刷新令牌,Автоматически обновлять токен перед каждым запуском
+Card3,Header,Auto refresh account,自动刷新帐户,自動刷新帳戶,Автоматическое обновление учетной записи
+Card4,Header,Manage skins and capes,管理皮肤和披风,管理皮膚和披風,Управление скинами и плащами
+Card5,Header,Open the current skin file in Explorer,在资源管理器中打开当前皮肤文件,在資源管理器中開啟目前皮膚文件,Откройте текущий файл скина в проводнике.
+Text1,Text,"Preview the current skin, or change the skin",预览当前皮肤，或更换皮肤,預覽目前皮膚，或更換皮膚,Предварительный просмотр текущего скина или изменение скина
+Text2,Text,Offline accounts do not support skin function,离线帐户不支持皮肤功能,離線帳戶不支援皮膚功能,Офлайн-аккаунты не поддерживают функцию скина

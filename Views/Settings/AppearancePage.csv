@@ -6,14 +6,13 @@ H2,Text,Display Theme,显示主题,顯示主題,Тема
 H3,Text,Background,背景,背景,Фон
 H4,Text,NavigationView Display Mode,导航栏显示模式,導航欄顯示模式,Режим отображения навигации
 H5,Text,Use new homepage,使用新主页,使用新主頁,Главная страница в новом стиле
-D1,Text,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,"Тёмная и светлая темы. Применяется после перезапуска приложения"
-D2,Text,"Application background settings, effective after restarting the app",应用程序背景设置，重启应用后生效,應用程序背景設置，重啟應用後生效,"Настройки фона приложения. Применяется после перезапуска приложения"
+D1,Text,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения
+D2,Text,"Application background settings, effective after restarting the app",应用程序背景设置，重启应用后生效,應用程序背景設置，重啟應用後生效,Настройки фона приложения. Применяется после перезапуска приложения
 D3,Text,NavigationView layout,导航栏布局,導航欄佈局,Макет навигации
 _Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色,Системная;Светлая;Тёмная
 _Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Mica;Acrylic;Сплошной цвет;Изображение
-_Items3,,Normal;Minimum,默认;最小化,默認;最小化,Обычный;Минималистичный
 H6,Text,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
-D4,Text,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,"Цвета темы для различных элементов управления. Применяются после перезапуска приложения"
+D4,Text,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
 SH1,Text,Use the system accent color,使用系统主题色,使用系統主題色,Использовать цвет системы
 SH2,Text,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к цвету темы системы и предлагается в различных цветовых оттенках
 SD1,Text,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы

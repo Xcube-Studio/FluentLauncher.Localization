@@ -1,6 +1,8 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-NV_Item_1,Content,Launch,启动,啟動,Запуск
-NV_Item_2,Content,Account,账户,賬戶,Аккаунты
-NV_Item_3,Content,Download,下载,下載,Загрузки
-NV_Item_4,Content,Appearance,外观,外觀,Внешний вид
-NV_Item_5,Content,About,关于,關於,О лаунчере
+_Settings,,Settings,设置,設定,Настройки
+_Launch,,Launch,启动,發射,Запуск
+_Account,,Account,帐户,帳戶,Счет
+_Download,,Download,下载,下載,Скачать
+_Appearance,,Appearance,外观,外貌,Появление
+_About,,About,关于,關於,О
+_Skin,,Skin,皮肤,皮膚,Кожа

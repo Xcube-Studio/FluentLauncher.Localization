@@ -1,26 +1,27 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Language,语言,語言,Язык
-T2,Text,Appearance settings,外观设置,外觀設置,Настройки внешнего вида
-H1,Text,Language Settings,语言设置,語言設置,Язык лаунчера
-H2,Text,Display Theme,显示主题,顯示主題,Тема
-H3,Text,Background,背景,背景,Фон
-H4,Text,NavigationView Display Mode,导航栏显示模式,導航欄顯示模式,Режим отображения навигации
-H5,Text,Use new homepage,使用新主页,使用新主頁,Главная страница в новом стиле
-D1,Text,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения
-D2,Text,"Application background settings, effective after restarting the app",应用程序背景设置，重启应用后生效,應用程序背景設置，重啟應用後生效,Настройки фона приложения. Применяется после перезапуска приложения
-D3,Text,NavigationView layout,导航栏布局,導航欄佈局,Макет навигации
+T1,Text,Theme,主题,主題,Тема
+T2,Text,Background,背景,背景,Фон
+Card1,Description,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения
+Card1,Header,Display Theme,显示主题,顯示主題,Тема
+Card2,Description,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
+Card2,Header,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
+H1,Text,Mica Background,云母背景,云母背景,Слюдяный фон
+D1,Text,"Mica is an opaque, dynamic material that incorporates theme and desktop wallpaper to paint the background of long-lived windows such as apps and settings",云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,"Слюда — это непрозрачный динамический материал, который включает в себя тему и обои рабочего стола для рисования фона долгоживущих окон, таких как приложения и настройки."
+H2,Text,Acrylic Background,亚克力背景,亚克力背景,Акриловый фон
+D2,Text,Acrylic is a type of Brush that creates a translucent texture.,亚克力是一种可以创建半透明纹理的画笔。,亚克力是一种可以创建半透明纹理的画笔。,"Акрил — это разновидность кисти, которая создает полупрозрачную текстуру."
+H3,Text,Solid Color Background,纯色背景,纯色背景,Сплошной цвет фона
+D3,Text,Background composed of a single color,由单一颜色组成的背景,由单一颜色组成的背景,Фон состоит из одного цвета
+H4,Text,Image Background,图像背景,图像背景,Фоновое изображение
+D4,Text,Use an image as a background,使用图像作为背景,使用图像作为背景,Используйте изображение в качестве фона
+SubCard1,Description,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к цвету темы системы и предлагается в различных цветовых оттенках
+SubCard1,Header,Use the system accent color,使用系统主题色,使用系統主題色,Использовать цвет системы
+SubCard2,Description,All theme colors of varying shades will use this single color,所有不同深浅的主题颜色都将使用该单一颜色,所有不同深淺的主題顏色都將使用該單一顏色,Все цвета темы разных оттенков будут использовать этот один цвет
+SubCard2,Header,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы
+SubCard3,Header,Mica Visual Effect Kind,云母视觉效果种类,雲母視覺效果種類,Вид визуального эффекта слюды
+SubCard4,Header,Application background color,应用背景颜色,應用背景顏色,Цвет фона приложения
+SubCard5,Header,Image Path,背景图片路径,背景圖片路徑,Путь к изображению
 _Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色,Системная;Светлая;Тёмная
 _Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Mica;Acrylic;Сплошной цвет;Изображение
-H6,Text,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
-D4,Text,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
-SH1,Text,Use the system accent color,使用系统主题色,使用系統主題色,Использовать цвет системы
-SH2,Text,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к цвету темы системы и предлагается в различных цветовых оттенках
-SD1,Text,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы
-SD2,Text,All theme colors of varying shades will use this single color,所有不同深浅的主题颜色都将使用该单一颜色,所有不同深淺的主題顏色都將使用該單一顏色,Все цвета темы разных оттенков будут использовать этот один цвет
 ColorSelectorButton,Content,Color Selector,颜色选择器,顏色選擇器,Выбрать цвет
-SH3,Text,Tint Luminosity Opacity,亮度不透明度,亮度不透明度,Непрозрачность яркого оттенка
-SH4,Text,Tint Opacity,色调不透明度,色調不透明度,Непрозрачность оттенка
-SH5,Text,Use the default acrylic brush,使用默认的亚克力画笔,使用預設的壓克力畫筆,По умолчанию
-SH6,Text,Application background color,应用背景颜色,應用背景顏色,Цвет фона приложения
-SH7,Text,Image Path,背景图片路径,背景圖片路徑,Путь к изображению
-SH8,Text,No additional options,没有额外的选项,沒有額外的選項,Дополнительных параметров нет
+Text1,Text,Unsupported System Version,不支持的系统版本,不支援的系統版本,Неподдерживаемая версия системы
+Text2,Text,File is not existed,文件不存在,文件不存在,Файл не существует

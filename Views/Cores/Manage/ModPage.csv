@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T1,Text,Mods,模组,模組,Моды
+Card1,Header,Mods Folder,模组文件夹,模組資料夾,Папка модов
+Card2,Description,"Even if the mods listed below exist, they will not be loaded",即使下面列出的模组存在，也不会加载,即使下面列出的模組存在，也不會載入,"Даже если моды, перечисленные ниже, существуют, они не будут загружены"
+Card2,Header,This game does not have a mod loader or the modder does not support mods,此游戏没有模组加载器或该加载器不支持模组,此遊戲沒有模組載入器或該載入器不支援模組,В этой игре нет загрузчика модов или моддер не поддерживает моды
+Text1,Text,No Mod,没有模组,沒有模組,Без мода
+Text2,Text,Go To Downloads,转到下载,轉到下載,Перейти к загрузкам

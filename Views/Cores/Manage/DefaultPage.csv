@@ -1,0 +1,11 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+T1,Text,Basic Configuration,基本配置,基本配置,Базовая конфигурация
+T2,Text,Resource Management,资源管理,資源管理,Управление ресурсами
+Card1,Description,"Only as a display name, the actual Id will not be modified",仅作为显示名称，不会修改实际Id,僅作為顯示名稱，不會修改實際Id,"Только в качестве отображаемого названия, не затрагивает ID"
+Card1,Header,Core Nickname:,核心的昵称:,核心的暱稱:,Название ядра
+Card2,Description,"Set additional JVM parameters, game accounts, core independence, etc.",设置额外的 JVM 参数、指定游戏帐户、设置版本独立等。,設定額外的 JVM 參數、指定遊戲帳戶、設定版本獨立等。,"Установите дополнительные параметры JVM, игровые учетные записи, независимость ядра и т. д."
+Card2,Header,Game launch settings,游戏启动设置,遊戲啟動設定,Настройки запуска игры
+Card3,Description,"Import, enable/disable, delete modules",导入、启用/禁用、删除模组,匯入、啟用/停用、刪除模組,"Импорт, включение/отключение, удаление модулей"
+Card3,Header,Module Management,模组管理,模組管理,Управление модулями
+Card4,Description,View and manage your game saves,查看、管理您的游戏存档,查看、管理您的遊戲存檔,Просмотр и управление сохранениями игры
+Card4,Header,Save Management,存档管理,存檔管理,Управление сохранениями

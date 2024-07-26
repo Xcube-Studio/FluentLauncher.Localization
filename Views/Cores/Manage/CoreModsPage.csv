@@ -1,6 +1,0 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T,Text,Mods,模组,模組,Моды
-H1,Text,The game core does not support mods,该游戏核心不支持模组,該遊戲核心不支持模組,Ядро игры не поддерживает моды
-H2,Text,Mods Folder,模组文件夹,模組文件夾,Папка модов
-D,Text,To install a core with mod loader,安装一个带有模组加载器的核心,安裝一個帶有模組加載器的核心,Установите ядро с загрузчиком модов
-SearchBox,PlaceholderText,Search Mod,搜索已有模组,搜索已有模組,Поиск модов

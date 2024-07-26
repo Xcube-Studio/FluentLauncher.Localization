@@ -1,8 +1,0 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-H1,Text,Files Property,文件属性,文件属性,Files Property
-H2,Text,Game Loaders:,游戏加载器：,游戏加载器：,Game Loaders:
-D,Text,Disk space usage information,磁盘空间使用信息,磁盘空间使用信息,Disk space usage information
-SH1,Text,Libraries Count:,依赖库数量：,依赖库数量：,Libraries Count:
-SH2,Text,Assets Count:,依赖资源数量：,依赖资源数量：,Assets Count:
-SH3,Text,Total Size:,总计大小：,总计大小：,Total Size:
-VanillaGame,Text,This is a vanilla core,这是一个原版核心,这是一个原版核心,This is a vanilla core

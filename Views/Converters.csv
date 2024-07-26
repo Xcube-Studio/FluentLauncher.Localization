@@ -34,3 +34,9 @@ _ProgressItem_RunExecutor,,Run ${type} install executor,运行 ${type} 安装执
 _ProgressItem_DownloadPackage,,Download ${loader} installer package,下载 ${loader} 安装包,下載 ${loader} 安裝包,Скачивание пакета установки ${loader}
 _ProgressItem_ApplySettings,,Apply core settings,应用核心设置,應用核心設置,Применение настроек ядра
 _ProgressItem_InstallMod,,Install Mod: ${file},安装模组：${file},安裝模組：${file},Установка мода: ${file}
+_SaveGameType_0,,Survival,生存模式,生存模式,Выживание
+_SaveGameType_1,,Creative,创造模式,創造模式,Творчество
+_SaveGameType_2,,Adventure,冒险模式,冒險模式,Приключение
+_SaveGameType_3,,Sepctator,旁观者模式,旁觀者模式,Зритель
+_SaveCommands,,Commands,命令,命令,Команды
+_SaveVersion,,Versions: ${version},版本：${version},版本：${version},Версии: ${version}

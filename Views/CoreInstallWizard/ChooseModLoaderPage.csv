@@ -1,9 +1,9 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_NeoForge,,"Incompatible with Forge, Fabric, Quilt, some versions compatible with OptiFine",与 Forge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,与 Forge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,"Несовместим с Forge, Fabric и Quilt. Некоторые версии совместимы с OptiFine."
-_Forge,,"Incompatible with NeoForge, Fabric, Quilt, some versions compatible with OptiFine",与 NeoForge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,与 NeoForge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,"Несовместим с NeoForge, Fabric и Quilt. Некоторые версии совместимы с OptiFine."
-_Fabric,,"Incompatible with NeoForge, Forge, Quilt, compatible with OptiFine with OptiFabric",与 NeoForge、Forge、Quilt 不兼容，在有 OptiFabric 情况下与 OptiFine 兼容,与 NeoForge、Forge、Quilt 不兼容，在有 OptiFabric 情况下与 OptiFine 兼容,"Несовместим с NeoForge, Forge и Quilt. Совместим с OptiFine только если используется OptiFabric."
-_OptiFine,,"Incompatibility with Fabric, Quilt without OptiFabric",在无 OptiFabric 情况下与 Fabric、Quilt 不兼容,在无 OptiFabric 情况下与 Fabric、Quilt 不兼容,"Несовместим с Fabric и Quilt без OptiFabric."
-_Quilt,,"Not compatible with NeoForge, Forge, Fabric",与 NeoForge、Forge、Fabric 不兼容,与 NeoForge、Forge、Fabric 不兼容,"Несовместим с NeoForge, Forge, Fabric."
+_NeoForge,,Incompatible with Forge, Fabric, Quilt, some versions compatible with OptiFine,与 Forge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,与 Forge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,Несовместим с Forge, Fabric и Quilt. Некоторые версии совместимы с OptiFine.
+_Forge,,Incompatible with NeoForge, Fabric, Quilt, some versions compatible with OptiFine,与 NeoForge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,与 NeoForge、Fabric、Quilt 不兼容，部分版本与 OptiFine 兼容,Несовместим с NeoForge, Fabric и Quilt. Некоторые версии совместимы с OptiFine.
+_Fabric,,Incompatible with NeoForge, Forge, Quilt, compatible with OptiFine with OptiFabric,与 NeoForge、Forge、Quilt 不兼容，在有 OptiFabric 情况下与 OptiFine 兼容,与 NeoForge、Forge、Quilt 不兼容，在有 OptiFabric 情况下与 OptiFine 兼容,Несовместим с NeoForge, Forge и Quilt. Совместим с OptiFine при использовании OptiFabric.
+_OptiFine,,Incompatible with Fabric, Quilt without OptiFabric,在无 OptiFabric 情况下与 Fabric、Quilt 不兼容,在无 OptiFabric 情况下与 Fabric、Quilt 不兼容,Несовместим с Fabric и Quilt без OptiFabric.
+_Quilt,,Incompatible with NeoForge, Forge, Fabric,与 NeoForge、Forge、Fabric 不兼容,与 NeoForge、Forge、Fabric 不兼容,Несовместим с NeoForge, Forge, Fabric.
 _Loading,,Loading,加载中,加載中,Загрузка
 _NotSupported,,Not Supported,不支持,不支持,Не поддерживается
-Page,Tag,Mod Loader Options (1/3),模组加载器选项 (1/3),模组加載器選項 (1/3),Загрузчик модов (1/3)
+Page,Tag,Mod Loader Options (1/3),模组加载器选项 (1/3),模组加載器選項 (1/3),Настройки загрузчика модов (1/3)

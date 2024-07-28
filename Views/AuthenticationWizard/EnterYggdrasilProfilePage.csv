@@ -1,5 +1,5 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Page,Tag,Enter Yggdrasil Account Profile (2/3),输入外置帐户资料 (2/3),輸入外置帳戶資料 (2/3),Войдите в аккаунт Yggdrasil (2/3)
-TB1,PlaceholderText,Yggdrasil Server Url:,Yggdrasil 服务器：,Yggdrasil 服務器：,Сервер Yggdrasil
+Page,Tag,Enter Yggdrasil Account Profile (2/3),输入外置帐户资料 (2/3),輸入外置帳戶資料 (2/3),Заполните данные аккаунта Yggdrasil (2/3)
+TB1,PlaceholderText,Yggdrasil Server Url:,Yggdrasil 服务器：,Yggdrasil 服務器：,URL сервера Yggdrasil
 TB2,PlaceholderText,Email:,电子邮件：,電子郵件：,Эл. почта
 TB3,PlaceholderText,Password:,密码：,密碼：,Пароль

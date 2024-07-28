@@ -1,7 +1,7 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Page,Tag,Device Flow Microsoft Authenticate (2/3),使用设备代码流进行微软验证 (2/3),使用設備代碼流進行微軟驗證 (2/3),Поток устройств Microsoft Authenticate (2/3)
+Page,Tag,Device Flow Microsoft Authenticate (2/3),使用设备代码流进行微软验证 (2/3),使用設備代碼流進行微軟驗證 (2/3),Аутентификация с помощью Microsoft Device Flow (2/3)
 L,Text,Device Code:,设备代码：,設備代碼：,Код устройства:
-P1,Text,"Please complete the next verification steps in your browser, then return to the launcher to continue verification",请在浏览器中完成后续验证步骤，然后返回启动器继续验证,請在瀏覽器中完成後續驗證步驟，然後返回啟動器繼續驗證,"Выполните следующие шаги проверки в своём браузере, затем вернитесь на панель запуска, чтобы продолжить проверку."
+P1,Text,"Please complete the next verification steps in your browser, then return to the launcher to continue verification",请在浏览器中完成后续验证步骤，然后返回启动器继续验证,請在瀏覽器中完成後續驗證步驟，然後返回啟動器繼續驗證,"Пожалуйста, выполните следующие шаги проверки в своём браузере, а затем вернитесь в лаунчер чтобы продолжить проверку."
 P2,Text,Device flow code is valid for 15 minutes,设备代码的有效期为 15 分钟,設備代碼的有效期為 15 分鐘,Код устройства действителен в течение 15 минут
 B1,Text,Copy Code,复制代码,複製代碼,Скопировать код
 B2,Text,Refresh Code,刷新代码,刷新代碼,Обновить код

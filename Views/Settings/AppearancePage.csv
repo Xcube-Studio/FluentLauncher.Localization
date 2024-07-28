@@ -1,14 +1,14 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 T1,Text,Theme,主题,主題,Тема
 T2,Text,Background,背景,背景,Фон
-Card1,Description,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения
+Card1,Description,Dark and light color themes, effective after restarting the app,深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения
 Card1,Header,Display Theme,显示主题,顯示主題,Тема
-Card2,Description,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
+Card2,Description,Theme colors for various controls, effective after restarting the app,各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
 Card2,Header,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
 H1,Text,Mica Background,云母背景,云母背景,Слюдяный фон
-D1,Text,"Mica is an opaque, dynamic material that incorporates theme and desktop wallpaper to paint the background of long-lived windows such as apps and settings",云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,"Слюда — это непрозрачный динамический материал, который включает в себя тему и обои рабочего стола для рисования фона долгоживущих окон, таких как приложения и настройки."
+D1,Text,Mica is an opaque, dynamic material that incorporates theme and desktop wallpaper to paint the background of long-lived windows such as apps and settings,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,Слюда — это непрозрачный динамический материал, который включает в себя тему и обои рабочего стола для рисования фона долгоживущих окон, таких как приложения и настройки.
 H2,Text,Acrylic Background,亚克力背景,亚克力背景,Акриловый фон
-D2,Text,Acrylic is a type of Brush that creates a translucent texture.,亚克力是一种可以创建半透明纹理的画笔。,亚克力是一种可以创建半透明纹理的画笔。,"Акрил — это разновидность кисти, которая создает полупрозрачную текстуру."
+D2,Text,Acrylic is a type of Brush that creates a translucent texture.,亚克力是一种可以创建半透明纹理的画笔。,亚克力是一种可以创建半透明纹理的画笔。,Акрил — это разновидность кисти, которая создает полупрозрачную текстуру.
 H3,Text,Solid Color Background,纯色背景,纯色背景,Сплошной цвет фона
 D3,Text,Background composed of a single color,由单一颜色组成的背景,由单一颜色组成的背景,Фон состоит из одного цвета
 H4,Text,Image Background,图像背景,图像背景,Фоновое изображение
@@ -24,4 +24,4 @@ _Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色
 _Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Mica;Acrylic;Сплошной цвет;Изображение
 ColorSelectorButton,Content,Color Selector,颜色选择器,顏色選擇器,Выбрать цвет
 Text1,Text,Unsupported System Version,不支持的系统版本,不支援的系統版本,Неподдерживаемая версия системы
-Text2,Text,File is not existed,文件不存在,文件不存在,Файл не существует
+Text2,Text,File doesn't exist,文件不存在,文件不存在,Файл не существует

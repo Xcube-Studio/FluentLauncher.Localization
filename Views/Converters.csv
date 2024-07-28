@@ -12,7 +12,7 @@ _Inherited From,,Inherited From,继承自,繼承自,Наследованно о�
 _LaunchState_Created,,The launch task is created,启动任务已创建,啟動任務已創建,Задача запуска создана
 _LaunchState_Inspecting,,Checking required items before launching,启动前检查所需项目,啟動前檢查所需項目,Проверка необходимых элементов перед запуском
 _LaunchState_Authenticating,,Verifying and refreshing account token,验证并刷新帐户令牌,驗證並刷新帳戶令牌,Проверка и обновление токена аккаунта
-_LaunchState_CompletingResources,,Completing the game dependent tasks,补全游戏依赖资源,補全遊戲依賴資源,Выполнение задач, зависящих от игры
+_LaunchState_CompletingResources,,Completing the game dependent tasks,补全游戏依赖资源,補全遊戲依賴資源,"Выполнение задач, зависящих от игры"
 _LaunchState_BuildingArguments,,Generating startup parameters,生成启动参数,生成啟動參數,Формирование параметров запуска
 _LaunchState_LaunchingProcess,,Launching the game process,启动游戏进程,啟動遊戲進程,Запуск процесса игры
 _LaunchState_GameRunning,,The game is running,游戏正在运行,遊戲正在運行,Игра запущена

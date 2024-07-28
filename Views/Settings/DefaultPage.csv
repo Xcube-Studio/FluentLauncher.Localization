@@ -1,10 +1,10 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 Card1,Header,Launch Settings,启动设置,啟動設定,Настройки запуска
-Card1,Description,Set up your .minecraft folder, Java runtime, and global game settings,设置您的 .minecraft 文件夹、Java 运行时和全局游戏设置,設定您的 .minecraft 資料夾、Java 執行時間和全域遊戲設置,Настройте папку .minecraft, среду выполнения Java и глобальные настройки игры.
+Card1,Description,"Set up your .minecraft folder, Java runtime, and global game settings",设置您的 .minecraft 文件夹、Java 运行时和全局游戏设置,設定您的 .minecraft 資料夾、Java 執行時間和全域遊戲設置,"Настройте папку .minecraft, среду выполнения Java и глобальные настройки игры."
 Card2,Header,Account &amp; Skin Settings,帐户和皮肤设置,帳戶和皮膚設置,Настройки аккаунта и скина
 Card2,Description,Manage login accounts and set skins for games,管理登录帐户并设置游戏皮肤,管理登入帳號並設定遊戲皮膚,Управляйте учетными записями и устанавливайте скины для игр.
 Card3,Header,Download &amp; Cache Settings,下载和缓存设置,下載和快取設定,Настройки загрузки и кэширования
-Card3,Description,Adjust download performance, set download sources, and manage cache,调整下载性能、设置下载源和管理缓存,調整下載效能、設定下載來源和管理緩存,Настраивайте производительность загрузки, устанавливайте источники загрузки и управляйте кэшированием.
+Card3,Description,"Adjust download performance, set download sources, and manage cache",调整下载性能、设置下载源和管理缓存,調整下載效能、設定下載來源和管理緩存,"Настраивайте производительность загрузки, устанавливайте источники загрузки и управляйте кэшированием."
 Card4,Header,Appearance Settings,外观设置,外觀設定,Настройки внешнего вида
 Card4,Description,Set the application background and set the light/dark mode,设置应用程序背景并设置深浅模式,設定應用程式背景並設定深淺模式,Установите фон приложения и установите светлый/темный режим.
 Card5,Header,Language Settings,语言设置,語言設定,Языковые настройки

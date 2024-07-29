@@ -1,19 +1,19 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 T1,Text,Other information,其它信息,其它信息,Другая информация
-T2,Text,Credits,致谢,致謝,Участники
-B1,Text,Check Updates in the Microsoft Store,在 Microsoft Store 中检查更新,在 Microsoft Store 中檢查更新,Проверить обновление в Microsoft Store
+T2,Text,Credits,致谢,致謝,Разработчики
+B1,Text,Check Updates in the Microsoft Store,在 Microsoft Store 中检查更新,在 Microsoft Store 中檢查更新,Проверить обновления в Microsoft Store
 B2,Text,Display Details,显示细节,顯示細節,Подробнее
 Card1,Description,Xcube Studio ©2022-2024. All rights reserved.,Xcube Studio ©2022-2024. 所有权利保留,Xcube Studio ©2022-2024. 所有權利保留,Xcube Studio ©2022-2024. Все права защищены.
 Card2,Header,Sources,开源,開源,Исходный код
 Card2,Description,Navigate to the GitHub repository,转到 GitHub 仓库,轉到 GitHub 倉庫,Посетить репозиторий GitHub
 Card3,Header,Statements,声明,聲明,Заявления
-Card3,Description,Minecraft is copyrighted by Mojang Studios. We are not responsible for any copyright infringement arising from use of this software.,Minecraft 版权归 Mojang Studios 所有。 开发者对因使用本软件而引起的任何版权侵权不承担任何责任。,Minecraft 版權歸 Mojang Studios 所有。 開發者對因使用本應用而引起的任何版權糾紛不承擔任何責任。,"Авторские права на Minecraft принадлежат Mojang Studios. Мы не несём ответственности за любые нарушения авторских прав, связанные с использованием этого программного обеспечения."
-Card4,Header,Copyright &amp; License Information,版权与协议信息,版權與協議信息,Информация об авторских правах и лицензии
+Card3,Description,"Minecraft is copyrighted by Mojang Studios. We are not responsible for any copyright infringement arising from use of this software.",Minecraft 版权归 Mojang Studios 所有。 开发者对因使用本软件而引起的任何版权侵权不承担任何责任。,Minecraft 版權歸 Mojang Studios 所有。 開發者對因使用本應用而引起的任何版權糾紛不承擔任何責任。,"Авторские права на Minecraft принадлежат Mojang Studios. Мы не несём ответственности за любые нарушения авторских прав, связанные с использованием этого программного обеспечения."
+Card4,Header,Copyright &amp; License Information,版权与协议信息,版權與協議信息,Информация об авторских правах и лицензиях
 Card4,Description,Navigate to the GitHub repository,转到 GitHub 仓库,轉到 GitHub 倉庫,Посетить репозиторий GitHub
-Card5,Header,Credits,鸣谢,鳴謝,Особая благодарность
+Card5,Header,Special Thanks,鸣谢,鳴謝,Особые благодарности
 Card5,Description,Thanks for all the services provided to this app,感谢所有为本应用提供的服务,感謝所有為本應用提供的服務,"Спасибо за все сервисы, предоставленные лаунчеру"
 SubCard1,Header,Update,更新,更新,Обновить
-SubCard2,Header,The Developers of this Application,本应用的开发者,本應用的開發者,Разработчик лаунчера
-SubCard3,Description,Provide Download Source,提供下载源,提供下載源,Источник скачивания
+SubCard2,Header,The Developers of this Application,本应用的开发者,本應用的開發者,Разработчики лаунчера
+SubCard3,Description,Provide Download Source,提供下载源,提供下載源,Укажите источник загрузки
 _Debug,,Debug Edition,调试版,調試版,Отладочная версия
 _Release,,Release Edition,发布版,發布版,Релизная версия

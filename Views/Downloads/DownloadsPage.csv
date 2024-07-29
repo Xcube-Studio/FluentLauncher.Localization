@@ -2,11 +2,11 @@
 T1,Text,Minecraft Games,Minecraft 本体,Minecraft 本體,Игры Minecraft
 T2,Text,CurseForge Popular Mod Resources,CurseForge 热门模组资源,CurseForge 熱門模組資源,Ресурсы популярных модов CurseForge
 T3,Text,CurseForge Popular Modpack Resources,CurseForge 热门整合包资源,CurseForge 熱門整合包資源,Ресурсы популярных модпаков CurseForge
-H,Text,List all version cores,列出全部版本核心,列出全部版本核心,Список всех версий ядер
-D,Text,Find the version core and install it,查找版本核心并安装,查找版本核心並安裝,Найдите и установите версию ядра
+H,Text,List all version cores,列出全部版本核心,列出全部版本核心,Список всех ядер версий
+D,Text,Find the version core and install it,查找版本核心并安装,查找版本核心並安裝,Найдите и установите ядро версии
 SearchBox,PlaceholderText,Search..,搜索..,搜索..,Поиск..
 C1,PlaceholderText,Resource Type,资源类型,資源類型,Тип ресурса
 C2,PlaceholderText,Version,版本,版本,Версия
 C3,PlaceholderText,Source,来源,來源,Источник
-ST,Text,Mod search options:,模组搜索选项：,模組搜索選項：,Параметры поиска мода: 
-_Items,,Minecraft Games;Mods;Modpacks;Resource Packs;Worlds,游戏本体;模组;整合包;资源包;地图,遊戲本體;模組;整合包;資源包;地圖,Игры Minecraft;Моды;Модпаки;Текстуры;Миры
+ST,Text,Mod search options:,模组搜索选项：,模組搜索選項：,Параметры поиска модов: 
+_Items,,Minecraft Games;Mods;Modpacks;Resource Packs;Worlds,游戏本体;模组;整合包;资源包;地图,遊戲本體;模組;整合包;資源包;地圖,Игры Minecraft;Моды;Модпаки;Ресурспаки;Миры

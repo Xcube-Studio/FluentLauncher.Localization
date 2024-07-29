@@ -1,8 +1,8 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 T,Text,Accounts,账户,賬戶,Аккаунты
-D1,Text,You need at least one account to start the game,您需要至少一个帐户才能开始游戏,您需要至少一個帳戶才能開始遊戲,"Необходимо добавить хотя бы один аккаунт, чтобы играть"
-D2,Text,Access to online servers is only possible with a Microsoft account,仅可使用微软帐户访问在线服务器,僅可使用微軟帳戶訪問在線服務器,Доступ к серверам по сети возможен только с аккаунта Microsoft.
-D3,Text,Offline accounts will not be verified by the server,离线账户将无法被服务器验证,離線賬戶將無法被服務器驗證,Автономные аккаунты не будут проверяться сервером
-L,Content,Minecraft Official Website,Minecraft 官方网站,我的世界官方網站,Оф. сайт Minecraft
+D1,Text,You need at least one account to start the game,您需要至少一个帐户才能开始游戏,您需要至少一個帳戶才能開始遊戲,"Необходимо добавить хотя бы один аккаунт, чтобы начать игру"
+D2,Text,Access to online servers is only possible with a Microsoft account,仅可使用微软帐户访问在线服务器,僅可使用微軟帳戶訪問在線服務器,Доступ к лицензионным серверам возможен только с аккаунтом Microsoft.
+D3,Text,Offline accounts will not be verified by the server,离线账户将无法被服务器验证,離線賬戶將無法被服務器驗證,Пиратские аккаунты не будут проверяться сервером
+L,Content,Minecraft Official Website,Minecraft 官方网站,我的世界官方網站,Оффициальный сайт Minecraft
 L,NavigateUri,https://www.minecraft.net/en-us,https://www.minecraft.net/zh-hans,https://www.minecraft.net/zh-hant,https://www.minecraft.net/ru-ru
-H,Text,Existing:,现有的：,現有的：,Текущий: 
+H,Text,Selected: ,现有的：,現有的：,Выбранный: 

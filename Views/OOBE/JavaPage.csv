@@ -1,8 +1,8 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T,Text,Java Runtimes,Java 运行时,Java 運行時,Java Runtime
-D1,Text,You need at least a Java Runtime to start your game core,您至少需要一个 Java 运行时来启动您的游戏核心,您至少需要一個 Java 運行時來啟動您的遊戲核心,"Для запуска игры нужен Java Runtime"
+T,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime
+D1,Text,You need a configured Java Runtime to start your game,您至少需要一个 Java 运行时来启动您的游戏核心,您至少需要一個 Java 運行時來啟動您的遊戲核心,Для запуска игры нужен настроенный Java Runtime
 D2,Text,"Once done, you can also modify these settings in the global game settings",完成后，您还可以在全局游戏设置中修改这些设置,完成後，您還可以在全局遊戲設置中修改這些設置,После этого можно изменить эти параметры в глобальных настройках игры
-H,Text,Existing:,现有的：,現有的：,Текущая
-DetectBtn,ToolTipService.ToolTip,Detect Java runtimes installed,检测已安装的 Java 运行时,檢測已安裝的 Java 運行時,Обнаружение установленных Java Runtime
+H,Text,Selected: ,现有的：,現有的：,Выбранный: 
+DetectBtn,ToolTipService.ToolTip,Detect Java Runtimes installed,检测已安装的 Java 运行时,檢測已安裝的 Java 運行時,Обнаружение установленных Java Runtime
 AddBtn,ToolTipService.ToolTip,Add a javaw.exe manually,手动添加 javaw.exe,手動添加 javaw.exe,Добавить javaw.exe вручную
 Hyplink,Content,Third-party Java Download Sources,第三方 Java 下载源,第三方 Java 下載源,Сторонние источники скачивания Java

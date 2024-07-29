@@ -24,3 +24,4 @@ Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Назва
 Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт
 Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки
 Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime
+Text4,Text,Enabled,已启用,已啟用,Включено

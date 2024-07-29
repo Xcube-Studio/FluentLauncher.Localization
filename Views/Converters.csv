@@ -40,3 +40,4 @@ _SaveGameType_2,,Adventure,冒险模式,冒險模式,Приключение
 _SaveGameType_3,,Spectator,旁观者模式,旁觀者模式,Зритель
 _SaveCommands,,Commands,命令,命令,Команды
 _SaveVersion,,Version: ${version},版本：${version},版本：${version},Версия: ${version}
+_SaveSeed,,Seed: ${seed},种子：${seed},種子：${seed},Семя: ${seed}

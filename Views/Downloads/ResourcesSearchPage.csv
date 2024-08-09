@@ -1,7 +1,0 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-SearchBox,PlaceholderText,Search..,搜索..,搜索..,Поиск..
-C1,PlaceholderText,Resource Type,资源类型,資源類型,Тип ресурса
-C2,PlaceholderText,Version,版本,版本,Версия
-C3,PlaceholderText,Source,来源,來源,Источник
-_Items,,Minecraft Games;Mods;Modpacks;Resource Packs;Worlds,游戏本体;模组;整合包;资源包;地图,遊戲本體;模組;整合包;資源包;地圖,Игры Minecraft;Моды;Модпаки;Ресурспаки;Миры
-ST,Text,Mod search options:,模组搜索选项：,模組搜索選項：,Параметры поиска модов: 

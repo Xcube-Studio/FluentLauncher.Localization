@@ -1,0 +1,7 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
+Title,Text,Launch Tasks,启动任务,啟動任務,Задачи запуска
+Text1,Text,Time Range:,时间范围:,時間範圍:,Временной диапазон:
+Text2,Text,No Task,无任务,無任務,Нет задач
+Text3,Text,Go to HomePage and launch a Game,转到主页并启动游戏,前往主頁並啟動遊戲,Перейти на домашнюю страницу и запустить игру
+_Items,,Within a day;Nearly three days;Last week;All time,一天之内;近三天;上周;所有时间,一天之內;近三天;上週;所有時間,В течение дня;Почти три дня;На прошлой неделе;Все время
+CheckBox,Content,Show historical launch records,显示历史启动记录,顯示歷史啟動記錄,Показать исторические записи запуска

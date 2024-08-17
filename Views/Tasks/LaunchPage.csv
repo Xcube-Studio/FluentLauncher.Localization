@@ -5,3 +5,15 @@ Text2,Text,No Task,无任务,無任務,Нет задач
 Text3,Text,Go to HomePage and launch a Game,转到主页并启动游戏,前往主頁並啟動遊戲,Перейти на домашнюю страницу и запустить игру
 _Items,,Within a day;Nearly three days;Last week;All time,一天之内;近三天;上周;所有时间,一天之內;近三天;上週;所有時間,В течение дня;Почти три дня;На прошлой неделе;Все время
 CheckBox,Content,Show historical launch records,显示历史启动记录,顯示歷史啟動記錄,Показать исторические записи запуска
+Item_T,Text,Launch Tasks,启动任务,啟動任務,Задачи запуска
+Item_TD,Text,State,状态,狀態,Состояние
+Item_H1,Text,Progress: ,进度：,進度：,Прогресс: 
+Item_H2,Text,Game launched successfully,游戏已成功启动,遊戲已成功啟動,Игра успешно запущена
+Item_H3,Text,Game process management,游戏进程管理,遊戲進程管理,Управление игровым процессом
+Item_H4,Text,Crash analysis report,崩溃分析报告,崩潰分析報告,Отчёт об анализе сбоев
+Item_H5,Text,Reason:,原因：,原因：,Причина: 
+B1,Text,Open Log,显示日志,顯示日誌,Открыть лог
+B2,Text,Kill Process,终止进程,終止進程,Завершить процесс
+B3,Text,Open Report,显示报告,顯示報告,Открыть отчёт
+B4,Text,Show Details,显示详细信息,顯示詳細信息,Показать детали
+B5,Text,Copy Launch Arguments,复制启动参数,复制启动参数,Копировать Аргументы Запуска

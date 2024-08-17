@@ -20,3 +20,4 @@ _CoreNotInSourceList,,"The core is not found in the current download source, ple
 _DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪除該核心,Ядро не может быть удалено
 _DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий файл ядра занят другим процессом. Завершите процесс и повторите попытку.
 _DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено
+_ExportLog,,Log file exported successfully,日志文件已成功导出,日志文件已成功导出,Файл журнала успешно экспортирован

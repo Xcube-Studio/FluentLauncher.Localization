@@ -5,3 +5,4 @@ H2,Text,Install Mod: optiFabirc,安装模组：optiFabirc,安装模组：optiFab
 D1,Text,Used to load most of the Fabric mods,用于加载大部分的 Fabric 模组,用于加载大部分的 Fabric 模组,Используется для загрузки большинства модов Fabric
 D2,Text,"Used to run OptiFine on Fabric loader, requires an installed Fabric API",用于在 Fabric 加载器上运行 OptiFine，需要 fabric api 作为前置,用于在 Fabric 加载器上运行 OptiFine，需要 fabric api 作为前置,"Используется для запуска OptiFine на Fabric, требуется загруженный Fabric API."
 T1,Text,Additional options for Fabric loader,适用于 Fabric 加载器的额外选项,适用于 Fabric 加载器的额外选项,Дополнительные опции Fabric
+Text1,Text,Unsupported,不支持,不支持,Неподдерживаемый

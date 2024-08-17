@@ -21,3 +21,7 @@ _DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪�
 _DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий файл ядра занят другим процессом. Завершите процесс и повторите попытку.
 _DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено
 _ExportLog,,Log file exported successfully,日志文件已成功导出,日志文件已成功导出,Файл журнала успешно экспортирован
+_LaunchGameThrowException,,Encountered an error during launching,启动过程中遇到错误,啟動過程中遇到錯誤,Произошла ошибка при запуске
+ExceptionCopyButton,Content,Copy Full Information,复制完整信息,複製完整訊息,Копировать полную информацию
+_LaunchGameThrowMicrosoftAuthenticationException,,"An exception occurred while refreshing the account, please log in to the yggdrasil account again to get the access token again.",刷新账户时发生异常，请重新登录该外置账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該外置帳戶，以重新取得存取令牌,"При обновлении учетной записи произошла исключительная ситуация. Пожалуйста, войдите в учетную запись yggdrasil еще раз, чтобы снова получить токен доступа."
+_LaunchGameThrowYggdrasilAuthenticationException,,"An exception occurred while refreshing the account, please log in to the Microsoft account again to get the access token again.",刷新账户时发生异常，请重新登录该微软账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該微軟帳戶，以重新取得存取權杖,"При обновлении учетной записи произошло исключение. Пожалуйста, войдите в учетную запись Microsoft еще раз, чтобы снова получить токен доступа."

@@ -1,5 +1,5 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Title,Text,An error has occurred when starting Fluent Launcher,启动 Fluent Launcher 时出现错误,,Ошибка при запуске Fluent Launcher
-Description_1,Text,Please report this issue on GitHub.,请在 GitHub 上报告此问题。,,"Пожалуйста, сообщите об этой проблеме на GitHub."
-Description_2,Text,Providing the following information might help us fix the issue:,提供以下信息可能有助于我们解决问题：,,Предоставление следующей информации может помочь нам решить проблему:
-Button,Content,Copy and go to GitHub,复制并转到 GitHub,,Скопировать и перейти на GitHub
+Title,Text,An error has occurred when starting Fluent Launcher,启动 Fluent Launcher 时出现错误,啟動 Fluent Launcher 時發生錯誤,Произошла ошибка при запуске Fluent Launcher
+Description_1,Text,Please report this issue on GitHub.,请在 GitHub 上报告此问题。,請在 GitHub 上回報此問題。,"Пожалуйста, сообщите об этой проблеме на GitHub."
+Description_2,Text,Providing the following information might help us fix the issue:,提供以下信息可能有助于我们解决问题：,提供以下資訊可能有助於我們解決問題：,Предоставление следующей информации может помочь нам решить проблему:
+Button,Content,Copy and go to GitHub,复制并转到 GitHub,複製並前往 GitHub,Копировать и перейти на GitHub

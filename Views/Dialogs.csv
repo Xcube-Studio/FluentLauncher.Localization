@@ -7,11 +7,11 @@ AddVmArgumentDialog_T,Text,Add a single JVM argument,添加单个 JVM 参数,添
 ExceptionDialog,Title,The program has encountered an error,应用程序未捕获的异常,应用程序未捕获的异常,Программа столкнулась с ошибкой
 ExceptionDialog,PrimaryButtonText,Copy and go to GitHub,复制并转到 GitHub,复制并转到 GitHub,Скопировать и перейти на GitHub
 ExceptionDialog,SecondaryButtonText,Close,关闭,关闭,Закрыть
-SwitchAccountDialog,Title,Switch Account,切换账户,切换账户,Сменить аккаунт
+SwitchAccountDialog,Title,Switch Account,切换账户,切换账户,Сменить учётную запись
 SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
 SwitchAccountDialog,SecondaryButtonText,Cancel,取消,取消,Отмена
-SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранный аккаунт
-AuthenticationWizardDialog_T,Text,Account Add Wizard: ,帐户添加向导：,帳戶添加嚮導：,Мастер добавления аккаунта: 
+SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранную учётную запись
+AuthenticationWizardDialog_T,Text,Account Add Wizard: ,帐户添加向导：,帳戶添加嚮導：,Мастер добавления учётной записи
 DeleteGameDialog_T,Text,Delete Core,删除核心,刪除核心,Удалить ядро
 DeleteGameDialog_D1,Text,Are you sure you want to delete this core?,你确定要删除该核心吗？,你確定要刪除該核心嗎？,Точно удалить это ядро?
 DeleteGameDialog_D2,Text,will be lost forever! (Actually forever),将永远失去！ （真的很久）,將永遠失去！ （真的很久）,будет потеряно навсегда! (Правда навсегда)

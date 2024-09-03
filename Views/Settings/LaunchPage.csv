@@ -14,11 +14,11 @@ Card5,Description,Calculate the memory allocated to Java based on the remaining 
 Card5,Header,Automatically set Java runtime memory,自动设置 Java 运行时内存,自動設定 Java 運行時內存,Автоматически устанавливать память для Java Runtime,Автоматично встановлювати пам'ять для Java Runtime
 Card6,Description,The game will run at versions\${version} directory,游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,Игра будет запускаться в каталоге versions\${version}.,Гра запускатиметься в каталозі versions\${version}.
 Card6,Header,Core Independent,版本隔离,版本隔離,Независимость ядра,Незалежність ядра
-Card7,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически переходить в полноэкранный режим после входа в игру,Автоматично переходити в повноекранний режим після входу в гру
+Card7,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически переходить в полноэкранный режим после входа в игру,Автоматично переходити в повноекранний режим після входу в майнкрафт
 Card7,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим,Повноекранний режим
 Card8,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры,Розмір відображуваного вікна гри
 Card8,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры,Роздільна здатність вікна гри
-Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в гру
+Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в майнкрафт
 Card9,Header,Server Address,服务器地址,伺服器位址,Адрес сервера,Адреса сервера
 Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры,Назва вікна гри
 Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт,Папка Майнкрафт

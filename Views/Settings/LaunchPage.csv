@@ -7,7 +7,7 @@ Card1,Header,Import .minecraft Data Folder,导入 .minecraft 数据文件夹,導
 Card2,Description,The imported Javas will be displayed in the list above,导入的 Java 将显示在上面的列表中,導入的 Java 將顯示在上面的列表中,Импортированные версии Java будут отображаться в списке выше.,Імпортовані версії Java відображатимуться у списку вище.
 Card2,Header,Import Java Runtime,导入 Java 运行时,導入 Java 運行時,Импортировать Java Runtime,Імпортувати Java Runtime
 Card3,Description,Select the appropriate version of Java from the list to launch game according to the Minecraft version,根据 Minecraft 版本从列表中选择适当的 Java 版本来启动游戏,根據 Minecraft 版本從清單中選擇適當的 Java 版本來啟動遊戲,"Выберите подходящую версию Java из списка, чтобы запустить игру в соответствии с версией Minecraft.","Виберіть відповідну версію Java зі списку, щоб запустити гру відповідно до версії Minecraft."
-Card3,Header,Automatically Select Java Runtime,自动选择 Java 运行时,自動選擇 Java 運行時,Автоматический выбор Java Runtime
+Card3,Header,Automatically Select Java Runtime,自动选择 Java 运行时,自動選擇 Java 運行時,Автоматический выбор Java Runtime,Автоматичний вибір Java Runtime
 Card4,Description,The maximum running memory of the Java virtual machine,Java 虚拟机的最大运行内存,Java 虛擬機器的最大運行內存,Максимальная рабочая память виртуальной машины Java  ,Максимальна робоча пам'ять віртуальної машини Java  
 Card4,Header,Java Runtime Memory,Java 运行时内存,Java 運行時記憶體,Память Java Runtime,Пам'ять Java Runtime
 Card5,Description,Calculate the memory allocated to Java based on the remaining physical memory on the system,根据系统剩余物理内存计算分配给 Java 的内存,根據系統剩餘物理記憶體計算分配給 Java 的內存,"Рассчитывать память, выделенную для Java, на основе оставшейся физической памяти в системе.","Розраховувати пам'ять, виділену для Java, на основі фізичної пам'яті, що залишилася в системі."

@@ -3,11 +3,11 @@ T1,Text,Launch Settings,启动设置,啟動設置,Настройки запус�
 T2,Text,Account Settings,账户设置,賬戶設置,Настройки аккаунта,Налаштування акаунта
 T3,Text,JVM Settings,Java 虚拟机设置,Java 虛擬機設置,Настройки JVM,Налаштування JVM
 Card1,Description,"Only if you enable this item, the following settings will take effect",只有你启用了这一项，下面的设置才会生效,只有你啟用了這一項，下面的設置才會生效,"Следующие параметры будут иметь эффект только при включении данной опции","Наступні параметри матимуть ефект тільки в разі ввімкнення цієї опції"
-Card1,Header,Enable specific core settings,启用特定核心设置,啟用特定核心設置,Включить особые настройки ядра
+Card1,Header,Enable specific core settings,启用特定核心设置,啟用特定核心設置,Включить особые настройки ядра,Увімкнути особливі налаштування ядра
 Card2,Description,"The game will run at versions\${version} directory",游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,"Игра будет запускаться в каталоге versions\${version}","Гра запускатиметься в каталозі versions\${version}"
-Card2,Header,Core Independent,版本隔离,版本隔離,Независимость ядра
+Card2,Header,Core Independent,版本隔离,版本隔離,Независимость ядра,Незалежність ядра
 Card3,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически перейти в полноэкранный режим после входа в игру,Автоматично перейти в повноекранний режим після входу в майнкрафт
-Card3,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим
+Card3,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим,Повноекранний режим
 Card4,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры,Розмір відображуваного вікна гри
 Card4,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры,Роздільна здатність вікна гри
 Card5,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в майнкрафт

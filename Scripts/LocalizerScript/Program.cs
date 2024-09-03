@@ -10,6 +10,7 @@ internal class Program
         "zh-Hans",
         "zh-Hant",
         "ru-RU"
+        "uk-UA"
     };
 
     private static DirectoryInfo OutputsFolder;

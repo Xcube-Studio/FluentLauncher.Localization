@@ -1,19 +1,19 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Launch Settings,启动设置,啟動設置,Настройки запуска
-T2,Text,Account Settings,账户设置,賬戶設置,Настройки аккаунта
-T3,Text,JVM Settings,Java 虚拟机设置,Java 虛擬機設置,Настройки JVM
-Card1,Description,"Only if you enable this item, the following settings will take effect",只有你启用了这一项，下面的设置才会生效,只有你啟用了這一項，下面的設置才會生效,"Следующие параметры будут иметь эффект только при включении данной опции"
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,Launch Settings,启动设置,啟動設置,Настройки запуска,Налаштування запуску
+T2,Text,Account Settings,账户设置,賬戶設置,Настройки аккаунта,Налаштування акаунта
+T3,Text,JVM Settings,Java 虚拟机设置,Java 虛擬機設置,Настройки JVM,Налаштування JVM
+Card1,Description,"Only if you enable this item, the following settings will take effect",只有你启用了这一项，下面的设置才会生效,只有你啟用了這一項，下面的設置才會生效,"Следующие параметры будут иметь эффект только при включении данной опции","Наступні параметри матимуть ефект тільки в разі ввімкнення цієї опції"
 Card1,Header,Enable specific core settings,启用特定核心设置,啟用特定核心設置,Включить особые настройки ядра
-Card2,Description,"The game will run at versions\${version} directory",游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,"Игра будет запускаться в каталоге versions\${version}"
+Card2,Description,"The game will run at versions\${version} directory",游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,"Игра будет запускаться в каталоге versions\${version}","Гра запускатиметься в каталозі versions\${version}"
 Card2,Header,Core Independent,版本隔离,版本隔離,Независимость ядра
-Card3,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически перейти в полноэкранный режим после входа в игру
+Card3,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически перейти в полноэкранный режим после входа в игру,Автоматично перейти в повноекранний режим після входу в гру
 Card3,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим
-Card4,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры
-Card4,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры
-Card5,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру
-Card5,Header,Server Address,服务器地址,伺服器位址,Адрес сервера
-Card6,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры
-Card7,Description,"If the selected account cannot be found in the account list after enabling it, an error will be reported",若启用后在账户列表中找不到选中的账户，则会报错,若啟用後在賬戶列表中找不到選中的賬戶，則會報錯,"Если не получится найти выбранный аккаунт, будет сообщено об ошибке"
-Card7,Header,Account used to launch this game,用于启动这个游戏的账户,用於啟動這個遊戲的賬戶,Использовать определённый аккаунт для запуска игры
-Card8,Description,These will be added to the generated launch parameters,会添加到生成的启动参数中,會添加到生成的啟動參數中,Добавляются к сгенерированным параметрам запуска
-Card8,Header,Additional JVM parameters,额外 Java 虚拟机参数设置,額外 Java 虛擬機參數設置,Дополнительные параметры JVM
+Card4,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры,Розмір відображуваного вікна гри
+Card4,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры,Роздільна здатність вікна гри
+Card5,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в гру
+Card5,Header,Server Address,服务器地址,伺服器位址,Адрес сервера,Адреса сервера
+Card6,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры,Назва вікна гри
+Card7,Description,"If the selected account cannot be found in the account list after enabling it, an error will be reported",若启用后在账户列表中找不到选中的账户，则会报错,若啟用後在賬戶列表中找不到選中的賬戶，則會報錯,"Если не получится найти выбранный аккаунт, будет сообщено об ошибке","Якщо не вийде знайти обраний акаунт, буде повідомлено про помилку"
+Card7,Header,Account used to launch this game,用于启动这个游戏的账户,用於啟動這個遊戲的賬戶,Использовать определённый аккаунт для запуска игры,Використовувати певний акаунт для запуску гри
+Card8,Description,These will be added to the generated launch parameters,会添加到生成的启动参数中,會添加到生成的啟動參數中,Добавляются к сгенерированным параметрам запуска,Додаються до згенерованих параметрів запуску
+Card8,Header,Additional JVM parameters,额外 Java 虚拟机参数设置,額外 Java 虛擬機參數設置,Дополнительные параметры JVM,Додаткові параметри JVM

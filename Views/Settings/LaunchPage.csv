@@ -1,27 +1,27 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft
-T2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime
-T3,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска
-Card1,Description,The imported folders will be displayed in the list above,导入的文件夹将显示在上面的列表中,導入的資料夾將顯示在上面的列表中,Импортированные папки будут отображаться в списке выше.
-Card1,Header,Import .minecraft Data Folder,导入 .minecraft 数据文件夹,導入 .minecraft 資料夾,Импортировать папку данных .minecraft
-Card2,Description,The imported Javas will be displayed in the list above,导入的 Java 将显示在上面的列表中,導入的 Java 將顯示在上面的列表中,Импортированные версии Java будут отображаться в списке выше.
-Card2,Header,Import Java Runtime,导入 Java 运行时,導入 Java 運行時,Импортировать Java Runtime
-Card3,Description,Select the appropriate version of Java from the list to launch game according to the Minecraft version,根据 Minecraft 版本从列表中选择适当的 Java 版本来启动游戏,根據 Minecraft 版本從清單中選擇適當的 Java 版本來啟動遊戲,"Выберите подходящую версию Java из списка, чтобы запустить игру в соответствии с версией Minecraft."
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft,Папка .minecraft
+T2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime,Java Runtime
+T3,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска,Глобальні налаштування запуску
+Card1,Description,The imported folders will be displayed in the list above,导入的文件夹将显示在上面的列表中,導入的資料夾將顯示在上面的列表中,Импортированные папки будут отображаться в списке выше.,Імпортовані папки відображатимуться у списку вище.
+Card1,Header,Import .minecraft Data Folder,导入 .minecraft 数据文件夹,導入 .minecraft 資料夾,Импортировать папку данных .minecraft,Імпортувати папку даних .minecraft
+Card2,Description,The imported Javas will be displayed in the list above,导入的 Java 将显示在上面的列表中,導入的 Java 將顯示在上面的列表中,Импортированные версии Java будут отображаться в списке выше.,Імпортовані версії Java відображатимуться у списку вище.
+Card2,Header,Import Java Runtime,导入 Java 运行时,導入 Java 運行時,Импортировать Java Runtime,Імпортувати Java Runtime
+Card3,Description,Select the appropriate version of Java from the list to launch game according to the Minecraft version,根据 Minecraft 版本从列表中选择适当的 Java 版本来启动游戏,根據 Minecraft 版本從清單中選擇適當的 Java 版本來啟動遊戲,"Выберите подходящую версию Java из списка, чтобы запустить игру в соответствии с версией Minecraft.","Виберіть відповідну версію Java зі списку, щоб запустити гру відповідно до версії Minecraft."
 Card3,Header,Automatically Select Java Runtime,自动选择 Java 运行时,自動選擇 Java 運行時,Автоматический выбор Java Runtime
-Card4,Description,The maximum running memory of the Java virtual machine,Java 虚拟机的最大运行内存,Java 虛擬機器的最大運行內存,Максимальная рабочая память виртуальной машины Java
-Card4,Header,Java Runtime Memory,Java 运行时内存,Java 運行時記憶體,Память Java Runtime
-Card5,Description,Calculate the memory allocated to Java based on the remaining physical memory on the system,根据系统剩余物理内存计算分配给 Java 的内存,根據系統剩餘物理記憶體計算分配給 Java 的內存,"Рассчитывать память, выделенную для Java, на основе оставшейся физической памяти в системе."
-Card5,Header,Automatically set Java runtime memory,自动设置 Java 运行时内存,自動設定 Java 運行時內存,Автоматически устанавливать память для Java Runtime
-Card6,Description,The game will run at versions\${version} directory,游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,Игра будет запускаться в каталоге versions\${version}.
-Card6,Header,Core Independent,版本隔离,版本隔離,Независимость ядра
-Card7,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически переходить в полноэкранный режим после входа в игру
-Card7,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим
-Card8,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры
-Card8,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры
-Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру
-Card9,Header,Server Address,服务器地址,伺服器位址,Адрес сервера
-Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры
-Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт
-Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки
-Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime
-Text4,Text,Enabled,已启用,已啟用,Включено
+Card4,Description,The maximum running memory of the Java virtual machine,Java 虚拟机的最大运行内存,Java 虛擬機器的最大運行內存,Максимальная рабочая память виртуальной машины Java  ,Максимальна робоча пам'ять віртуальної машини Java  
+Card4,Header,Java Runtime Memory,Java 运行时内存,Java 運行時記憶體,Память Java Runtime,Пам'ять Java Runtime
+Card5,Description,Calculate the memory allocated to Java based on the remaining physical memory on the system,根据系统剩余物理内存计算分配给 Java 的内存,根據系統剩餘物理記憶體計算分配給 Java 的內存,"Рассчитывать память, выделенную для Java, на основе оставшейся физической памяти в системе.","Розраховувати пам'ять, виділену для Java, на основі фізичної пам'яті, що залишилася в системі."
+Card5,Header,Automatically set Java runtime memory,自动设置 Java 运行时内存,自動設定 Java 運行時內存,Автоматически устанавливать память для Java Runtime,Автоматично встановлювати пам'ять для Java Runtime
+Card6,Description,The game will run at versions\${version} directory,游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,Игра будет запускаться в каталоге versions\${version}.,Гра запускатиметься в каталозі versions\${version}.
+Card6,Header,Core Independent,版本隔离,版本隔離,Независимость ядра,Незалежність ядра
+Card7,Description,Automatic full screen mode after entering the game,进入游戏后自动全屏模式,進入遊戲後自動全螢幕模式,Автоматически переходить в полноэкранный режим после входа в игру,Автоматично переходити в повноекранний режим після входу в гру
+Card7,Header,Full Screen Mode,全屏模式,全螢幕模式,Полноэкранный режим,Повноекранний режим
+Card8,Description,The size of the game window being rendered,呈现的游戏窗口大小,呈現的遊戲視窗大小,Размер отображаемого окна игры,Розмір відображуваного вікна гри
+Card8,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,Разрешение окна игры,Роздільна здатність вікна гри
+Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в гру
+Card9,Header,Server Address,服务器地址,伺服器位址,Адрес сервера,Адреса сервера
+Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры,Назва вікна гри
+Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт,Папка Майнкрафт
+Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки,Немає папки
+Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime,Немає Java Runtime
+Text4,Text,Enabled,已启用,已啟用,Включено,Включено

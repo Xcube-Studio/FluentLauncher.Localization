@@ -1,6 +1,6 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Screenshots,截图,截圖,Скриншоты
-T2,Text,Description,描述,描述,Описание
-Text1,Text,Open in Browser,在浏览器中打开,在瀏覽器中開啟,Открыть в браузере
-Text2,Text,Download Count:,下载次数：,下載次數：,Количество загрузок:
-Text3,Text,Update Date:,更新日期：,更新日期：,Дата обновления:
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,Screenshots,截图,截圖,Скриншоты,Скріншоти
+T2,Text,Description,描述,描述,Описание,Опис
+Text1,Text,Open in Browser,在浏览器中打开,在瀏覽器中開啟,Открыть в браузере,Відкрити в браузері
+Text2,Text,Download Count:,下载次数：,下載次數：,Количество загрузок: ,Кількість завантажень:
+Text3,Text,Update Date:,更新日期：,更新日期：,Дата обновления: ,Дата оновлення:

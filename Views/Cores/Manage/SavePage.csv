@@ -1,4 +1,4 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Saves,存档,存檔,Сохранения
-Card1,Header,Saves Folder,存档文件夹,存檔資料夾,Папка сохранений
-Text1,Text,No Saves,没有存档,沒有存檔,Нет сохранений
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,Saves,存档,存檔,Сохранения,Збереження
+Card1,Header,Saves Folder,存档文件夹,存檔資料夾,Папка сохранений,Збереження
+Text1,Text,No Saves,没有存档,沒有存檔,Нет сохранений,Немає збережень

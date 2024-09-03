@@ -1,6 +1,6 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-NV_Item1,Content,Language,语言,語言,Язык
-NV_Item2,Content,Minecraft Folder,Minecraft 文件夹,Minecraft 文件夾,Папка Minecraft
-NV_Item3,Content,Java Runtime,Java 运行时,Java 運行時,Java Runtime
-NV_Item4,Content,Account,账户,賬戶,Аккаунт
-NV_Item5,Content,Get Started,开始使用,開始使用,Начало работы
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+NV_Item1,Content,Language,语言,語言,Язык,Мова
+NV_Item2,Content,Minecraft Folder,Minecraft 文件夹,Minecraft 文件夾,Папка Minecraft,Папка Minecraft
+NV_Item3,Content,Java Runtime,Java 运行时,Java 運行時,Java Runtime,Java Runtime
+NV_Item4,Content,Account,账户,賬戶,Аккаунт,Аккаунт
+NV_Item5,Content,Get Started,开始使用,開始使用,Начало работы,Початок роботи

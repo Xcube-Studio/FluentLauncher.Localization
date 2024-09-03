@@ -1,33 +1,33 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить аккаунт
-_AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия аккаунта истёк, необходимо повторить вход. Возможно не удаётся подключиться к серверу из-за проблем с сетью."
-_AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлён
-_AccountRefreshedDescription,,"Welcome back, ${name}",欢迎回来，${name},歡迎回來，${name},"С возвращением, ${name}"
-_AddOfficiaFolderExistedT,,Already added the official Minecraft Launcher data folder,已添加官方 Minecraft Launcher 数据文件夹,已添加官方 Minecraft Launcher 數據文件夾,Папка данных из оффициального лаунчера Minecraft уже добавлена.
-_AddOfficiaFolderExistedD,,${path} has already been added.,${path} 已添加。,${path} 已添加。,Путь ${path} добавлен.
-_AddOfficialFolderNotExistT,,Cannot add the official Minecraft Launcher data folder,无法添加官方 Minecraft Launcher 数据文件夹,無法添加官方 Minecraft Launcher 數據文件夾,Невозможно добавить папку данных из оффициального лаунчера Minecraft.
-_AddOfficialFolderNotExistD,,${path} does not exist.,${path} 不存在。,${path} 不存在。,Пути ${path} не существует.
-_AddOfficiaFolderAddedT,,Official Minecraft Launcher data folder added,添加了官方 Minecraft 启动器数据文件夹,添加了官方 Minecraft 啟動器數據文件夾,Папка данных из оффициального лаунчера Minecraft добавлена.
-_AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已添加到 Fluent Launcher。,${path} 已添加到 Fluent Launcher。,Путь ${path} добавлен в Fluent Launcher.
-_AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку
-_AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует
-_AddSearchedJavaT,,Added searched Java to the launcher,已将添加搜索到的 Java 添加到启动器,已將新增搜尋的 Java 新增至啟動器,Найденная Java добавлена в лаунчер
-_AddJavaExistedT,,Failed to add Java,添加 Java 失败,新增 Java 失敗,Не удалось добавить Java
-_AddJavaExistedD,,The Java already exists,该 Java 已存在,該 Java 已存在,Java уже существует
-AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,"
-_AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен
-_AccountExisted,,The account already exists and the data of the account has been replaced,该账户已存在，已替换该账户的数据,該帳戶已存在，並已替換該帳戶的數據,Учетная запись уже существует и данные учетной записи были заменены.
-_NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft
-NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейти в настройки
-_CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Это ядро не найдено в текущем источнике скачивания, проверьте свою сеть или выберите другой источник скачивания."
-_DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪除該核心,Ядро не может быть удалено
-_DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий файл ядра занят другим процессом. Завершите процесс и повторите попытку.
-_DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено
-_ExportLog,,Log file exported successfully,日志文件已成功导出,日志文件已成功导出,Файл журнала успешно экспортирован
-_LaunchGameThrowException,,Encountered an error during launching,启动过程中遇到错误,啟動過程中遇到錯誤,Произошла ошибка при запуске
-ExceptionCopyButton,Content,Copy Full Information,复制完整信息,複製完整訊息,Копировать полную информацию
-_LaunchGameThrowMicrosoftAuthenticationException,,"An exception occurred while refreshing the account, please log in to the yggdrasil account again to get the access token again.",刷新账户时发生异常，请重新登录该外置账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該外置帳戶，以重新取得存取令牌,"При обновлении учетной записи произошла исключительная ситуация. Пожалуйста, войдите в учетную запись yggdrasil еще раз, чтобы снова получить токен доступа."
-_LaunchGameThrowYggdrasilAuthenticationException,,"An exception occurred while refreshing the account, please log in to the Microsoft account again to get the access token again.",刷新账户时发生异常，请重新登录该微软账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該微軟帳戶，以重新取得存取權杖,"При обновлении учетной записи произошло исключение. Пожалуйста, войдите в учетную запись Microsoft еще раз, чтобы снова получить токен доступа."
-_SkinDisplayExceptionT,,Skin model loading failed,皮肤模型加载失败,皮膚模型載入失敗,Загрузка модели кожи не удалась
-_SkinDisplayExceptionD,,Failed to obtain skin file or model type. This may be due to account access token expiration. Please refresh the account to try to solve it.,获取皮肤文件或模型类型失败，这可能是由于账户访问令牌过期导致的，请刷新账户尝试解决,取得皮膚檔案或模型類型失敗，這可能是由於帳戶存取權杖過期導致的，請刷新帳戶嘗試解決,"Не удалось получить файл скина или тип модели. Это может быть связано с истечением срока действия токена доступа к учетной записи. Пожалуйста, обновите учетную запись, чтобы попытаться решить эту проблему."
-_SkinUploadException,,Failed to upload skin,上传皮肤失败,上傳皮膚失敗,Не удалось загрузить скин
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+_AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить аккаунт,Не вдалося оновити акаунт
+_AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия аккаунта истёк, необходимо повторить вход. Возможно не удаётся подключиться к серверу из-за проблем с сетью.","Термін дії акаунта закінчився, необхідно повторити вхід. Можливо не вдається підключитися до сервера через проблеми з мережею."
+_AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлён,Акаунт успішно оновлено
+_AccountRefreshedDescription,,"Welcome back, ${name}",欢迎回来，${name},歡迎回來，${name},"С возвращением, ${name}","З поверненням, ${name}"
+_AddOfficiaFolderExistedT,,Already added the official Minecraft Launcher data folder,已添加官方 Minecraft Launcher 数据文件夹,已添加官方 Minecraft Launcher 數據文件夾,Папка данных из оффициального лаунчера Minecraft уже добавлена.,Папка даних з офіційного лаунчера Minecraft вже додана.
+_AddOfficiaFolderExistedD,,${path} has already been added.,${path} 已添加。,${path} 已添加。,Путь ${path} добавлен.,Шлях ${path} додано.
+_AddOfficialFolderNotExistT,,Cannot add the official Minecraft Launcher data folder,无法添加官方 Minecraft Launcher 数据文件夹,無法添加官方 Minecraft Launcher 數據文件夾,Невозможно добавить папку данных из оффициального лаунчера Minecraft.,Неможливо додати папку даних з офіційного лаунчера Minecraft.
+_AddOfficialFolderNotExistD,,${path} does not exist.,${path} 不存在。,${path} 不存在。,Пути ${path} не существует.,Шляху ${path} не існує.
+_AddOfficiaFolderAddedT,,Official Minecraft Launcher data folder added,添加了官方 Minecraft 启动器数据文件夹,添加了官方 Minecraft 啟動器數據文件夾,Папка данных из оффициального лаунчера Minecraft добавлена.,Папка даних з офіційного лаунчера Minecraft додана.
+_AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已添加到 Fluent Launcher。,${path} 已添加到 Fluent Launcher。,Путь ${path} добавлен в Fluent Launcher.,Шлях ${path} додано до Fluent Launcher.
+_AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку,Не вдалося додати папку
+_AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует,Ця папка вже існує
+_AddSearchedJavaT,,Added searched Java to the launcher,已将添加搜索到的 Java 添加到启动器,已將新增搜尋的 Java 新增至啟動器,Найденная Java добавлена в лаунчер,Знайдену Java додано в лаунчер
+_AddJavaExistedT,,Failed to add Java,添加 Java 失败,新增 Java 失敗,Не удалось добавить Java,Не вдалося додати Java
+_AddJavaExistedD,,The Java already exists,该 Java 已存在,該 Java 已存在,Java уже существует,Java вже існує
+AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,","З поверненням,"
+_AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен,Успішно додано
+_AccountExisted,,The account already exists and the data of the account has been replaced,该账户已存在，已替换该账户的数据,該帳戶已存在，並已替換該帳戶的數據,Учетная запись уже существует и данные учетной записи были заменены.,Обліковий запис уже існує і дані облікового запису було замінено.
+_NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft,Немає папки даних Minecraft
+NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейти в настройки,Перейти в налаштування
+_CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Это ядро не найдено в текущем источнике скачивания, проверьте свою сеть или выберите другой источник скачивания.","Це ядро не знайдено в поточному джерелі завантаження, перевірте свою мережу або виберіть інше джерело завантаження."
+_DeleteGameFailedT,,The core cannot be deleted,无法删除该核心,無法刪除該核心,Ядро не может быть удалено,Ядро не можна видалити
+_DeleteGameFailedD,,The current core file is occupied by other processes. Please cancel the process and try again.,当前核心文件被其他进程占用，请解除进程后重试,目前核心檔案被其他進程佔用，請解除進程後重試,Текущий файл ядра занят другим процессом. Завершите процесс и повторите попытку.,Поточний файл ядра зайнятий іншим процесом. Завершіть процес і повторіть спробу.
+_DeleteGameTitle,,The core was successfully deleted,成功删除该核心,成功刪除該核心,Ядро успешно удалено,Ядро успішно видалено
+_ExportLog,,Log file exported successfully,日志文件已成功导出,日志文件已成功导出,Файл журнала успешно экспортирован,Файл журналу успішно експортовано
+_LaunchGameThrowException,,Encountered an error during launching,启动过程中遇到错误,啟動過程中遇到錯誤,Произошла ошибка при запуске,Сталася помилка під час запуску
+ExceptionCopyButton,Content,Copy Full Information,复制完整信息,複製完整訊息,Копировать полную информацию,Копіювати повну інформацію
+_LaunchGameThrowMicrosoftAuthenticationException,,"An exception occurred while refreshing the account, please log in to the yggdrasil account again to get the access token again.",刷新账户时发生异常，请重新登录该外置账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該外置帳戶，以重新取得存取令牌,"При обновлении учетной записи произошла исключительная ситуация. Пожалуйста, войдите в учетную запись yggdrasil еще раз, чтобы снова получить токен доступа.","Під час оновлення облікового запису сталася виняткова ситуація. Будь ласка, увійдіть в обліковий запис yggdrasil ще раз, щоб знову отримати токен доступу."
+_LaunchGameThrowYggdrasilAuthenticationException,,"An exception occurred while refreshing the account, please log in to the Microsoft account again to get the access token again.",刷新账户时发生异常，请重新登录该微软账户，以重新获取访问令牌,刷新帳戶時發生異常，請重新登入該微軟帳戶，以重新取得存取權杖,"При обновлении учетной записи произошло исключение. Пожалуйста, войдите в учетную запись Microsoft еще раз, чтобы снова получить токен доступа.","Під час оновлення облікового запису сталося виключення. Будь ласка, увійдіть в обліковий запис Microsoft ще раз, щоб знову отримати токен доступу."
+_SkinDisplayExceptionT,,Skin model loading failed,皮肤模型加载失败,皮膚模型載入失敗,Загрузка модели кожи не удалась,Завантаження моделі шкіри не вдалося
+_SkinDisplayExceptionD,,Failed to obtain skin file or model type. This may be due to account access token expiration. Please refresh the account to try to solve it.,获取皮肤文件或模型类型失败，这可能是由于账户访问令牌过期导致的，请刷新账户尝试解决,取得皮膚檔案或模型類型失敗，這可能是由於帳戶存取權杖過期導致的，請刷新帳戶嘗試解決,"Не удалось получить файл скина или тип модели. Это может быть связано с истечением срока действия токена доступа к учетной записи. Пожалуйста, обновите учетную запись, чтобы попытаться решить эту проблему.","Не вдалося отримати файл скіна або тип моделі. Це може бути пов'язано із закінченням терміну дії токена доступу до облікового запису. Будь ласка, оновіть обліковий запис, щоб спробувати вирішити цю проблему."
+_SkinUploadException,,Failed to upload skin,上传皮肤失败,上傳皮膚失敗,Не удалось загрузить скин,Не вдалося завантажити скін

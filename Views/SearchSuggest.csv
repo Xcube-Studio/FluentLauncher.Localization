@@ -1,8 +1,8 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_T1,,"Search Minecraft Version ""{searchText}""","搜索 Minecraft 版本 ""{searchText}""","搜尋 Minecraft 版本 ""{searchText}""","Поиск Minecraft Version ""{searchText}"""
-_T2,,"Search CurseForge Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 CurseForge 资源","搜尋名稱為 ""{searchText}"" 的 CurseForge 資源","Поиск CurseForge Resources с именем ""{searchText}"""
-_T3,,"Search Modrinth Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 Modrinth 资源","搜尋名稱為 ""{searchText}"" 的 Modrinth 資源","Поиск Modrinth Resources с именем ""{searchText}"""
-_D1,,Go to the download search page,转到下载搜索页面,前往下載搜尋頁面,Перейти на страницу поиска загрузок
-_D2,,Go to install the game,转到安装游戏,轉到安裝遊戲,Перейти к установке игры
-_D3,,Go to the core management page,转到核心管理页面,前往核心管理頁面,Перейти на страницу управления ядром
-_D4,,Launch the game,启动游戏,啟動遊戲,Запустить игру
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+_T1,,"Search Minecraft Version ""{searchText}""","搜索 Minecraft 版本 ""{searchText}""","搜尋 Minecraft 版本 ""{searchText}""","Поиск Minecraft Version ""{searchText}""","Пошук Minecraft Version ""{searchText}"""""
+_T2,,"Search CurseForge Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 CurseForge 资源","搜尋名稱為 ""{searchText}"" 的 CurseForge 資源","Поиск CurseForge Resources с именем ""{searchText}""","Пошук CurseForge Resources з іменем ""{searchText}"""""
+_T3,,"Search Modrinth Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 Modrinth 资源","搜尋名稱為 ""{searchText}"" 的 Modrinth 資源","Поиск Modrinth Resources с именем ""{searchText}""","Пошук Modrinth Resources з іменем ""{searchText}"""""
+_D1,,Go to the download search page,转到下载搜索页面,前往下載搜尋頁面,Перейти на страницу поиска загрузок,Перейти на сторінку пошуку завантажень
+_D2,,Go to install the game,转到安装游戏,轉到安裝遊戲,Перейти к установке игры,Перейти до встановлення гри
+_D3,,Go to the core management page,转到核心管理页面,前往核心管理頁面,Перейти на страницу управления ядром,Перейти на сторінку керування ядром
+_D4,,Launch the game,启动游戏,啟動遊戲,Запустить игру,Запустити гру

@@ -1,7 +1,7 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Text1,Text,Resource Type:,资源类型：,資源類型：,Тип ресурса:
-Text2,Text,Resource Source:,资源来源：,資源來源：,Источник ресурса:
-Text3,Text,Applicable Version:,适用版本：,適用版本：,Применимая версия:
-CheckBox,Content,Enable Version Filter,启用版本过滤器,啟用版本過濾器,Включить фильтр версий
-_Items1,,All;Minecraft;Modpack;Mod,全部;Minecraft;整合包;模组,全部;Minecraft;整合包;模組,Все;Minecraft;Модпак;Мод
-_Items2,,All;CurseForge;Modrinth,全部;CurseForge;Modrinth,全部;CurseForge;Modrinth,Все;CurseForge;Modrinth
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Text1,Text,Resource Type:,资源类型：,資源類型：,Тип ресурсов: ,Тип ресурсів:
+Text2,Text,Resource Source:,资源来源：,資源來源：,Источник ресурсов: ,Джерело ресурсів:
+Text3,Text,Applicable Version:,适用版本：,適用版本：,Применимая версия: ,Застосовна версія:
+CheckBox,Content,Enable Version Filter,启用版本过滤器,啟用版本過濾器,Включить фильтр версий,Увімкнути фільтр версій
+_Items1,,All;Minecraft;Modpack;Mod,全部;Minecraft;整合包;模组,全部;Minecraft;整合包;模組,все;Minecraft;Модпак;Мод,все;Minecraft;Модпак;Мод
+_Items2,,All;CurseForge;Modrinth,全部;CurseForge;Modrinth,全部;CurseForge;Modrinth,все;CurseForge;Modrinth,всі;CurseForge;Modrinth

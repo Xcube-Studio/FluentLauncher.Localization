@@ -1,4 +1,4 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-Page,Tag,Enter Offline Account Profile (2/3),输入离线帐户资料 (2/3),輸入離線帳戶資料 (2/3),Заполните данные пиратского аккаунта (2/3)
-TB1,PlaceholderText,Name:,名字：,名字：,Ник
-TB2,PlaceholderText,UUID: (Optional),UUID：（可选）,UUID：（可選）,UUID (Необязательно)
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Page,Tag,Enter Offline Account Profile (2/3),输入离线帐户资料 (2/3),輸入離線帳戶資料 (2/3),Заполните данные пиратского аккаунта (2/3),Заповніть дані піратського акаунта (2/3)
+TB1,PlaceholderText,Name:,名字：,名字：,Ник,Нік
+TB2,PlaceholderText,UUID: (Optional),UUID：（可选）,UUID：（可選）,UUID (Необязательно),UUID (Необов'язково)

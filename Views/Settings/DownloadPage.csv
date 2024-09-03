@@ -1,10 +1,10 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Download,下载,下載,Скачивание
-T2,Text,Cache,缓存,快取,Кэш
-Card1,Header,Current download source,当前下载源,當前下載源,Текущий источник скачивания
-Card2,Header,Maximum number of download threads,最大下载线程数,最大下載線程數,Максимальное количество потоков скачивания
-Card2,Description,Please optimize and adjust according to the actual network environment,请根据实际网络环境进行优化调整,請根據實際網絡環境進行優化調整,Оптимизируйте и настройте в соответствии с реальной сетевой средой
-Card3,Header,Enable fragmented download of large files,启用大文件分片下载,啟用大文件分片下載,Скачивать большие файлы частями
-Card3,Description,Can effectively speed up when encountering large files,遇到大文件时可以有效加速,遇到大文件時可以有效加速,Может эффективно ускорить загрузку при работе с файлами большого размера
-Card4,Header,Specific core configuration storage directory,特定核心配置存储目录,特定核心配置儲存目錄,Каталог хранения конкретных конфигураций ядра
-Card5,Header,"Launcher cache folder (including caches of images, texts, interfaces, etc.)",启动器缓存文件夹（包括图片、文字、界面等的缓存）,啟動器快取資料夾（包括圖片、文字、介面等的快取）,"Папка кэша лаунчера (включая кэш изображений, текстов, интерфейсов и т.д.)"
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,Download,下载,下載,Скачивание,Скачування
+T2,Text,Cache,缓存,快取,Кэш,Кеш
+Card1,Header,Current download source,当前下载源,當前下載源,Текущий источник скачивання,Поточне джерело скачування
+Card2,Header,Maximum number of download threads,最大下载线程数,最大下載線程數,Максимальное количество потоков скачивания,Максимальна кількість потоків скачування
+Card2,Description,Please optimize and adjust according to the actual network environment,请根据实际网络环境进行优化调整,請根據實際網絡環境進行優化調整,Оптимизируйте и настройте в соответствии с реальной сетевой средой,Оптимізуйте та налаштуйте відповідно до реального мережевого середовища
+Card3,Header,Enable fragmented download of large files,启用大文件分片下载,啟用大文件分片下載,Скачивать большие файлы частями,Завантажувати великі файли частинами
+Card3,Description,Can effectively speed up when encountering large files,遇到大文件时可以有效加速,遇到大文件時可以有效加速,Может эффективно ускорить загрузку при работе с файлами большого размера,Може ефективно прискорити завантаження під час роботи з файлами великого розміру
+Card4,Header,Specific core configuration storage directory,特定核心配置存储目录,特定核心配置儲存目錄,Каталог хранения конкретных конфигураций ядра,Каталог зберігання конкретних конфігурацій ядра
+Card5,Header,"Launcher cache folder (including caches of images, texts, interfaces, etc.)",启动器缓存文件夹（包括图片、文字、界面等的缓存）,啟動器快取資料夾（包括圖片、文字、介面等的快取）,"Папка кэша лаунчера (включая кэш изображений, текстов, интерфейсов и т.д.)","Папка кешу лаунчера (включно з кешем зображень, текстів, інтерфейсів тощо)"

@@ -1,8 +1,8 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-_Settings,,Settings,设置,設定,Настройки
-_Launch,,Launch,启动,發射,Запуск
-_Account,,Account,帐户,帳戶,Аккаунт
-_Download,,Download,下载,下載,Скачать
-_Appearance,,Appearance,外观,外貌,Внешний вид
-_About,,About,关于,關於,О лаунчере
-_Skin,,Skin,皮肤,皮膚,Скин
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+_Settings,,Settings,设置,設定,Настройки,Налаштування
+_Launch,,Launch,启动,發射,Запуск,Запуск
+_Account,,Account,帐户,帳戶,Аккаунт,Аккаунт
+_Download,,Download,下载,下載,Скачать,Завантажити
+_Appearance,,Appearance,外观,外貌,Внешний вид,Зовнішній вигляд
+_About,,About,关于,關於,О лаунчере,Про лаунчер
+_Skin,,Skin,皮肤,皮膚,Скин,Скін

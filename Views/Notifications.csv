@@ -31,3 +31,4 @@ _LaunchGameThrowYggdrasilAuthenticationException,,"An exception occurred while r
 _SkinDisplayExceptionT,,Skin model loading failed,皮肤模型加载失败,皮膚模型載入失敗,Загрузка модели кожи не удалась
 _SkinDisplayExceptionD,,Failed to obtain skin file or model type. This may be due to account access token expiration. Please refresh the account to try to solve it.,获取皮肤文件或模型类型失败，这可能是由于账户访问令牌过期导致的，请刷新账户尝试解决,取得皮膚檔案或模型類型失敗，這可能是由於帳戶存取權杖過期導致的，請刷新帳戶嘗試解決,"Не удалось получить файл скина или тип модели. Это может быть связано с истечением срока действия токена доступа к учетной записи. Пожалуйста, обновите учетную запись, чтобы попытаться решить эту проблему."
 _SkinUploadException,,Failed to upload skin,上传皮肤失败,上傳皮膚失敗,Не удалось загрузить скин
+_AddDownloadTask,,Added to download task,已添加到下载任务,新增到下載任務,Добавлено в задачу загрузки

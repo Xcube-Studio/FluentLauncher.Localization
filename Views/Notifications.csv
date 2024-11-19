@@ -12,6 +12,7 @@ _AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已�
 _AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку
 _AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует
 _AddSearchedJavaT,,Added searched Java to the launcher,已将添加搜索到的 Java 添加到启动器,已將新增搜尋的 Java 新增至啟動器,Найденная Java добавлена в лаунчер
+_AddSearchedJavaFailedT,,An error occurred while searching for the Java runtime,搜索 Java 运行时时出现错误,搜尋 Java 運行時出現錯誤,Произошла ошибка при поиске среды выполнения Java
 _AddJavaExistedT,,Failed to add Java,添加 Java 失败,新增 Java 失敗,Не удалось добавить Java
 _AddJavaExistedD,,The Java already exists,该 Java 已存在,該 Java 已存在,Java уже существует
 AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,"

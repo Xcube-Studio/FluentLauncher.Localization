@@ -1,7 +1,8 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
 T1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft
 T2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime
-T3,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска
+T3,Text,Global launch settings,全局启动设置,全局啟動設定,Глобальные настройки запуска
+T4,Text,Quick Launch Settings,快速启动设置,快速啟動設定,Настройки быстрого запуска
 Card1,Description,The imported folders will be displayed in the list above,导入的文件夹将显示在上面的列表中,導入的資料夾將顯示在上面的列表中,Импортированные папки будут отображаться в списке выше.
 Card1,Header,Import .minecraft Data Folder,导入 .minecraft 数据文件夹,導入 .minecraft 資料夾,Импортировать папку данных .minecraft
 Card2,Description,The imported Javas will be displayed in the list above,导入的 Java 将显示在上面的列表中,導入的 Java 將顯示在上面的列表中,Импортированные версии Java будут отображаться в списке выше.
@@ -21,6 +22,8 @@ Card8,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,
 Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру
 Card9,Header,Server Address,服务器地址,伺服器位址,Адрес сервера
 Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры
+Card11,Description,Maximum number of items in the Latest group to keep in the taskbar,任务栏中保留的最近组中项目的最大数量,工作列中保留的最近組中項目的最大數量,Максимальное количество элементов в группе «Последние» для сохранения на панели задач
+Card11,Header,Latest item maximum number,最近项的最大数量,最近項的最大數量,Максимальное количество последних элементов
 Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт
 Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки
 Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime

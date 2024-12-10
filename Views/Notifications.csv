@@ -18,6 +18,7 @@ _AddJavaExistedD,,The Java already exists,该 Java 已存在,該 Java 已存在,
 AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,"
 _AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен
 _AccountExisted,,The account already exists and the data of the account has been replaced,该账户已存在，已替换该账户的数据,該帳戶已存在，並已替換該帳戶的數據,Учетная запись уже существует и данные учетной записи были заменены.
+_AccountYggdrasilProfileConfirmationFailed,,The profile of this yggdrasil account could't be confirmed,无法确认此 Yggdrasil 帐户的个人资料,無法確認此 yggdrasil 帳戶的個人資料,Профиль этого аккаунта yggdrasil не может быть подтвержден
 _NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft
 NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейти в настройки
 _CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Это ядро не найдено в текущем источнике скачивания, проверьте свою сеть или выберите другой источник скачивания."

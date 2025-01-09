@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.0.x
+          dotnet-version: 8.0.x
       
       - name: Build LocalizerScript
         run: |
@@ -32,7 +32,7 @@ jobs:
           .\LocalizerScript.exe "${{github.workspace}}/Views" "${{github.workspace}}/Strings"
           
       - name: Upload .msixupload to artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: Strings
           path: "${{github.workspace}}/Strings"

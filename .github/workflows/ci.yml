@@ -1,4 +1,4 @@
-name: Check&Build
+name: CI
 
 on: 
   pull_request:
@@ -36,30 +36,6 @@ jobs:
         with:
           name: Strings
           path: "${{github.workspace}}/Strings"
-          
-  build:
-    runs-on: windows-latest
-    needs: check
-    if: ${{(inputs.is_build||github.EVENT_NAME=='push')&&!failure()}}
-    env:
-      Artifacts_Path: .artifacts
-    steps:
-      - name: Check Out
-        uses: actions/checkout@v3
-        
-      - name: Download Strings
-        uses: actions/download-artifact@v3
-        with:
-          name: Strings
-          path: "../${{env.Artifacts_Path}}"
-      
-      - name: Copy Strings 
-        run: Copy-Item -Path "../${{env.Artifacts_Path}}" -Destination "/" -Force
-        
-      - name: Create Commit
-        uses: EndBug/add-and-commit@v9
-        with:
-          pathspec_error_handling: exitAtEnd
       
     
         

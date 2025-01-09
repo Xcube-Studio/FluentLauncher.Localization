@@ -1,0 +1,44 @@
+name: CI
+
+on: 
+  pull_request:
+  push:
+  workflow_dispatch:
+    inputs: 
+      is_build:
+        description: 'Need to Build?'
+        required: true
+        type: boolean
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v3
+        
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+      
+      - name: Build LocalizerScript
+        run: |
+          cd .\Scripts
+          dotnet build
+      
+      - name: Run LocalizerScript
+        run: |
+          cd .\Scripts\bin\Debug\net8.0
+          .\LocalizerScript.exe "${{github.workspace}}/Views" "${{github.workspace}}/Strings"
+          
+      - name: Upload .msixupload to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Strings
+          path: "${{github.workspace}}/Strings"
+      
+    
+        
+      
+
+      

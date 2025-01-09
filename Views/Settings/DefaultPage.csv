@@ -1,4 +1,5 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+
+Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 Card1,Header,Launch Settings,启动设置,啟動設定,Настройки запуска,Налаштування запуску
 Card1,Description,"Set up your .minecraft folder, Java runtime, and global game settings",设置您的 .minecraft 文件夹、Java 运行时和全局游戏设置,設定您的 .minecraft 資料夾、Java 執行時間和全域遊戲設置,"Настройте папку .minecraft, среду выполнения Java и глобальные настройки игры.","Налаштуйте папку .minecraft, середовище виконання Java і глобальні налаштування гри."
 Card2,Header,Account &amp; Skin Settings,帐户和皮肤设置,帳戶和皮膚設置,Настройки аккаунта и скина,Налаштування акаунта та скіна

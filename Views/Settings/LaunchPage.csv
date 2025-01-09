@@ -1,4 +1,5 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+
+Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 T1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft,Папка .minecraft
 T2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime,Java Runtime
 T3,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска,Глобальні налаштування запуску
@@ -25,3 +26,4 @@ Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка �
 Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки,Немає папки
 Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime,Немає Java Runtime
 Text4,Text,Enabled,已启用,已啟用,Включено,Включено
+

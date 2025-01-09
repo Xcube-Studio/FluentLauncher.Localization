@@ -1,4 +1,4 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 T1,Text,Basic Configuration,基本配置,基本配置,Базовая конфигурация,Базова конфігурація
 T2,Text,Resource Management,资源管理,資源管理,Управление ресурсами,Управление ресурсами
 T3,Text,Storage stats,存储统计,儲存統計,Статистика хранения,Статистика зберігання
@@ -14,3 +14,4 @@ Card5,Header,Storage space usage,存储空间占用,儲存空間佔用,Испо�
 Text1,Text,Referenced,引用了,引用了,Ссылочные,Посилальні
 Text2,Text,Libraries;,库；,庫；,Библиотеки;,Бібліотеки;
 Text3,Text,Assets;,资产；,資產；,Активы;,Активи;
+

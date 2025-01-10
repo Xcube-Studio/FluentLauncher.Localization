@@ -1,4 +1,4 @@
-Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 _AccountRefreshFailedTitle,,Failed to refresh account,刷新帐户失败,刷新帳戶失敗,Не удалось обновить аккаунт,Не вдалося оновити акаунт
 _AccountRefreshFailedDescription,,The account has expired and you need to log in again or cannot connect to the server due to network problems,该账户已过期需重新登录或因网络问题导致无法连接服务器,該賬戶已過期需重新登錄或因網絡問題導致無法連接服務器,"Срок действия аккаунта истёк, необходимо повторить вход. Возможно не удаётся подключиться к серверу из-за проблем с сетью.","Термін дії акаунта закінчився, необхідно повторити вхід. Можливо не вдається підключитися до сервера через проблеми з мережею."
 _AccountRefreshedTitle,,Successfully refreshed Account,账户刷新成功,賬戶刷新成功,Аккаунт успешно обновлён,Акаунт успішно оновлено

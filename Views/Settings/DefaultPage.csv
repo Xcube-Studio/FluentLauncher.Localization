@@ -1,5 +1,4 @@
-
-Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 Card1,Header,Launch Settings,启动设置,啟動設定,Настройки запуска,Налаштування запуску
 Card1,Description,"Set up your .minecraft folder, Java runtime, and global game settings",设置您的 .minecraft 文件夹、Java 运行时和全局游戏设置,設定您的 .minecraft 資料夾、Java 執行時間和全域遊戲設置,"Настройте папку .minecraft, среду выполнения Java и глобальные настройки игры.","Налаштуйте папку .minecraft, середовище виконання Java і глобальні налаштування гри."
 Card2,Header,Account &amp; Skin Settings,帐户和皮肤设置,帳戶和皮膚設置,Настройки аккаунта и скина,Налаштування акаунта та скіна
@@ -9,6 +8,6 @@ Card3,Description,"Adjust download performance, set download sources, and manage
 Card4,Header,Appearance Settings,外观设置,外觀設定,Настройки внешнего вида,Налаштування зовнішнього вигляду
 Card4,Description,Set the application background and set the light/dark mode,设置应用程序背景并设置深浅模式,設定應用程式背景並設定深淺模式,Установите фон приложения и установите светлый/темный режим.,Встановіть тло додатка і встановіть світлий/темний режим.
 Card5,Header,Language Settings,语言设置,語言設定,Языковые настройки,Мовні налаштування
-Card6,Description,Xcube Studio ©2022-2024. All rights reserved.,Xcube Studio ©2022-2024。保留所有权利。,Xcube Studio ©2022-2024。保留所有權利。,Xcube Studio ©2022-2024. Все права защищены.,Xcube Studio ©2022-2024. Усі права захищені.
+Card6,Description,Xcube Studio ©2022-2025. All rights reserved.,Xcube Studio ©2022-2025. 所有权利保留,Xcube Studio ©2022-2025. 所有權利保留,Xcube Studio ©2022-2025. Все права защищены.,Xcube Studio ©2022-2025. Усі права захищені.
 T1,Text,Language,语言,語言,Язык,Мова
 T2,Text,About,关于,關於,О,О

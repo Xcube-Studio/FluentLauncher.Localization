@@ -1,4 +1,4 @@
-Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 Activate,Text,Activate,启用,啟用,Активировать,Активувати
 Browse,Text,Browse,浏览,瀏覽,Обзор,Огляд
 Remove,Text,Remove,移除,移除,Удалить,Видалити
@@ -16,4 +16,3 @@ Download,Text,Download,下载,下載,Скачать,Завантажити
 Confirm,Text,Confirm,确认,确认,Подтвердить,Підтвердити
 Detect,Text,Detect,探测,探測,Найти,Знайти
 Delete,Text,Delete,删除,刪除,Удалить,Видалити
-

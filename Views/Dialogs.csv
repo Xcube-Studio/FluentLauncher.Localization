@@ -1,27 +1,27 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-JavaMirrorsDialog,Title,Third-party Java Download Sources,第三方 Java 下载源,第三方 Java 下载源,Сторонний источник скачивания Java
-JavaMirrorsDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
-CopyrightLicenseDialog,Title,Copyright &amp; License Information,版权及开源协议信息,版权及开源协议信息,Информация об авторских правах и лицензиях
-CopyrightLicenseDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
-AddVmArgumentDialog_T,Text,Add a single JVM argument,添加单个 JVM 参数,添加单个 JVM 参数,Добавить аргумент JVM
-ExceptionDialog,Title,The program has encountered an error,应用程序未捕获的异常,应用程序未捕获的异常,Программа столкнулась с ошибкой
-ExceptionDialog,PrimaryButtonText,Copy and go to GitHub,复制并转到 GitHub,复制并转到 GitHub,Скопировать и перейти на GitHub
-ExceptionDialog,SecondaryButtonText,Close,关闭,关闭,Закрыть
-SwitchAccountDialog,Title,Switch Account,切换账户,切换账户,Сменить аккаунт
-SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить
-SwitchAccountDialog,SecondaryButtonText,Cancel,取消,取消,Отмена
-SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранный аккаунт
-AuthenticationWizardDialog_T,Text,Account Add Wizard: ,帐户添加向导：,帳戶添加嚮導：,Мастер добавления аккаунта: 
-DeleteGameDialog_T,Text,Delete Core,删除核心,刪除核心,Удалить ядро
-DeleteGameDialog_D1,Text,Are you sure you want to delete this core?,你确定要删除该核心吗？,你確定要刪除該核心嗎？,Точно удалить это ядро?
-DeleteGameDialog_D2,Text,will be lost forever! (Actually forever),将永远失去！ （真的很久）,將永遠失去！ （真的很久）,будет потеряно навсегда! (Правда навсегда)
-DeleteGameDialog_CheckBox,Content,Delete together with stored core settings,与存储的核心设置一起删除,與儲存的核心設定一起刪除,Удалить сохранённые настройки ядра
-UploadSkinDialog_T,Text,Upload New Skin File,上传新皮肤文件,上傳新皮膚文件,Загрузить новый файл скина
-UploadSkinDialog_Box,Header,Skin File Path,皮肤文件路径,皮膚檔案路徑,Путь к файлу скина
-UploadSkinDialog_CheckBox,Content,Use slim Minecraft character shape,使用纤细的 Minecraft 角色外形,使用纖細的 Minecraft 角色外形,Используйте тонкую форму персонажа Minecraft.
-DownloadResourceDialog_T,Text,Download:,下载：,下載：,Скачать:
-DownloadResourceDialog_Text1,Text,Version:,版本：,版本：,Версия:
-DownloadResourceDialog_Text2,Text,Mod Loader:,模组加载器：,模組載入器：,Загрузчик модов:
-DownloadResourceDialog_Text3,Text,Install this mod for the currently selected game,为当前选定的游戏安装此模组,為目前選定的遊戲安裝此模組,Установить этот мод для текущей выбранной игры
-DownloadResourceDialog_Text4,Text,Download to designated location,下载到指定位置,下載到指定位置,Загрузить в указанное место
-DownloadResourceDialog_Text5,Text,"This is a modpack, install it into the current .minecraft directory",这是一个整合包，将其安装到当前 .minecraft 目录中,這是一個整合包，將其安裝到目前 .minecraft 目錄中,"Это модпак, установите его в текущий каталог .minecraft"
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+JavaMirrorsDialog,Title,Third-party Java Download Sources,第三方 Java 下载源,第三方 Java 下载源,Сторонний источник скачивания Java,Стороннє джерело скачування Java
+JavaMirrorsDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить,Підтвердити
+CopyrightLicenseDialog,Title,Copyright &amp; License Information,版权及开源协议信息,版权及开源协议信息,Информация об авторских правах и лицензиях,Інформація про авторські права та ліцензії
+CopyrightLicenseDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить,Підтвердити
+AddVmArgumentDialog_T,Text,Add a single JVM argument,添加单个 JVM 参数,添加单个 JVM 参数,Добавить аргумент JVM,Додати аргумент JVM
+ExceptionDialog,Title,The program has encountered an error,应用程序未捕获的异常,应用程序未捕获的异常,Программа столкнулась с ошибкой,Програма зіткнулася з помилкою
+ExceptionDialog,PrimaryButtonText,Copy and go to GitHub,复制并转到 GitHub,复制并转到 GitHub,Скопировать и перейти на GitHub,Скопіювати та перейти на GitHub
+ExceptionDialog,SecondaryButtonText,Close,关闭,关闭,Закрыть,Закрити
+SwitchAccountDialog,Title,Switch Account,切换账户,切换账户,Сменить аккаунт,Змінити акаунт
+SwitchAccountDialog,PrimaryButtonText,Confirm,确认,确认,Подтвердить,Підтвердити
+SwitchAccountDialog,SecondaryButtonText,Cancel,取消,取消,Отмена,Скасування
+SwitchAccountDialog_B,Text,Remove Selected Account,删除选中的帐户,刪除選中的帳戶,Удалить выбранный аккаунт,Видалити обраний акаунт
+AuthenticationWizardDialog_T,Text,Account Add Wizard: ,帐户添加向导：,帳戶添加嚮導：,Мастер добавления аккаунта:,Майстер додавання акаунта:
+DeleteGameDialog_T,Text,Delete Core,删除核心,刪除核心,Удалить ядро,Видалити ядро
+DeleteGameDialog_D1,Text,Are you sure you want to delete this core?,你确定要删除该核心吗？,你確定要刪除該核心嗎？,Точно удалить это ядро?,Точно видалити це ядро?
+DeleteGameDialog_D2,Text,will be lost forever! (Actually forever),将永远失去！ （真的很久）,將永遠失去！ （真的很久）,будет потеряно навсегда! (Правда навсегда),буде втрачено назавжди! (Правда назавжди)
+DeleteGameDialog_CheckBox,Content,Delete together with stored core settings,与存储的核心设置一起删除,與儲存的核心設定一起刪除,Удалить сохранённые настройки ядра,Видалити збережені налаштування ядра
+UploadSkinDialog_T,Text,Upload New Skin File,上传新皮肤文件,上傳新皮膚文件,Загрузить новый файл скина,Завантажити новий файл скіна
+UploadSkinDialog_Box,Header,Skin File Path,皮肤文件路径,皮膚檔案路徑,Путь к файлу скина,Шлях до файлу скіна
+UploadSkinDialog_CheckBox,Content,Use slim Minecraft character shape,使用纤细的 Minecraft 角色外形,使用纖細的 Minecraft 角色外形,Используйте тонкую форму персонажа Minecraft.,Використовуйте тонку форму персонажа Minecraft.
+DownloadResourceDialog_T,Text,Download:,下载：,下載：,Скачать: ,Завантажити:
+DownloadResourceDialog_Text1,Text,Version:,版本：,版本：,Версия: ,Версія:
+DownloadResourceDialog_Text2,Text,Mod Loader:,模组加载器：,模組載入器：,Загрузчик модов: ,Завантажувач модів:
+DownloadResourceDialog_Text3,Text,Install this mod for the currently selected game,为当前选定的游戏安装此模组,為目前選定的遊戲安裝此模組,Установить этот мод для текущей выбранной игры,Встановити цей мод для поточної обраної гри
+DownloadResourceDialog_Text4,Text,Download to designated location,下载到指定位置,下載到指定位置,Загрузить в указанное место,Завантажити у вказане місце
+DownloadResourceDialog_Text5,Text,"This is a modpack, install it into the current .minecraft directory",这是一个整合包，将其安装到当前 .minecraft 目录中,這是一個整合包，將其安裝到目前 .minecraft 目錄中,"Это модпак, установите его в текущий каталог .minecraft","Це модпак, встановіть його в поточний каталог .minecraft"

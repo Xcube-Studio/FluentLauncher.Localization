@@ -1,37 +1,27 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU
-T1,Text,Theme,主题,主題,Тема
-T2,Text,Background,背景,背景,Фон
-T3,Text,Mask,遮罩,遮罩,Маска
-Card1,Description,Dark and light color themes,深色和浅色主题,深色和淺色主題,Тёмная и светлая темы
-Card1,Header,Display Theme,显示主题,顯示主題,Тема
-Card2,Description,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,Цвета темы для различных элементов управления. Применяются после перезапуска приложения
-Card2,Header,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения
-Card3,Description,Display theme color mask in the title bar and Gaussian blur mask in the navigation sidebar to enhance the clarity of some controls under special background images,在标题栏显示主题色遮罩，在导航侧边栏显示高斯模糊遮罩，以增强特殊背景图片下部分控件的清晰度,在標題列顯示主題色遮罩，在導覽側邊欄顯示高斯模糊遮罩，以增強特殊背景圖片下部分控制項的清晰度,Отображение маски цвета темы в строке заголовка и маски размытия по Гауссу в боковой панели навигации для повышения четкости некоторых элементов управления под специальными фоновыми изображениями
-Card3,Header,Use Background Mask,使用背景遮罩,使用背景遮罩,Использование фоновой маски
-Card4,Description,Display Gaussian blur background mask on some controls on the home page to enhance clarity,在主页部分控件上显示高斯模糊背景蒙版，以增强清晰度,在主頁部分控制項上顯示高斯模糊背景蒙版，以增強清晰度,Отображение маски размытия по Гауссу на некоторых элементах управления на домашней странице для повышения четкости
-Card4,Header,Use HomePage Controls Mask,使用主页控件遮罩,使用主頁控制遮罩,Использование маски элементов управления домашней страницы
-H1,Text,Mica Background,云母背景,云母背景,Слюдяный фон
-D1,Text,"Mica is an opaque, dynamic material that incorporates theme and desktop wallpaper to paint the background of long-lived windows such as apps and settings",云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,"Слюда — это непрозрачный динамический материал, который включает в себя тему и обои рабочего стола для рисования фона долгоживущих окон, таких как приложения и настройки."
-H2,Text,Acrylic Background,亚克力背景,亚克力背景,Акриловый фон
-D2,Text,Acrylic is a type of Brush that creates a translucent texture.,亚克力是一种可以创建半透明纹理的画笔。,亚克力是一种可以创建半透明纹理的画笔。,"Акрил — это разновидность кисти, которая создает полупрозрачную текстуру."
-H3,Text,Solid Color Background,纯色背景,纯色背景,Сплошной цвет фона
-D3,Text,Background composed of a single color,由单一颜色组成的背景,由单一颜色组成的背景,Фон состоит из одного цвета
-H4,Text,Image Background,图像背景,图像背景,Фоновое изображение
-D4,Text,Use an image as a background,使用图像作为背景,使用图像作为背景,Используйте изображение в качестве фона
-SubCard1,Description,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к цвету темы системы и предлагается в различных цветовых оттенках
-SubCard1,Header,Use the system accent color,使用系统主题色,使用系統主題色,Использовать цвет системы
-SubCard2,Description,All theme colors of varying shades will use this single color,所有不同深浅的主题颜色都将使用该单一颜色,所有不同深淺的主題顏色都將使用該單一顏色,Все цвета темы разных оттенков будут использовать этот один цвет
-SubCard2,Header,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы
-SubCard3,Header,Mica Visual Effect Kind,云母视觉效果种类,雲母視覺效果種類,Вид визуального эффекта слюды
-SubCard4,Header,Application background color,应用背景颜色,應用背景顏色,Цвет фона приложения
-SubCard5,Header,Image Path,背景图片路径,背景圖片路徑,Путь к изображению
-SubCard6,Header,Use image theme color,使用图片主题色,使用圖片主題色,Использовать цвет темы изображения
-_Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色,Системная;Светлая;Тёмная
-_Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Mica;Acrylic;Сплошной цвет;Изображение
-ColorSelectorButton,Content,Color Selector,颜色选择器,顏色選擇器,Выбрать цвет
-Text1,Text,Unsupported System Version,不支持的系统版本,不支援的系統版本,Неподдерживаемая версия системы
-Text2,Text,File doesn't exist,文件不存在,文件不存在,Файл не существует
-Text3,Text,Select a theme color from the currently selected image background,从当前选定的图片背景中选择主题色,從目前選定的圖片背景中選擇主題色,Выберите цвет темы из текущего выбранного фонового изображения
-Text4,Text,Must use valid image background,必须使用有效的图片背景,必須使用有效的圖像背景,Необходимо использовать допустимое фоновое изображение.
-InfoBar,Title,Instability Warning,不稳定警告,不穩定警告,Предупреждение о нестабильности
-InfoBar,Message,"Although the code has implemented dynamic switching of the application background, there are still some cases where the switching fails. We still recommend restarting the application after switching the background to ensure that there are no residual problems.",虽然代码已经实现了应用背景的动态切换，但还是存在切换失败的情况，我们还是建议切换背景后重启应用，以确保没有残留问题。,雖然程式碼已經實現了應用程式背景的動態切換，但還是有切換失敗的情況，我們還是建議切換背景後重新啟動應用，以確保沒有殘留問題。,"Хотя код реализовал динамическое переключение фона приложения, все еще есть некоторые случаи, когда переключение не удается. Мы по-прежнему рекомендуем перезапустить приложение после переключения фона, чтобы убедиться в отсутствии остаточных проблем."
+Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+T1,Text,Theme,主题,主題,Тема,Тема
+T2,Text,Background,背景,背景,Фон,Фон
+Card1,Description,"Dark and light color themes, effective after restarting the app",深色和浅色主题，重启应用后生效,深色和淺色主題，重啟應用後生效,Тёмная и светлая темы. Применяется после перезапуска приложения,Темна і світла теми. Застосовується після перезапуску програми
+Card1,Header,Display Theme,显示主题,顯示主題,Тема,Тема
+Card2,Description,"Theme colors for various controls, effective after restarting the app",各种控件的主题颜色，重启应用后生效,各種控制的主題顏色，重啟應用後生效,"Цвета темы для различных элементов управления. Применяются после перезапуска приложения","Кольори теми для різних елементів керування. Застосовуються після перезапуску програми"
+Card2,Header,Application Theme Color,应用主题颜色,應用主題顏色,Цвет темы приложения,Колір теми додатка
+H1,Text,Mica Background,云母背景,云母背景,Слюдяный фон,Слюдяне тло
+D1,Text,"Mica is an opaque, dynamic material that incorporates theme and desktop wallpaper to paint the background of long-lived windows such as apps and settings",云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,云母是一种不透明的动态材料，它结合了主题和桌面壁纸，用于绘制应用程序和设置等长期存在的窗口的背景,"Слюда — это непрозрачный динамический материал, который включает в себя тему и обои рабочего стола для рисования фона долгоживущих окон, таких как приложения и настройки.","Слюда - це непрозорий динамічний матеріал, який містить тему і шпалери робочого столу для малювання фону довготривалих вікон, таких як додатки та налаштування."
+H2,Text,Acrylic Background,亚克力背景,亚克力背景,Акриловый фон,Акрилове тло
+D2,Text,Acrylic is a type of Brush that creates a translucent texture.,亚克力是一种可以创建半透明纹理的画笔。,亚克力是一种可以创建半透明纹理的画笔。,"Акрил — это разновидность кисти, которая создает полупрозрачную текстуру.","Акрил - це різновид пензля, який створює напівпрозору текстуру."
+H3,Text,Solid Color Background,纯色背景,纯色背景,Сплошной цвет фона,Суцільний колір фону
+D3,Text,Background composed of a single color,由单一颜色组成的背景,由单一颜色组成的背景,Фон состоит из одного цвета,Фон складається з одного кольору
+H4,Text,Image Background,图像背景,图像背景,Фоновое изображение,Фонове зображення
+D4,Text,Use an image as a background,使用图像作为背景,使用图像作为背景,Используйте изображение в качестве фона,Використовуйте зображення як фон
+SubCard1,Description,Adaptable to the system and available in varying shades of color,适应系统主题色，且提供不同深浅的颜色,適應系統主題色，並提供不同深淺的顏色,Адаптируется к цвету темы системы и предлагается в различных цветовых оттенках,Адаптується до кольору теми системи та пропонується в різних колірних відтінках
+SubCard1,Header,Use the system accent color,使用系统主题色,使用系統主題色,Использовать цвет системы,Використовувати колір системи
+SubCard2,Description,All theme colors of varying shades will use this single color,所有不同深浅的主题颜色都将使用该单一颜色,所有不同深淺的主題顏色都將使用該單一顏色,все цвета темы разных оттенков будут использовать этот один цветУсі кольори теми різних відтінків використовуватимуть цей один колір,всі кольори теми різних відтінків використовуватимуть цей один колірВсі кольори теми різних відтінків використовуватимуть цей один колір
+SubCard2,Header,Customize theme color,自定义主题颜色,自訂主題顏色,Настроить цвет темы,Налаштувати колір теми
+SubCard3,Header,Mica Visual Effect Kind,云母视觉效果种类,雲母視覺效果種類,Вид визуального эффекта слюды,Вид візуального ефекту слюди
+SubCard4,Header,Application background color,应用背景颜色,應用背景顏色,Цвет фона приложения,Колір фону програми
+SubCard5,Header,Image Path,背景图片路径,背景圖片路徑,Путь к изображению,Шлях до зображення
+_Items1,,System;Light;Dark,跟随系统;亮色;暗色,跟隨系統;亮色;暗色,Системная;Светлая;Тёмная,Темна
+_Items2,,Mica;Acrylic;Solid;Image,云母;亚克力;纯色;图片,雲母;亞克力;純色;圖片,Mica;Acrylic;Сплошной цвет;Изображение,Зображення
+ColorSelectorButton,Content,Color Selector,颜色选择器,顏色選擇器,Выбрать цвет,Вибрати колір
+Text1,Text,Unsupported System Version,不支持的系统版本,不支援的系統版本,Неподдерживаемая версия системы,Непідтримувана версія системи
+Text2,Text,File doesn't exist,文件不存在,文件不存在,Файл не существует,Файл не існує

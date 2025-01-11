@@ -12,11 +12,13 @@ _AddOfficiaFolderAddedD,,${path} has been added to Fluent Launcher.,${path} 已�
 _AddFolderExistedT,,Failed to add the folder,添加文件夹失败,添加文件夾失敗,Не удалось добавить папку,Не вдалося додати папку
 _AddFolderExistedD,,This folder already exists,该文件夹已存在,該文件夾已存在,Эта папка уже существует,Ця папка вже існує
 _AddSearchedJavaT,,Added searched Java to the launcher,已将添加搜索到的 Java 添加到启动器,已將新增搜尋的 Java 新增至啟動器,Найденная Java добавлена в лаунчер,Знайдену Java додано в лаунчер
+_AddSearchedJavaFailedT,,An error occurred while searching for the Java runtime,搜索 Java 运行时时出现错误,搜尋 Java 運行時出現錯誤,Произошла ошибка при поиске среды выполнения Java,
 _AddJavaExistedT,,Failed to add Java,添加 Java 失败,新增 Java 失敗,Не удалось добавить Java,Не вдалося додати Java
 _AddJavaExistedD,,The Java already exists,该 Java 已存在,該 Java 已存在,Java уже существует,Java вже існує
 AccountAddWelcome,Text,"Welcome Back,",欢迎回来，,歡迎回來，,"С возвращением,","З поверненням,"
 _AccountAddSuccessful,,Added Successfully,添加成功,添加成功,Успешно добавлен,Успішно додано
 _AccountExisted,,The account already exists and the data of the account has been replaced,该账户已存在，已替换该账户的数据,該帳戶已存在，並已替換該帳戶的數據,Учетная запись уже существует и данные учетной записи были заменены.,Обліковий запис уже існує і дані облікового запису було замінено.
+_AccountYggdrasilProfileConfirmationFailed,,The profile of this yggdrasil account could't be confirmed,无法确认此 Yggdrasil 帐户的个人资料,無法確認此 yggdrasil 帳戶的個人資料,Профиль этого аккаунта yggdrasil не может быть подтвержден,
 _NoMinecraftFolder,,No Minecraft Data Folders,没有 Minecraft 数据文件夹,沒有 Minecraft 資料夾,Нет папки данных Minecraft,Немає папки даних Minecraft
 NavigateMinecraftFolder,Content,Go To Settings,转到设置,轉到設定,Перейти в настройки,Перейти в налаштування
 _CoreNotInSourceList,,"The core is not found in the current download source, please check the network or choose another download source",当前下载源中未找到该核心，请检查网络或选择其他下载源,在目前下載來源中找不到此核心，請檢查網路或選擇其他下載來源,"Это ядро не найдено в текущем источнике скачивания, проверьте свою сеть или выберите другой источник скачивания.","Це ядро не знайдено в поточному джерелі завантаження, перевірте свою мережу або виберіть інше джерело завантаження."
@@ -31,3 +33,4 @@ _LaunchGameThrowYggdrasilAuthenticationException,,"An exception occurred while r
 _SkinDisplayExceptionT,,Skin model loading failed,皮肤模型加载失败,皮膚模型載入失敗,Загрузка модели кожи не удалась,Завантаження моделі шкіри не вдалося
 _SkinDisplayExceptionD,,Failed to obtain skin file or model type. This may be due to account access token expiration. Please refresh the account to try to solve it.,获取皮肤文件或模型类型失败，这可能是由于账户访问令牌过期导致的，请刷新账户尝试解决,取得皮膚檔案或模型類型失敗，這可能是由於帳戶存取權杖過期導致的，請刷新帳戶嘗試解決,"Не удалось получить файл скина или тип модели. Это может быть связано с истечением срока действия токена доступа к учетной записи. Пожалуйста, обновите учетную запись, чтобы попытаться решить эту проблему.","Не вдалося отримати файл скіна або тип моделі. Це може бути пов'язано із закінченням терміну дії токена доступу до облікового запису. Будь ласка, оновіть обліковий запис, щоб спробувати вирішити цю проблему."
 _SkinUploadException,,Failed to upload skin,上传皮肤失败,上傳皮膚失敗,Не удалось загрузить скин,Не вдалося завантажити скін
+_AddDownloadTask,,Added to download task,已添加到下载任务,新增到下載任務,Добавлено в задачу загрузки,

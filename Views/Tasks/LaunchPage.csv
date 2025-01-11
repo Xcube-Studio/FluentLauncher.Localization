@@ -5,15 +5,14 @@ Text2,Text,No Task,无任务,無任務,Нет задач,Немає завдан
 Text3,Text,Go to HomePage and launch a Game,转到主页并启动游戏,前往主頁並啟動遊戲,Перейти на домашнюю страницу и запустить игру,Перейти на домашню сторінку і запустити гру
 _Items,,Within a day;Nearly three days;Last week;All time,一天之内;近三天;上周;所有时间,一天之內;近三天;上週;所有時間,В течение дня;Почти три дня;На прошлой неделе;Все время, протягом дня;Майже три дні;Минулого тижня;Весь час
 CheckBox,Content,Show historical launch records,显示历史启动记录,顯示歷史啟動記錄,Показать исторические записи запуска,Показати історичні записи запуску
-Item_T,Text,Launch Tasks,启动任务,啟動任務,Задачи запуска,Завдання запуску
-Item_TD,Text,State,状态,狀態,Состояние,Стан
-Item_H1,Text,Progress: ,进度：,進度：,Прогресс: ,Прогрес: 
-Item_H2,Text,Game launched successfully,游戏已成功启动,遊戲已成功啟動,Игра успешно запущена,Гру успішно запущено
-Item_H3,Text,Game process management,游戏进程管理,遊戲進程管理,Управление игровым процессом,Керування ігровим процесом
-Item_H4,Text,Crash analysis report,崩溃分析报告,崩潰分析報告,Отчёт об анализе сбоев,Звіт про аналіз збоїв
 Item_H5,Text,Reason:,原因：,原因：,Причина: ,Причина: 
 B1,Text,Open Log,显示日志,顯示日誌,Открыть лог,Відкрити лог
 B2,Text,Kill Process,终止进程,終止進程,Завершить процесс,Завершити процес
 B3,Text,Open Report,显示报告,顯示報告,Открыть отчёт,Відкрити звіт
 B4,Text,Show Details,显示详细信息,顯示詳細信息,Показать детали,Показати деталі
 B5,Text,Copy Launch Arguments,复制启动参数,复制启动参数,Копировать Аргументы Запуска,Копіювати Аргументи Запуску
+_TaskName_CheckNeeds,,Check the items required for launch,检查启动所需项目,檢查啟動所需項目,"Проверьте элементы, необходимые для запуска",
+_TaskName_Authenticate,,Refresh the account verification token,刷新账户验证令牌,刷新帳戶驗證令牌,Обновить токен подтверждения аккаунта,
+_TaskName_CompleteResources,,Check and complete the launch resources,检查补全游戏资源,檢查補全遊戲資源,Проверьте наличие полных ресурсов игры,
+_TaskName_BuildArguments,,Build the launch process parameters,构建启动进程参数,建構啟動進程參數,Создание параметров процесса запуска,
+_TaskName_LaunchProcess,,Start the Minecraft process,启动 Minecraft 进程,啟動 Minecraft 流程,Запустите процесс Майнкрафта,

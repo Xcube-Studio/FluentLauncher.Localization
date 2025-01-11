@@ -11,6 +11,8 @@ Card3,Header,Modules Management,模组管理,模組管理,Управление �
 Card4,Description,View and manage your game saves,查看、管理您的游戏存档,查看、管理您的遊戲存檔,Просмотр и управление сохранениями игры,Перегляд та керування збереженнями гри
 Card4,Header,Save Management,存档管理,存檔管理,Управление сохранениями,Керування збереженнями
 Card5,Header,Storage space usage,存储空间占用,儲存空間佔用,Использование дискового пространства,Використання дискового простору
+Card6,Description,Pin to the taskbar and quickly launch the game through the taskbar menu,固定到任务栏并通过任务栏菜单快速启动游戏,固定到工作列並透過工作列選單快速啟動遊戲,Закрепить на панели задач и быстро запускать игру через меню панели задач,
+Card6,Header,Pin to Quick Launch,固定到快速启动,固定到快速啟動,Закрепить на панели быстрого запуска,
 Text1,Text,Referenced,引用了,引用了,Ссылочные,Посилальні
 Text2,Text,Libraries;,库；,庫；,Библиотеки;,Бібліотеки;
 Text3,Text,Assets;,资产；,資產；,Активы;,Активи;

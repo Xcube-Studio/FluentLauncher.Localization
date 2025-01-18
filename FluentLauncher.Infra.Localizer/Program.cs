@@ -19,7 +19,7 @@ defaultLanguageOption.AddValidator(result =>
 {
     IEnumerable<string> languages = result.GetValueForOption(languagesOption)!;
     string defaultLanguage = result.GetValueForOption(defaultLanguageOption)!;
-    if (!languages.Contains(defaultLanguage))
+    if (defaultLanguage != "" && !languages.Contains(defaultLanguage))
         result.ErrorMessage = "Default language must be in the list of languages";
 });
 
@@ -129,8 +129,7 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
 // Parse a CSV file
 IEnumerable<StringResource> ParseCsv(FileInfo csvFile, string relativePath, IEnumerable<string> languages)
 {
-    using var csvFileStream = csvFile.OpenRead();
-    IEnumerable<StringResource> lines = CsvReader.ReadFromStream(csvFileStream)
+    IEnumerable<StringResource> lines = CsvReader.ReadFromText(File.ReadAllText(csvFile.FullName))
         .Select(line => ParseLine(line, relativePath, languages))
         .Where(x => x is not null)!;
     return lines;

@@ -11,7 +11,7 @@ using System.Text;
 List<string> Warnings = new();
 List<string> Errors = new();
 
-var srcOption = new Option<string>("--src", "The source folder containing the CSV files") { IsRequired = true };
+var srcOption = new Option<string>("--src", "The source folder containing the .csv files") { IsRequired = true };
 var outOption = new Option<string>("--out", "The output folder for .resw files") { IsRequired = true };
 var languagesOption = new Option<IEnumerable<string>>("--languages", "All languages for translation") { IsRequired = true, AllowMultipleArgumentsPerToken = true };
 var defaultLanguageOption = new Option<string>("--default-language", () => "", "Default language of the app");
@@ -23,7 +23,7 @@ defaultLanguageOption.AddValidator(result =>
         result.ErrorMessage = "Default language must be in the list of languages";
 });
 
-var rootCommand = new RootCommand("Convert CSV files to .resw files for UWP/WinUI localization");
+var rootCommand = new RootCommand("Convert .csv files to .resw files for UWP/WinUI localization");
 rootCommand.AddOption(srcOption);
 rootCommand.AddOption(outOption);
 rootCommand.AddOption(languagesOption);

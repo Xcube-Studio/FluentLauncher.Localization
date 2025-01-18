@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "LocalizerScript": {
+    "GenerateReswFiles": {
       "commandName": "Project",
-      "commandLineArgs": ".\\Views .\\",
-      "workingDirectory": "..\\..\\"
+      "commandLineArgs": "--src Views --out Strings --languages en-US zh-Hans zh-Hant ru-RU uk-UA",
+      "workingDirectory": ".."
     }
   }
 }

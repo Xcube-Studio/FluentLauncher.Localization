@@ -126,6 +126,7 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
         File.WriteAllText(outputFile.FullName, reswBuilder.ToString());
         Console.WriteLine($"[INFO] Generated translation for {lang}: {outputFile.FullName}");
     }
+    Console.WriteLine($"Successfully generated {strings.First().Value.Count} translations for {languages.Count()} languages.");
 }
 
 

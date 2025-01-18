@@ -58,12 +58,6 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
 
     }
 
-    // Print warnings (missing translations)
-    Console.ForegroundColor = ConsoleColor.Yellow;
-
-    foreach (var item in Warnings)
-        Console.WriteLine(item);
-
     // Print errors (invalid CSV files)
     Console.ForegroundColor = ConsoleColor.Red;
 
@@ -71,7 +65,16 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
         Console.WriteLine(item);
 
     if (Errors.Count > 0)
+    {
+        Console.WriteLine($"Failed to generate .resw files due to {Errors.Count} errors.");
         Environment.Exit(-1);
+    }
+
+    // Print warnings (missing translations)
+    Console.ForegroundColor = ConsoleColor.Yellow;
+
+    foreach (var item in Warnings)
+        Console.WriteLine(item);
 
     Console.ForegroundColor = ConsoleColor.Green;
 
@@ -121,7 +124,7 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
             : Path.Combine(outFolder.FullName, $"Resources.lang-{lang}.resw");
         var outputFile = new FileInfo(outputPath);
         File.WriteAllText(outputFile.FullName, reswBuilder.ToString());
-        Console.WriteLine($"[INFO] 已生成资源文件：{outputFile.FullName}");
+        Console.WriteLine($"[INFO] Generated translation for {lang}: {outputFile.FullName}");
     }
 }
 
@@ -129,7 +132,39 @@ void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> langua
 // Parse a CSV file
 IEnumerable<StringResource> ParseCsv(FileInfo csvFile, string relativePath, IEnumerable<string> languages)
 {
-    IEnumerable<StringResource> lines = CsvReader.ReadFromText(File.ReadAllText(csvFile.FullName))
+    var csvLines = CsvReader.ReadFromText(File.ReadAllText(csvFile.FullName));
+
+    // Check CSV headers
+    var line = csvLines.FirstOrDefault();
+    if (line is null) // Empty file
+        return [];
+
+    bool invalid = false;
+    if (!line.HasColumn("Id"))
+    {
+        Errors.Add($"[ERROR] {relativePath}: Missing column \"Id\"");
+        invalid = true;
+    }
+
+    if (!line.HasColumn("Property"))
+    {
+        Errors.Add($"[ERROR] {relativePath}: Missing column \"Property\"");
+        invalid = true;
+    }
+
+    foreach (string lang in languages)
+    {
+        if (!line.HasColumn(lang))
+        {
+            Errors.Add($"[ERROR] {relativePath}: Missing column for translation to {lang}");
+            invalid = true;
+        }
+    }
+
+    if (invalid) return [];
+
+    // Parse lines
+    IEnumerable<StringResource> lines = csvLines
         .Select(line => ParseLine(line, relativePath, languages))
         .Where(x => x is not null)!;
     return lines;
@@ -138,22 +173,16 @@ IEnumerable<StringResource> ParseCsv(FileInfo csvFile, string relativePath, IEnu
 // Parse a line in the CSV file
 StringResource? ParseLine(ICsvLine line, string relativePath, IEnumerable<string> languages)
 {
-    // Error checking for CSV file
-    if (!line.HasColumn("Id") || string.IsNullOrWhiteSpace(line["Id"]))
+    // Error checking
+    if (string.IsNullOrWhiteSpace(line["Id"]))
     {
-        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 不能为空");
-        return null;
-    }
-
-    if (!line.HasColumn("Property"))
-    {
-        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少Property列");
+        Errors.Add($"[ERROR] {relativePath}, Line {line.Index}: Id must not be empty");
         return null;
     }
 
     if (line["Id"].StartsWith('_') && !string.IsNullOrEmpty(line["Property"]))
     {
-        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 标记为后台代码，但 资源属性Id 又不为空");
+        Errors.Add($"[ERROR] {relativePath}, Line {line.Index}: Property must be empty for strings for code-behind");
         return null;
     }
 
@@ -162,15 +191,9 @@ StringResource? ParseLine(ICsvLine line, string relativePath, IEnumerable<string
 
     foreach (string lang in languages)
     {
-        if (!line.HasColumn(lang))
+        if (line[lang] == "") // Missing translation
         {
-            Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少语言 {lang}");
-            return null;
-        }
-
-        if (line[lang] == "")
-        {
-            Warnings.Add($"[WARN]：at {relativePath}, Line {line.Index} : 缺少 {lang} 的翻译");
+            Warnings.Add($"[WARNING] {relativePath}, Line {line.Index}: Missing translation to {lang}");
         }
 
         translations[lang] = line[lang];

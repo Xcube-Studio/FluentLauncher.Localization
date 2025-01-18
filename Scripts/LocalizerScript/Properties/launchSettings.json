@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "LocalizerScript": {
-      "commandName": "Project",
-      "commandLineArgs": ".\\Views .\\",
-      "workingDirectory": "..\\..\\"
-    }
-  }
-}

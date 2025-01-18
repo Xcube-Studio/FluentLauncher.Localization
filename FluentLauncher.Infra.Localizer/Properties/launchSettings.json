@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GenerateReswFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "--src Views --out Strings --languages en-US zh-Hans zh-Hant ru-RU uk-UA",
+      "workingDirectory": ".."
+    }
+  }
+}

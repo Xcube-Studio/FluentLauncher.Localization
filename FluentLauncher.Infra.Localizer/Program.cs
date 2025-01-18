@@ -1,75 +1,90 @@
 ﻿using Csv;
 using System;
 using System.Collections.Generic;
+using System.CommandLine;
+using System.CommandLine.Parsing;
 using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-// Input arguments
-DirectoryInfo srcFolder = new(args[0]);
-DirectoryInfo outFolder = new(args[1]);
+List<string> Warnings = new();
+List<string> Errors = new();
 
-List<string> languages = [
-    "en-US",
-    "zh-Hans",
-    "zh-Hant",
-    "ru-RU",
-    "uk-UA"
-];
-
-List<string> warnings = new();
-List<string> errors = new();
-
-// Init string resource table (key=language code, value=translated string resources)
-var strings = new Dictionary<string, Dictionary<string, string>>();
-foreach (string lang in languages)
+var srcOption = new Option<string>("--src", "The source folder containing the CSV files") { IsRequired = true };
+var outOption = new Option<string>("--out", "The output folder for .resw files") { IsRequired = true };
+var languagesOption = new Option<IEnumerable<string>>("--languages", "All languages for translation") { IsRequired = true, AllowMultipleArgumentsPerToken = true };
+var defaultLanguageOption = new Option<string>("--default-language", () => "", "Default language of the app");
+defaultLanguageOption.AddValidator(result =>
 {
-    strings[lang] = new();
-}
+    IEnumerable<string> languages = result.GetValueForOption(languagesOption)!;
+    string defaultLanguage = result.GetValueForOption(defaultLanguageOption)!;
+    if (!languages.Contains(defaultLanguage))
+        result.ErrorMessage = "Default language must be in the list of languages";
+});
 
-// Enumerate and parse all CSV files
-foreach (FileInfo file in srcFolder.EnumerateFiles("*.csv", SearchOption.AllDirectories))
+var rootCommand = new RootCommand("Convert CSV files to .resw files for UWP/WinUI localization");
+rootCommand.AddOption(srcOption);
+rootCommand.AddOption(outOption);
+rootCommand.AddOption(languagesOption);
+rootCommand.AddOption(defaultLanguageOption);
+rootCommand.SetHandler(ConvertCsvToResw, srcOption, outOption, languagesOption, defaultLanguageOption);
+rootCommand.Invoke(args);
+
+void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> languages, string defaultLanguage)
 {
-    string relativePath = Path.GetRelativePath(srcFolder.FullName, file.FullName);
-    foreach (var str in ParseCsv(file, relativePath))
+    DirectoryInfo srcFolder = new(srcPath);
+    DirectoryInfo outFolder = new(outPath);
+
+    // Init string resource table (key=language code, value=translated string resources)
+    var strings = new Dictionary<string, Dictionary<string, string>>();
+    foreach (string lang in languages)
     {
-        foreach (string lang in languages)
-        {
-            string resourceId = relativePath[0..^".csv".Length].Replace(Path.DirectorySeparatorChar, '_') + "_" + str.GetName();
-            strings[lang][resourceId] = str.Translations[lang];
-        }
+        strings[lang] = new();
     }
 
-}
+    // Enumerate and parse all CSV files
+    foreach (FileInfo file in srcFolder.EnumerateFiles("*.csv", SearchOption.AllDirectories))
+    {
+        string relativePath = Path.GetRelativePath(srcFolder.FullName, file.FullName);
+        foreach (var str in ParseCsv(file, relativePath, languages))
+        {
+            foreach (string lang in languages)
+            {
+                string resourceId = relativePath[0..^".csv".Length].Replace(Path.DirectorySeparatorChar, '_') + "_" + str.GetName();
+                strings[lang][resourceId] = str.Translations[lang];
+            }
+        }
 
-// Print warnings (missing translations)
-Console.ForegroundColor = ConsoleColor.Yellow;
+    }
 
-foreach (var item in warnings) 
-    Console.WriteLine(item);
+    // Print warnings (missing translations)
+    Console.ForegroundColor = ConsoleColor.Yellow;
 
-// Print errors (invalid CSV files)
-Console.ForegroundColor = ConsoleColor.Red;
+    foreach (var item in Warnings)
+        Console.WriteLine(item);
 
-foreach (var item in errors)
-    Console.WriteLine(item);
+    // Print errors (invalid CSV files)
+    Console.ForegroundColor = ConsoleColor.Red;
 
-if (errors.Count > 0)
-    Environment.Exit(-1);
+    foreach (var item in Errors)
+        Console.WriteLine(item);
 
-Console.ForegroundColor = ConsoleColor.Green;
+    if (Errors.Count > 0)
+        Environment.Exit(-1);
 
-// Generate .resw files
-if (!Directory.Exists(outFolder.FullName))
-    Directory.CreateDirectory(outFolder.FullName);
+    Console.ForegroundColor = ConsoleColor.Green;
 
-foreach (string lang in languages)
-{
-    // Build .resw file
-    var reswBuilder = new StringBuilder();
+    // Generate .resw files
+    if (!Directory.Exists(outFolder.FullName))
+        Directory.CreateDirectory(outFolder.FullName);
 
-    reswBuilder.AppendLine("""
+    foreach (string lang in languages)
+    {
+        // Build .resw file
+        var reswBuilder = new StringBuilder();
+
+        reswBuilder.AppendLine("""
         <?xml version="1.0" encoding="utf-8"?>
         <root>
             <resheader name="resmimetype">
@@ -86,55 +101,60 @@ foreach (string lang in languages)
             </resheader>
         """);
 
-    foreach ((string key, string translatedString) in strings[lang])
-    {
-        reswBuilder.AppendLine($"""
+        foreach ((string key, string translatedString) in strings[lang])
+        {
+            reswBuilder.AppendLine($"""
             <data name="{key}" xml:space="preserve">
                 <value>{translatedString}</value>
             </data>
         """);
-    }
+        }
 
-    reswBuilder.AppendLine("""
+        reswBuilder.AppendLine("""
         </root>
         """);
 
-    // Write to file
-    var outputFile = new FileInfo(Path.Combine(outFolder.FullName, $"Resources.lang-{lang}.resw"));
-    File.WriteAllText(outputFile.FullName, reswBuilder.ToString());
-    Console.WriteLine($"[INFO] 已生成资源文件：{outputFile.FullName}");
+        // Write to file
+
+        string outputPath = lang == defaultLanguage
+            ? Path.Combine(outFolder.FullName, $"Resources.resw")
+            : Path.Combine(outFolder.FullName, $"Resources.lang-{lang}.resw");
+        var outputFile = new FileInfo(outputPath);
+        File.WriteAllText(outputFile.FullName, reswBuilder.ToString());
+        Console.WriteLine($"[INFO] 已生成资源文件：{outputFile.FullName}");
+    }
 }
 
 
 // Parse a CSV file
-IEnumerable<StringResource> ParseCsv(FileInfo csvFile, string relativePath)
+IEnumerable<StringResource> ParseCsv(FileInfo csvFile, string relativePath, IEnumerable<string> languages)
 {
     using var csvFileStream = csvFile.OpenRead();
     IEnumerable<StringResource> lines = CsvReader.ReadFromStream(csvFileStream)
-        .Select(line => ParseLine(line, relativePath))
+        .Select(line => ParseLine(line, relativePath, languages))
         .Where(x => x is not null)!;
     return lines;
 }
 
 // Parse a line in the CSV file
-StringResource? ParseLine(ICsvLine line, string relativePath)
+StringResource? ParseLine(ICsvLine line, string relativePath, IEnumerable<string> languages)
 {
     // Error checking for CSV file
     if (!line.HasColumn("Id") || string.IsNullOrWhiteSpace(line["Id"]))
     {
-        errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 不能为空");
+        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 不能为空");
         return null;
     }
 
     if (!line.HasColumn("Property"))
     {
-        errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少Property列");
+        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少Property列");
         return null;
     }
 
     if (line["Id"].StartsWith('_') && !string.IsNullOrEmpty(line["Property"]))
     {
-        errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 标记为后台代码，但 资源属性Id 又不为空");
+        Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 资源Id 标记为后台代码，但 资源属性Id 又不为空");
         return null;
     }
 
@@ -145,13 +165,13 @@ StringResource? ParseLine(ICsvLine line, string relativePath)
     {
         if (!line.HasColumn(lang))
         {
-            errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少语言 {lang}");
+            Errors.Add($"[ERROR]：at {relativePath}, Line {line.Index} : 缺少语言 {lang}");
             return null;
         }
 
         if (line[lang] == "")
         {
-            warnings.Add($"[WARN]：at {relativePath}, Line {line.Index} : 缺少 {lang} 的翻译");
+            Warnings.Add($"[WARN]：at {relativePath}, Line {line.Index} : 缺少 {lang} 的翻译");
         }
 
         translations[lang] = line[lang];

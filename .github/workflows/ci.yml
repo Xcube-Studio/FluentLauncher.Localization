@@ -24,7 +24,7 @@ jobs:
           dotnet-version: 8.0.x
       
       - name: Build Localizer
-        run: dotnet build --project FluentLauncher.Infra.Localizer
+        run: dotnet build FluentLauncher.Infra.Localizer
       
       - name: Run Localizer
         run: dotnet run --project FluentLauncher.Infra.Localizer -- --src "Views" --out "Strings" --languages en-US zh-Hans zh-Hant ru-RU uk-UA

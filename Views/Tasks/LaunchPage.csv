@@ -11,8 +11,8 @@ B2,Text,Kill Process,终止进程,終止進程,Завершить процесс
 B3,Text,Open Report,显示报告,顯示報告,Открыть отчёт,Відкрити звіт
 B4,Text,Show Details,显示详细信息,顯示詳細信息,Показать детали,Показати деталі
 B5,Text,Copy Launch Arguments,复制启动参数,复制启动参数,Копировать Аргументы Запуска,Копіювати Аргументи Запуску
-_TaskName_CheckNeeds,,Check the items required for launch,检查启动所需项目,檢查啟動所需項目,"Проверьте элементы, необходимые для запуска",
-_TaskName_Authenticate,,Refresh the account verification token,刷新账户验证令牌,刷新帳戶驗證令牌,Обновить токен подтверждения аккаунта,
-_TaskName_CompleteResources,,Check and complete the launch resources,检查补全游戏资源,檢查補全遊戲資源,Проверьте наличие полных ресурсов игры,
-_TaskName_BuildArguments,,Build the launch process parameters,构建启动进程参数,建構啟動進程參數,Создание параметров процесса запуска,
-_TaskName_LaunchProcess,,Start the Minecraft process,启动 Minecraft 进程,啟動 Minecraft 流程,Запустите процесс Майнкрафта,
+_TaskName_CheckNeeds,,Check the items required for launch,检查启动所需项目,檢查啟動所需項目,"Проверьте элементы, необходимые для запуска","Перевірте елементи, необхідні для запуску"
+_TaskName_Authenticate,,Refresh the account verification token,刷新账户验证令牌,刷新帳戶驗證令牌,Обновить токен подтверждения аккаунта,Оновіть маркер підтвердження облікового запису
+_TaskName_CompleteResources,,Check and complete the launch resources,检查补全游戏资源,檢查補全遊戲資源,Проверьте наличие полных ресурсов игры,Перевірте та заповніть ресурси запуску
+_TaskName_BuildArguments,,Build the launch process parameters,构建启动进程参数,建構啟動進程參數,Создание параметров процесса запуска,Побудуйте параметри процесу запуску
+_TaskName_LaunchProcess,,Start the Minecraft process,启动 Minecraft 进程,啟動 Minecraft 流程,Запустите процесс Майнкрафта,Запустіть процес Minecraft

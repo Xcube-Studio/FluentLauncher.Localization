@@ -2,7 +2,7 @@
 T1,Text,.minecraft Folder,.minecraft 文件夹,.minecraft 文件夾,Папка .minecraft,Папка .minecraft
 T2,Text,Java Runtime,Java 运行时,Java 運行時,Java Runtime,Java Runtime
 T3,Text,Global launch settings,全局启动设置,全局啟動設置,Глобальные настройки запуска,Глобальні налаштування запуску
-T4,Text,Quick Launch Settings,快速启动设置,快速啟動設定,Настройки быстрого запуска,
+T4,Text,Quick Launch Settings,快速启动设置,快速啟動設定,Настройки быстрого запуска,Параметри швидкого запуску
 Card1,Description,The imported folders will be displayed in the list above,导入的文件夹将显示在上面的列表中,導入的資料夾將顯示在上面的列表中,Импортированные папки будут отображаться в списке выше.,Імпортовані папки відображатимуться у списку вище.
 Card1,Header,Import .minecraft Data Folder,导入 .minecraft 数据文件夹,導入 .minecraft 資料夾,Импортировать папку данных .minecraft,Імпортувати папку даних .minecraft
 Card2,Description,The imported Javas will be displayed in the list above,导入的 Java 将显示在上面的列表中,導入的 Java 將顯示在上面的列表中,Импортированные версии Java будут отображаться в списке выше.,Імпортовані версії Java відображатимуться у списку вище.
@@ -22,12 +22,12 @@ Card8,Header,Game Window Resolution,游戏窗口分辨率,遊戲視窗分辨率,
 Card9,Description,The server address to connect after entering the game,进入游戏后要连接的服务器地址,進入遊戲後要連接的伺服器位址,Адрес сервера для подключения после входа в игру,Адреса сервера для підключення після входу в майнкрафт
 Card9,Header,Server Address,服务器地址,伺服器位址,Адрес сервера,Адреса сервера
 Card10,Header,Game Window Title,游戏窗口标题,遊戲視窗標題,Название окна игры,Назва вікна гри
-Card11,Description,Maximum number of items in the Latest group to keep in the taskbar,任务栏中保留的最近组中项目的最大数量,工作列中保留的最近組中項目的最大數量,Максимальное количество элементов в группе «Последние» для сохранения на панели задач,
-Card11,Header,Latest item maximum number,最近项的最大数量,最近項的最大數量,Максимальное количество последних элементов,
-Card12,Description,"File verification methods will affect the launch time. Verifying the file Sha1 is more accurate, but much slower than verifying the file size.",文件验证方式会影响启动时间。验证文件 Sha1 更准确，但比验证文件大小慢得多。,文件驗證方式會影響啟動時間。驗證文件 Sha1 更準確，但比驗證文件大小慢得多。,,
-Card12,Header,Preferred Game File Verification Method,首选游戏文件验证方式,首選遊戲文件驗證方式,,
+Card11,Description,Maximum number of items in the Latest group to keep in the taskbar,任务栏中保留的最近组中项目的最大数量,工作列中保留的最近組中項目的最大數量,Максимальное количество элементов в группе «Последние» для сохранения на панели задач,"Максимальна кількість елементів у групі «Останні», які залишаються на панелі завдань"
+Card11,Header,Latest item maximum number,最近项的最大数量,最近項的最大數量,Максимальное количество последних элементов,Максимальна кількість останнього елемента
+Card12,Description,"File verification methods will affect the launch time. Verifying the file Sha1 is more accurate, but much slower than verifying the file size.",文件验证方式会影响启动时间。验证文件 Sha1 更准确，但比验证文件大小慢得多。,文件驗證方式會影響啟動時間。驗證文件 Sha1 更準確，但比驗證文件大小慢得多。,"Методы проверки файлов повлияют на время запуска. Проверка файла Sha1 точнее, но гораздо медленнее, чем проверка размера файла.","Методи перевірки файлів впливатимуть на час запуску. Перевірка файлу Sha1 точніша, але набагато повільніша, ніж перевірка розміру файлу."
+Card12,Header,Preferred Game File Verification Method,首选游戏文件验证方式,首選遊戲文件驗證方式,Предпочтительный метод проверки игрового файла,Бажаний спосіб перевірки файлу гри
 Text1,Text,Minecraft Folder,Minecraft 文件夹,Minecraft 資料夾,Папка Майнкрафт,Папка Майнкрафт
 Text2,Text,No Folder,没有文件夹,沒有資料夾,Нет папки,Немає папки
 Text3,Text,No Java Runtime,没有 Java 运行时,沒有 Java 運行時,Нет Java Runtime,Немає Java Runtime
 Text4,Text,Enabled,已启用,已啟用,Включено,Включено
-_Items1,,Sha1;File Size,校验文件 Sha1;校验文件大小,校驗檔 Sha1;校驗檔大小,,
+_Items1,,Sha1;File Size,校验文件 Sha1;校验文件大小,校驗檔 Sha1;校驗檔大小,Sha1;Размер файла,Sha1;Розмір файлу

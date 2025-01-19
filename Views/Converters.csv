@@ -9,12 +9,12 @@ _Old Beta,,Old Beta,远古版 β,遠古版 β,Устаревшая Beta,Заст
 _Old Alpha,,Old Alpha,远古版 α,遠古版 α,Устаревшая Alpha,Застаріла Alpha
 _Unknown,,Unknown,未知版本,未知版本,Неизвестная,Невідома
 _Inherited From,,Inherited From,继承自,繼承自,Наследованно от,Успадковано від
-_TaskState_Prepared,,Prepared,已准备,已準備,Подготовлено,
-_TaskState_Running,,Running,正在运行,正在運行,Выполняется,
-_TaskState_Finished,,Finished,已完成,已完成,Завершено,
-_TaskState_Failed,,Failed,失败,失敗,Не удалось,
-_TaskState_Canceling,,Canceling,正在取消,正在取消,Отмена,
-_TaskState_Cancelled,,Cancelled,已取消,已取消,Отменено,
+_TaskState_Prepared,,Prepared,已准备,已準備,Подготовлено,Підготовлений
+_TaskState_Running,,Running,正在运行,正在運行,Выполняется,Біг
+_TaskState_Finished,,Finished,已完成,已完成,Завершено,Готово
+_TaskState_Failed,,Failed,失败,失敗,Не удалось,Не вдалося
+_TaskState_Canceling,,Canceling,正在取消,正在取消,Отмена,Скасування
+_TaskState_Cancelled,,Cancelled,已取消,已取消,Отменено,Скасовано
 _SaveGameType_0,,Survival,生存模式,生存模式,Выживание,Виживання
 _SaveGameType_1,,Creative,创造模式,創造模式,Творческий,Творчий
 _SaveGameType_2,,Adventure,冒险模式,冒險模式,Приключение,Пригода

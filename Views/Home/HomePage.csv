@@ -2,3 +2,5 @@
 LaunchButton,Text,Launch Minecraft,启动 Minecraft,啟動 Minecraft,Запустить Minecraft,Запустити Minecraft
 _NoCore,,Core Not Selected,未选择核心,未選擇核心,Ядро не выбрано,Ядро не вибрано
 Hyperlink,Text,Manage cores,管理核心,管理核心,Управление ядрами,Керування ядрами
+AddAccountTB,Text,Add an account,添加账户,,,
+ManageAccountsTB,Text,Manage accounts,管理账户,,,

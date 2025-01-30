@@ -3,6 +3,9 @@ _Account,,Account,账户,賬戶,аккаунт,акаунт
 _Microsoft,,Microsoft,微软,微軟,Microsoft,Microsoft
 _Offline,,Offline,离线,離線,Пиратский,Піратський
 _Yggdrasil,,Yggdrasil,外置,外置,Yggdrasil,Yggdrasil
+_Microsoft_Description,,Genuine accounts can play on online servers,正版账号才能游玩在线服务器,正版賬號才能遊玩在線服務器,На подлинных аккаунтах можно играть по сети,На справжніх акаунтах можна грати по мережі
+_Offline_Description,,Can only be played locally and offline,只能在本地离线游玩,只能在本地離線遊玩,Можно играть только локально и в автономном режиме,Можна грати тільки локально і в автономному режимі
+_Yggdrasil_Description,,Can enter the third-party Yggdrasil verification server,可以进入第三方 Yggdrasil 验证服务器,可以進入第三方 Yggdrasil 驗證服務器,Доступ к сторонним серверам аутентификации Yggdrasil,Доступ до сторонніх серверів аутентифікації Yggdrasil
 _Release,,Release,正式版,正式版,Release,Реліз
 _Snapshot,,Snapshot,快照版,快照版,Snapshot,Snapshot
 _Old Beta,,Old Beta,远古版 β,遠古版 β,Устаревшая Beta,Застаріла Beta
@@ -22,3 +25,7 @@ _SaveGameType_3,,Spectator,旁观者模式,旁觀者模式,Зритель,Гля
 _SaveCommands,,Commands,命令,命令,Команды,Команди
 _SaveVersion,,Version: ${version},版本：${version},版本：${version},Версия: ${version},Версія: ${version}
 _SaveSeed,,Seed: ${seed},种子：${seed},種子：${seed},Семя: ${seed},Насіння: ${seed}
+_MicrosoftAuthMethod_BuiltInBrowser_Title,,Authenticate using the built-in browser,使用内置浏览器进行身份验证,使用內置瀏覽器進行身份驗證,Аутентификация с помощью встроенного браузера,Аутентифікація за допомогою вбудованого браузера
+_MicrosoftAuthMethod_DeviceFlowCode_Title,,Authenticate with device flow code,使用设备代码流进行身份验证,使用設備代碼流進行身份驗證,Аутентификация с помощью кода устройства,Аутентифікація за допомогою коду пристрою
+_MicrosoftAuthMethod_BuiltInBrowser_Description,,The built-in browser can be slow on poor connections,如果网络状况不佳，内置浏览器可能会更慢,如果網絡狀況不佳，內置瀏覽器可能會更慢,Встроенный браузер может работать медленно при плохом соединении,Вбудований браузер може працювати повільно при поганому з'єднанні
+_MicrosoftAuthMethod_DeviceFlowCode_Description,,Need to enter verification code on external browser,需要在外部浏览器输入验证码,需要在外部瀏覽器輸入驗證碼,Необходимо ввести код подтверждения во внешнем браузере,Необхідно ввести код підтвердження в зовнішньому браузері

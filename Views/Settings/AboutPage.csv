@@ -15,6 +15,6 @@ Card5,Description,Thanks for all the services provided to this app,感谢所有�
 SubCard1,Header,Update,更新,更新,Обновить,Оновити
 SubCard2,Header,The Developers of this Application,本应用的开发者,本應用的開發者,Разработчики лаунчера,Розробники лаунчера
 SubCard3,Description,Provide Download Source,提供下载源,提供下載源,Укажите источник загрузки,Вкажіть джерело завантаження
-_DevChannel,,Dev Release,开发版,,,
-_PreviewChannel,,Preview Release,预览版,,,
-_StableChannel,,Release,稳定版,,,
+_DevChannel,,Dev Release,开发版,開發版,Dev Release,Dev Release
+_PreviewChannel,,Preview Release,预览版,預覽版,Preview Release,Preview Release
+_StableChannel,,Release,稳定版,穩定版,Release,Release

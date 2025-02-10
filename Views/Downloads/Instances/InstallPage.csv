@@ -1,4 +1,12 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Card1,Description,"The id of the versions\{version} directory, the id cannot be repeated",versions\{version} 目录的 Id，此 Id 不能重复,versions\{version} 目錄的 Id，此 Id 不能重複,"Идентификатор каталога versions\{version}, идентификатор не может повторяться","Ідентифікатор каталогу versions\{version}, ідентифікатор не можна повторювати"
+Card1,Header,Instance Id,实例 Id,實例 Id,Идентификатор экземпляра,Ідентифікатор екземпляра
+Card2,Description,The game will run at versions\${version} directory,游戏将在 versions\${version} 目录下运行,遊戲將在 versions\${version} 目錄下運行,Игра будет запущена в каталоге versions\${version},Гра працюватиме в каталозі versions\${version}
+Card2,Header,Instance Independent,版本独立,實例獨立,Независимый от экземпляра,Незалежний примірник
+T1,Text,Loaders,加载器,載入器,Загрузчики,Вантажники
+T2,Text,Pre-Install Mods,预装模组,預裝模組,Предварительно установленные моды,Моди перед встановленням
+Text1,Text,Id not available,Id 不可用,Id 不可用,Идентификатор недоступен,Ідентифікатор недоступний
+Button,Content,Install Now,立即安装,立即安裝,Установить сейчас,Встановіть зараз
 _NeoForge,,"Mod loader, a branch of Forge",模组加载器，为 Forge 的分支加载器,模組載入器，為 Forge 的分支載入器,"Mod loader, ответвление Forge","Завантажувач модів, філія Forge"
 _Forge,,"Mod loader, used to load Forge mods",模组加载器，用于加载 Forge 模组,模組載入器，用於載入 Forge 模組,"Mod loader, используется для загрузки модов Forge","Завантажувач модів, який використовується для завантаження модів Forge"
 _Fabric,,"Mod loader, used to load Fabric mods",模组加载器，用于加载 Fabric 模组,模組載入器，用於載入 Fabric 模組,"Mod loader, используется для загрузки модов Fabric","Завантажувач модів, який використовується для завантаження модів Fabric"

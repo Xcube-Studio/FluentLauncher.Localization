@@ -14,4 +14,5 @@ _OptiFine,,"HD fix, installed as a mod when installed with other loaders",高清
 _Quilt,,"Mod loader, a branch of Fabric",模组加载器，为 Fabric 的分支加载器,模組載入器，為 Fabric 的分支載入器,"Mod loader, ответвление Fabric","Завантажувач модів, філія Fabric"
 _Loading,,Loading,加载中,載入中,Загрузка,Завантаження
 _NotSupported,,Not support this loader,该版本不支持该加载器,該版本不支援該載入器,Не поддерживает этот загрузчик,Не підтримує цей завантажувач
+_ModNotSupported,,Not support this mod,该版本不支持该模组,該版本不支援該模组,Не поддерживает этот мод,Не підтримує цей мод
 _Conflicted,,Conflict Existed,存在冲突,存在衝突,Конфликт существует,Конфлікт існував

@@ -1,7 +1,7 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 Title,Text,Core Management,核心管理,核心管理,Управление ядром,Керування ядром
-Text1,Text,Filter: ,过滤条件：,過濾條件：,Фильтр: ,Фільтр:
-Text2,Text,Sort by: ,排序方式：,排序方式：,Сортировать по: ,Сортувати за: 
+Text1,Text,Filter,过滤条件,過濾條件,Фильтр,Фільтр
+Text2,Text,Sort by,排序方式,排序方式,Сортировать по,Сортувати за
 Text3,Text,No Core,没有核心,没有核心,Нет ядра,Немає ядра
 Text4,Text,Go To Settings,转到设置,转到设置,Перейти в настройки,Перейти в налаштування
 _Items1,,All;Release;Snapshot;Old,全部;正式版;快照版;远古版,全部;正式版;快照版;遠古版,все;Release;Snapshot;Устаревшие,всі;Release;Snapshot;Застарілі

@@ -1,6 +1,6 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 T1,Text,Latest,最新,最新,Последний,Останній
 T2,Text,All,全部,全部,Все,Всі
-T3,Text,Release Type:,发布类型：,發布類型：,Тип выпуска:,Тип випуску:
+T3,Text,Release Type,发布类型,發布類型,Тип выпуска,Тип випуску
 T4,Text,No results found,无搜索结果,無搜尋結果,Результатов не найдено,Результатів не знайдено
 _Items,,Release;Snapshot;Old Beta;Old Alpha,正式版;快照版;远古版 β;远古版 α,正式版;快照版;遠古版 β;遠古版 α,Release;Snapshot;Устаревшая Beta;Устаревшая Alpha,Реліз;Snapshot;Застаріла Beta;Застаріла Alpha

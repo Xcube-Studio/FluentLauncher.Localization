@@ -1,0 +1,10 @@
+﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Text1,Text,Version,版本,版本,Версия,Версія
+Text2,Text,Mod Loader,模组加载器,模組載入器,Загрузчик модов,Завантажувач модів
+TipText1,Text,,翻译文本来自 MCIM,翻譯內文來自 MCIM,,
+TipText2,Text,Data From,数据来自,數據來自,Данные из,Дані з
+H1,Text,Files,文件,文件,Файлов,Файли
+H2,Text,Description,描述,描述,Описание,опис
+H3,Text,ScreenShots,屏幕截图,螢幕截圖,Снимки экрана,Скріншоти
+FlyoutText,Text,You should select an item from the &quot;File&quot; list below and click Download,"你应该从下方 ""文件"" 列表中选择一项再点击下载","你應該從下方 ""檔案"" 清單中選擇一項再點擊下載",Вы должны выбрать элемент из списка «Файл» ниже и нажать «Загрузить»,Ви повинні вибрати елемент із &quot;Файл&quot; списку нижче та натисніть Завантажити
+HyperlinkButton,Content,Web Page,网页,網頁,Веб-страница,Веб-сторінка

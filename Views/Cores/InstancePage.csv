@@ -3,7 +3,7 @@ T1,Text,Basic Configuration,基本配置,基本配置,Базовая конфи�
 T2,Text,Resource Management,资源管理,資源管理,Управление ресурсами,Управление ресурсами
 T3,Text,Storage stats,存储统计,儲存統計,Статистика хранения,Статистика зберігання
 Card1,Description,"Only as a display name, the actual Id will not be modified",仅作为显示名称，不会修改实际Id,僅作為顯示名稱 不會修改實際Id,"Только в качестве отображаемого названия, не затрагивает ID","Тільки в якості відображуваної назви, не зачіпає ID"
-Card1,Header,Core Nickname:,核心的昵称:,核心的暱稱:,Название ядра: , Назва ядра: 
+Card1,Header,Instance Nickname,实例昵称,實例暱稱,Имя экземпляра,Псевдонім екземпляра
 Card2,Description,"Set additional JVM parameters, game accounts, core independence, etc.",设置额外的 JVM 参数、指定游戏帐户、设置版本独立等。,設定額外的 JVM 參數、指定遊戲帳戶、設定版本獨立等。,"Установите дополнительные параметры JVM, игровые учетные записи, независимость ядра и т.д.","Встановіть додаткові параметри JVM, ігрові облікові записи, незалежність ядра тощо"
 Card2,Header,Game launch settings,游戏启动设置,遊戲啟動設定,Настройки запуска игры,Налаштування запуску гри
 Card3,Description,"Import, enable/disable, delete modules",导入、启用/禁用、删除模组,匯入、啟用/停用、刪除模組,"Импорт, включение/отключение, удаление модулей","Імпорт, увімкнення/вимкнення, видалення модулів"

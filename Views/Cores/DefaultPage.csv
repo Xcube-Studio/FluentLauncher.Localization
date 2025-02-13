@@ -1,11 +1,10 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
-Title,Text,Core Management,核心管理,核心管理,Управление ядром,Керування ядром
 Text1,Text,Filter,过滤条件,過濾條件,Фильтр,Фільтр
 Text2,Text,Sort by,排序方式,排序方式,Сортировать по,Сортувати за
-Text3,Text,No Core,没有核心,没有核心,Нет ядра,Немає ядра
+Text3,Text,No Instances,没有实例,沒有實例,Нет экземпляров,Немає випадків
 Text4,Text,Go To Settings,转到设置,转到设置,Перейти в настройки,Перейти в налаштування
 _Items1,,All;Release;Snapshot;Old,全部;正式版;快照版;远古版,全部;正式版;快照版;遠古版,все;Release;Snapshot;Устаревшие,всі;Release;Snapshot;Застарілі
 _Items2,,Name;Launch Date,名称;启动日期,名稱;啟動日期,Названию;Дате запуска,Дата запуску
 _FolderError,,The Minecraft data folder is not set or the set folder does not exist,未设置 Minecraft 数据文件夹或设置的文件夹不存在,未設定 Minecraft 資料資料夾或設定的資料夾不存在,Папка данных Minecraft не установлена ​​или установленная папка не существует.,Папка даних Minecraft не встановлена або встановлена папка не існує.
-InstallButton,Text,Install core,安装核心,安裝核心,Установить ядро,Встановити ядро
+InstallText,Text,Install Instances,安装实例,安裝實例,Установить экземпляры,Встановити екземпляри
 ImportButton,Text,Import Modpack,导入整合包,導入模組包,Импортировать модпак,Імпортувати модпак

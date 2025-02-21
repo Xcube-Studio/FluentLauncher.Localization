@@ -1,68 +1,68 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
-_all,,All,全部,全部,All,All
-_adventure,,Adventure,冒险,冒險,Adventure,Adventure
-_cursed,,Cursed,诅咒,詛咒,Cursed,Cursed
-_decoration,,Decoration,装饰,裝飾,Decoration,Decoration
-_economy,,Economy,经济,經濟,Economy,Economy
-_equipment,,Equipment,装备,裝備,Equipment,Equipment
-_food,,Food,食物,食物,Food,Food
-_game_mechanics,,Game-Mechanics,游戏机制,遊戲機制,Game-Mechanics,Game-Mechanics
-_library,,Library,支持库,支援庫,Library,Library
-_magic,,Magic,魔法,魔法,Magic,Magic
-_management,,Management,管理,管理,Management,Management
-_minigame,,Minigame,迷你游戏,迷你遊戲,Minigame,Minigame
-_mobs,,Mobs,怪物,怪物,Mobs,Mobs
-_optimization,,Optimization,优化,最佳化,Optimization,Optimization
-_social,,Social,社交,社群,Social,Social
-_storage,,Storage,存储,儲存,Storage,Storage
-_technology,,Technology,技术,科技,Technology,Technology
-_transportation,,Transportation,交通,交通,Transportation,Transportation
-_utility,,Utility,实用工具,實用工具,Utility,Utility
-_worldgen,,Worldgen,世界生成,世界生成,Worldgen,Worldgen
-_All,,All,全部,全部,All,All
-_Map_and_Information,,Map and Information,地图和信息,地圖和資訊,Map and Information,Map and Information
-_Armor_Tools_and_Weapons,,"Armor, Tools, and Weapons",盔甲、工具和武器,盔甲、工具和武器,"Armor, Tools, and Weapons","Armor, Tools, and Weapons"
-_API_and_Library,,API and Library,API 和库,API 和函式庫,API and Library,API and Library
-_Adventure_and_RPG,,Adventure and RPG,冒险和 RPG,冒險和 RPG,Adventure and RPG,Adventure and RPG
-_Processing,,Processing,加工,加工,Processing,Processing
-_Utility__QoL,,Utility &amp; QoL,工具和 QoL,工具和 QoL,Utility &amp; QoL,Utility &amp; QoL
-_Education,,Education,教育,教育,Education,Education
-_Miscellaneous,,Miscellaneous,杂项,雜項,Miscellaneous,Miscellaneous
-_Server_Utility,,Server Utility,服务端工具,服務端工具,Server Utility,Server Utility
-_Technology,,Technology,技术,科技,Technology,Technology
-_World_Gen,,World Gen,世界生成,世界生成,World Gen,World Gen
-_Storage,,Storage,存储,儲存,Storage,Storage
-_Structures,,Structures,结构,結構,Structures,Structures
-_Addons,,Addons,附加组件,附加元件,Addons,Addons
+_all,,All,全部,全部,Все,All
+_adventure,,Adventure,冒险,冒險,Приключение,Adventure
+_cursed,,Cursed,诅咒,詛咒,Странные,Cursed
+_decoration,,Decoration,装饰,裝飾,Украшение,Decoration
+_economy,,Economy,经济,經濟,Экономика,Economy
+_equipment,,Equipment,装备,裝備,Снаряжение,Equipment
+_food,,Food,食物,食物,Еда,Food
+_game_mechanics,,Game-Mechanics,游戏机制,遊戲機制,Игровые Механики,Game-Mechanics
+_library,,Library,支持库,支援庫,Библиотеки,Library
+_magic,,Magic,魔法,魔法,Магия,Magic
+_management,,Management,管理,管理,Управление,Management
+_minigame,,Minigame,迷你游戏,迷你遊戲,Мини-игры,Minigame
+_mobs,,Mobs,怪物,怪物,Мобы,Mobs
+_optimization,,Optimization,优化,最佳化,Оптимизация,Optimization
+_social,,Social,社交,社群,Общение,Social
+_storage,,Storage,存储,儲存,Хранение,Storage
+_technology,,Technology,技术,科技,Технологии,Technology
+_transportation,,Transportation,交通,交通,Перемещение,Transportation
+_utility,,Utility,实用工具,實用工具,Утилиты,Utility
+_worldgen,,Worldgen,世界生成,世界生成,Генерация Мира,Worldgen
+_All,,All,全部,全部,Все,All
+_Map_and_Information,,Map and Information,地图和信息,地圖和資訊,Карта и информация,Map and Information
+_Armor_Tools_and_Weapons,,"Armor, Tools, and Weapons",盔甲、工具和武器,盔甲、工具和武器,"Доспехи, Инструменты, и Оружие","Armor, Tools, and Weapons"
+_API_and_Library,,API and Library,API 和库,API 和函式庫,API и Библиотеки,API and Library
+_Adventure_and_RPG,,Adventure and RPG,冒险和 RPG,冒險和 RPG,Приключение и RPG,Adventure and RPG
+_Processing,,Processing,加工,加工,Обработка,Processing
+_Utility__QoL,,Utility &amp; QoL,工具和 QoL,工具和 QoL,Утилиты и Удобства,Utility &amp; QoL
+_Education,,Education,教育,教育,Образование,Education
+_Miscellaneous,,Miscellaneous,杂项,雜項,Разное,Miscellaneous
+_Server_Utility,,Server Utility,服务端工具,服務端工具,Серверные Утилиты,Server Utility
+_Technology,,Technology,技术,科技,Технологии,Technology
+_World_Gen,,World Gen,世界生成,世界生成,Генерация Мира,World Gen
+_Storage,,Storage,存储,儲存,Хранение,Storage
+_Structures,,Structures,结构,結構,Структуры,Structures
+_Addons,,Addons,附加组件,附加元件,Аддоны,Addons
 _Tinkers_Construct,,Tinker's Construct,Tinker's Construct,Tinker's Construct,Tinker's Construct,Tinker's Construct
-_Blood_Magic,,Blood Magic,血魔法,血魔法,Blood Magic,Blood Magic
-_Bug_Fixes,,Bug Fixes,错误修复,錯誤修復,Bug Fixes,Bug Fixes
+_Blood_Magic,,Blood Magic,血魔法,血魔法,Кровавая Магия,Blood Magic
+_Bug_Fixes,,Bug Fixes,错误修复,錯誤修復,Исправление Ошибок,Bug Fixes
 _Industrial_Craft,,Industrial Craft,工业时代,工業時代,Industrial Craft,Industrial Craft
 _Galacticraft,,Galacticraft,星系,星系,Galacticraft,Galacticraft
-_Farming,,Farming,农业,農業,Farming,Farming
-_Magic,,Magic,魔法,魔法,Magic,Magic
-_Automation,,Automation,自动化,自動化,Automation,Automation
+_Farming,,Farming,农业,農業,Фермерство,Farming
+_Magic,,Magic,魔法,魔法,Магия,Magic
+_Automation,,Automation,自动化,自動化,Автоматизация,Automation
 _Applied_Energistics_2,,Applied Energistics 2,应用能源 2,應用能源 2,Applied Energistics 2,Applied Energistics 2
-_Twitch_Integration,,Twitch Integration,Twitch Integration,Twitch Integration,Twitch Integration,Twitch Integration
+_Twitch_Integration,,Twitch Integration,Twitch Integration,Twitch Integration,Интеграция Twitch,Twitch Integration
 _CraftTweaker,,CraftTweaker,CraftTweaker,CraftTweaker,CraftTweaker,CraftTweaker
 _Integrated_Dynamics,,Integrated Dynamics,集成动力,整合動力,Integrated Dynamics,Integrated Dynamics
-_Create,,Create,创造,創造,Create,Create
-_Mobs,,Mobs,怪物,怪物,Mobs,Mobs
-_Skyblock,,Skyblock,空岛,空島,Skyblock,Skyblock
+_Create,,Create,创造,創造,Создание,Create
+_Mobs,,Mobs,怪物,怪物,Мобы,Mobs
+_Skyblock,,Skyblock,空岛,空島,SkyBlock,Skyblock
 _MCreator,,MCreator,MCreator,MCreator,MCreator,MCreator
-_Cosmetic,,Cosmetic,Cosmetic,Cosmetic,Cosmetic,Cosmetic
+_Cosmetic,,Cosmetic,Cosmetic,Cosmetic,Косметика,Cosmetic
 _KubeJS,,KubeJS,KubeJS,KubeJS,KubeJS,KubeJS
-_Redstone,,Redstone,红石,紅石,Redstone,Redstone
-_Performance,,Performance,优化,优化,Performance,Performance
+_Redstone,,Redstone,红石,紅石,Редстоун,Redstone
+_Performance,,Performance,优化,优化,Производительность,Performance
 _Player_Transport,,Player Transport,Player Transport,Player Transport,Player Transport,Player Transport
-_Biomes,,Biomes,生物群落,生物群落,Biomes,Biomes
-_Ores_and_Resources,,Ores and Resources,矿石和资源,礦石和資源,Ores and Resources,Ores and Resources
-_Energy_Fluid_and_Item_Transport,,"Energy, Fluid, and Item Transport",能量、流体和物品运输,能量、流體和物品運輸,"Energy, Fluid, and Item Transport","Energy, Fluid, and Item Transport"
+_Biomes,,Biomes,生物群落,生物群落,Биомы,Biomes
+_Ores_and_Resources,,Ores and Resources,矿石和资源,礦石和資源,Руды и Ресурсы,Ores and Resources
+_Energy_Fluid_and_Item_Transport,,"Energy, Fluid, and Item Transport",能量、流体和物品运输,能量、流體和物品運輸,"Перемещение Энергии, Жидкости и Предметов","Energy, Fluid, and Item Transport"
 _Buildcraft,,Buildcraft,建造工艺,建造工藝,Buildcraft,Buildcraft
 _Thaumcraft,,Thaumcraft,Thaumcraft,Thaumcraft,Thaumcraft,Thaumcraft
 _Thermal_Expansion,,Thermal Expansion,热力膨胀,熱力膨脹,Thermal Expansion,Thermal Expansion
-_Dimensions,,Dimensions,维度,維度,Dimensions,Dimensions
-_Energy,,Energy,能量,能量,Energy,Energy
-_Twilight_Forest,,Twilight Forest,暮色森林,暮色森林,Twilight Forest,Twilight Forest
-_Genetics,,Genetics,遗传学,遺傳學,Genetics,Genetics
-_Forestry,,Forestry,林业,林業,Forestry,Forestry
+_Dimensions,,Dimensions,维度,維度,Измерения,Dimensions
+_Energy,,Energy,能量,能量,Энергия,Energy
+_Twilight_Forest,,Twilight Forest,暮色森林,暮色森林,Сумеречный Лес,Twilight Forest
+_Genetics,,Genetics,遗传学,遺傳學,Генетика,Genetics
+_Forestry,,Forestry,林业,林業,Лесоводство,Forestry

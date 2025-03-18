@@ -1,12 +1,12 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 NV_Item_1,Content,Home,主页面,主頁面,Главная,Головна
-NV_Item_2,Content,Cores,核心,核心,Ядра,Ядра
-NV_Item_3,Content,Download Resources,资源下载,資源下載,Скачать Ресурсы,Завантажити Ресурси
+NV_Item_2,Content,Instances,实例,實例,Экземпляры,Примірники
+NV_Item_3,Content,Download Resources,资源下载,資源下載,Instances,Завантажити Ресурси
 NV_Item_4,Content,Minecraft News,Minecraft 新闻,Minecraft 新聞,Новости Minecraft,Новини Minecraft
 NV_Item_5,Content,Launch Tasks,启动任务,啟動任務,Запуск задач,Запуск завдань
 NV_Item_6,Content,Download Tasks,下载任务,下載任務,Загрузка задач,Завантаження завдань
 NV_Item_7,Content,Settings,设置,設置,Настройки,Налаштування
-NV_SubItem_1,Content,Minecraft Instances,Minecraft 实例,Minecraft 實例,Minecraft Instances,Екземпляри Minecraft
+NV_SubItem_1,Content,Minecraft Instances,Minecraft 实例,Minecraft 實例,Minecraft Экземпляры,Minecraft Примірники
 NV_SubItem_2,Content,Mods,模组,模組,Моды,Моди
 NV_SubItem_3,Content,Modpacks,整合包,整合包,Модпаки,Modpacks
 AutoSuggestBox,PlaceholderText,Search for something..,搜点什么..,搜點什麼..,Искать что-нибудь..,Шукати що-небудь.

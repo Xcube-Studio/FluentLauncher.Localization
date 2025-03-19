@@ -1,10 +1,14 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 Text1,Text,Version,版本,版本,Версия,Версія
 Text2,Text,Mod Loader,模组加载器,模組載入器,Загрузчик модов,Завантажувач модів
+M1,Text,Download to specified folder,下载至指定文件夹,下載至指定資料夾,Загрузить в указанную папку,Завантажити у вказану папку
+M2,Text,Download to public mods folder (.minecraft/mods),下载至公共模组文件夹 (.minecraft/mods),下載至公用模組資料夾 (.minecraft/mods),Загрузить в публичную папку модов (.minecraft/mods),Завантажити в загальнодоступну папку модів (.minecraft/mods)
+M3,Text,Download to the mods folder of the current instance,下载至当前实例的模组文件夹,下載至目前實例的模組資料夾,Загрузить в папку модов текущего экземпляра,Завантажте в папку mods поточного екземпляра
 TipText1,Text,,翻译文本来自 MCIM,翻譯內文來自 MCIM,,
 TipText2,Text,Data From,数据来自,數據來自,Данные из,Дані з
 H1,Text,Files,文件,文件,Файлов,Файли
 H2,Text,Description,描述,描述,Описание,опис
 H3,Text,ScreenShots,屏幕截图,螢幕截圖,Снимки экрана,Скріншоти
-FlyoutText,Text,You should select an item from the &quot;File&quot; list below and click Download,"你应该从下方 ""文件"" 列表中选择一项再点击下载","你應該從下方 ""檔案"" 清單中選擇一項再點擊下載",Вы должны выбрать элемент из списка «Файл» ниже и нажать «Загрузить»,Ви повинні вибрати елемент із &quot;Файл&quot; списку нижче та натисніть Завантажити
+TeachingTip,Title,You should select an item from the &quot;File&quot; list below and click Download,"你应该从下方 ""文件"" 列表中选择一项再点击下载","你應該從下方 ""檔案"" 清單中選擇一項再點擊下載",Вы должны выбрать элемент из списка «Файл» ниже и нажать «Загрузить»,Ви повинні вибрати елемент із &quot;Файл&quot; списку нижче та натисніть Завантажити
+TeachingTip,CloseButtonContent,Got it!,明白了！,明白了！,Понятно!,Зрозуміло!
 HyperlinkButton,Content,Web Page,网页,網頁,Веб-страница,Веб-сторінка

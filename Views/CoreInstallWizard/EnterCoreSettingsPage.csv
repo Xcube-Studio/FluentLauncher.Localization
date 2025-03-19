@@ -1,9 +1,0 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
-Page,Tag,Basic Core Settings (2/3),基本核心设置 (2/3),基本核心設置 (2/3),Основные настройки ядра (2/3),Основні налаштування ядра (2/3)
-H1,Text,Core Absolute Id:,核心实际 Id: ,核心實際 Id: ,ID ядра: , ID ядра:
-H2,Text,Core Nickname:,核心的昵称：,核心的暱稱：,Название ядра: , Назва ядра:
-H3,Text,Core independent,版本独立,版本獨立,Независимость ядра, Незалежність ядра
-D1,Text,"The name of the versions/{version} directory, the name cannot be repeated",目录 versions/{version} 的名称，改名称不能重复,目錄 versions/{version} 的名稱，改名稱不能重複,"Название папки расположенной в version/{version}. Нельзя повторять.","Назва папки, розташованої в version/{version}. Не можна повторювати."
-D2,Text,"Only as a display name, the actual Id will not be modified",仅作为显示名称，实际 Id 不会被修改,僅作為顯示名稱，實際 Id 不會被修改,"Только в качестве отображаемого названия, не затрагивает ID","Тільки в якості відображуваної назви, не зачіпає ID"
-D3,Text,"The game will run at versions\${version} directory",游戏将运行在 versions\${version} 目录下,遊戲將運行在 versions\${version} 目錄下,"Игра будет запускаться из папки versions\${version}","Гра запускатиметься з папки versions\${version}"
-NotAvailableText,Text,Id not available,该 Id 不可用,該 Id 不可用,Этот ID недоступен,Цей ID недоступний

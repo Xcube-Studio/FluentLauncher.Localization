@@ -1,5 +1,5 @@
 ﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
-Title,Text,Logger,日志,日誌,Регистратор,Реєстратор
-Text1,Text,Logger Level Filter:,日志级别过滤器：,日誌等級過濾器：,Фильтр уровня регистратора: ,Фільтр рівня реєстратора:
+Title,Text,Logger,日志,日誌,Журнал,Реєстратор
+Text1,Text,Logger Level Filter:,日志级别过滤器：,日誌等級過濾器：,Фильтр уровня журнала: ,Фільтр рівня реєстратора:
 Text2,Text,Export Log File,导出日志文件,匯出日誌文件,Экспорт файла журнала,Експорт файлу журналу
 CheckBox,Content,Auto Scroll to the End,自动滚动到末尾,自動捲動到末尾,Автоматическая прокрутка до конца,Автоматичне прокручування до кінця

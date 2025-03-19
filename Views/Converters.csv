@@ -21,10 +21,10 @@ _TaskState_Cancelled,,Cancelled,已取消,已取消,Отменено,Скасо�
 _SaveGameType_0,,Survival,生存模式,生存模式,Выживание,Виживання
 _SaveGameType_1,,Creative,创造模式,創造模式,Творческий,Творчий
 _SaveGameType_2,,Adventure,冒险模式,冒險模式,Приключение,Пригода
-_SaveGameType_3,,Spectator,旁观者模式,旁觀者模式,Зритель,Глядач
+_SaveGameType_3,,Spectator,旁观者模式,旁觀者模式,Наблюдатель,Глядач
 _SaveCommands,,Commands,命令,命令,Команды,Команди
 _SaveVersion,,Version: ${version},版本：${version},版本：${version},Версия: ${version},Версія: ${version}
-_SaveSeed,,Seed: ${seed},种子：${seed},種子：${seed},Семя: ${seed},Насіння: ${seed}
+_SaveSeed,,Seed: ${seed},种子：${seed},種子：${seed},Сид: ${seed},Насіння: ${seed}
 _MicrosoftAuthMethod_BuiltInBrowser_Title,,Authenticate using the built-in browser,使用内置浏览器进行身份验证,使用內置瀏覽器進行身份驗證,Аутентификация с помощью встроенного браузера,Аутентифікація за допомогою вбудованого браузера
 _MicrosoftAuthMethod_DeviceFlowCode_Title,,Authenticate with device flow code,使用设备代码流进行身份验证,使用設備代碼流進行身份驗證,Аутентификация с помощью кода устройства,Аутентифікація за допомогою коду пристрою
 _MicrosoftAuthMethod_BuiltInBrowser_Description,,The built-in browser can be slow on poor connections,如果网络状况不佳，内置浏览器可能会更慢,如果網絡狀況不佳，內置瀏覽器可能會更慢,Встроенный браузер может работать медленно при плохом соединении,Вбудований браузер може працювати повільно при поганому з'єднанні

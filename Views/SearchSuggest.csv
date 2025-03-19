@@ -1,7 +1,7 @@
-﻿Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
+Id,Property,en-US,zh-Hans,zh-Hant,ru-RU,uk-UA
 _T1,,"Search Minecraft Instance ""{searchText}""","搜索 Minecraft 实例 ""{searchText}""","搜尋 Minecraft 實例 ""{searchText}""","Поиск экземпляра Minecraft ""{searchText}""","Шукати екземпляр Minecraft ""{searchText}"""
-_T2,,"Search CurseForge Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 CurseForge 资源","搜尋名稱為 ""{searchText}"" 的 CurseForge 資源","Поиск CurseForge Resources с именем ""{searchText}""","Пошук CurseForge Resources з іменем ""{searchText}"""""
-_T3,,"Search Modrinth Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 Modrinth 资源","搜尋名稱為 ""{searchText}"" 的 Modrinth 資源","Поиск Modrinth Resources с именем ""{searchText}""","Пошук Modrinth Resources з іменем ""{searchText}"""""
+_T2,,"Search CurseForge Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 CurseForge 资源","搜尋名稱為 ""{searchText}"" 的 CurseForge 資源","Поиск CurseForge с именем ""{searchText}""","Пошук CurseForge Resources з іменем ""{searchText}"""""
+_T3,,"Search Modrinth Resources with name ""{searchText}""","搜索名称为 ""{searchText}"" 的 Modrinth 资源","搜尋名稱為 ""{searchText}"" 的 Modrinth 資源","Поиск Modrinth с именем ""{searchText}""","Пошук Modrinth Resources з іменем ""{searchText}"""""
 _D1,,Go to Download Instances page,转到下载实例页面,前往下載實例頁面,Перейти на страницу загрузок экземпляров,Перейдіть на сторінку екземплярів завантаження
 _D3,,Go to Instance Configuration page,转到实例配置页面,前往實例配置頁面,Перейти на страницу конфигурации экземпляра,Перейдіть на сторінку конфігурації екземпляра
 _D4,,Launch the game,启动游戏,啟動遊戲,Запустить игру,Запустити гру

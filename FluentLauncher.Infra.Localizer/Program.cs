@@ -10,9 +10,24 @@ using System.Text;
 List<string> Warnings = [];
 List<string> Errors = [];
 
-Option<string> srcOption = new("--src", "The source folder containing the .csv files") { Required = true };
-Option<string> outOption = new("--out", "The output folder for .resw files") { Required = true };
-Option<IEnumerable<string>> languagesOption = new("--languages", "All languages for translation") { Required = true, AllowMultipleArgumentsPerToken = true };
+Option<string> srcOption = new("--src") 
+{ 
+    Required = true, 
+    Description = "The source folder containing the .csv files" 
+};
+
+Option<string> outOption = new("--out") 
+{ 
+    Required = true,
+    Description = "The output folder for .resw files" 
+};
+
+Option<IEnumerable<string>> languagesOption = new("--languages", "All languages for translation")
+{ 
+    Required = true,
+    AllowMultipleArgumentsPerToken = true
+};
+
 Option<string> defaultLanguageOption = new("--default-language")
 {
     Description = "Default language of the app",

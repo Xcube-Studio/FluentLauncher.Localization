@@ -22,10 +22,11 @@ Option<string> outOption = new("--out")
     Description = "The output folder for .resw files" 
 };
 
-Option<IEnumerable<string>> languagesOption = new("--languages", "All languages for translation")
+Option<IEnumerable<string>> languagesOption = new("--languages")
 { 
     Required = true,
-    AllowMultipleArgumentsPerToken = true
+    AllowMultipleArgumentsPerToken = true,
+    Description = "All languages for translation"
 };
 
 Option<string> defaultLanguageOption = new("--default-language")

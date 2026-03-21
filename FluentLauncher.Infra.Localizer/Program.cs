@@ -2,34 +2,46 @@
 using System;
 using System.Collections.Generic;
 using System.CommandLine;
-using System.CommandLine.Parsing;
 using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-List<string> Warnings = new();
-List<string> Errors = new();
+List<string> Warnings = [];
+List<string> Errors = [];
 
-var srcOption = new Option<string>("--src", "The source folder containing the .csv files") { IsRequired = true };
-var outOption = new Option<string>("--out", "The output folder for .resw files") { IsRequired = true };
-var languagesOption = new Option<IEnumerable<string>>("--languages", "All languages for translation") { IsRequired = true, AllowMultipleArgumentsPerToken = true };
-var defaultLanguageOption = new Option<string>("--default-language", () => "", "Default language of the app");
-defaultLanguageOption.AddValidator(result =>
+Option<string> srcOption = new("--src", "The source folder containing the .csv files") { Required = true };
+Option<string> outOption = new("--out", "The output folder for .resw files") { Required = true };
+Option<IEnumerable<string>> languagesOption = new("--languages", "All languages for translation") { Required = true, AllowMultipleArgumentsPerToken = true };
+Option<string> defaultLanguageOption = new("--default-language")
 {
-    IEnumerable<string> languages = result.GetValueForOption(languagesOption)!;
-    string defaultLanguage = result.GetValueForOption(defaultLanguageOption)!;
+    Description = "Default language of the app",
+    DefaultValueFactory = _ => ""
+};
+
+defaultLanguageOption.Validators.Add(result =>
+{
+    IEnumerable<string> languages = result.GetValue(languagesOption)!;
+    string defaultLanguage = result.GetValue(defaultLanguageOption)!;
     if (defaultLanguage != "" && !languages.Contains(defaultLanguage))
-        result.ErrorMessage = "Default language must be in the list of languages";
+        result.AddError("Default language must be in the list of languages");
 });
 
-var rootCommand = new RootCommand("Convert .csv files to .resw files for UWP/WinUI localization");
-rootCommand.AddOption(srcOption);
-rootCommand.AddOption(outOption);
-rootCommand.AddOption(languagesOption);
-rootCommand.AddOption(defaultLanguageOption);
-rootCommand.SetHandler(ConvertCsvToResw, srcOption, outOption, languagesOption, defaultLanguageOption);
-rootCommand.Invoke(args);
+RootCommand rootCommand = new("Convert .csv files to .resw files for UWP/WinUI localization")
+{
+    srcOption,
+    outOption,
+    languagesOption,
+    defaultLanguageOption
+};
+
+rootCommand.SetAction(parseResult => ConvertCsvToResw(
+    parseResult.GetValue(srcOption)!,
+    parseResult.GetValue(outOption)!,
+    parseResult.GetValue(languagesOption)!,
+    parseResult.GetValue(defaultLanguageOption)!
+));
+rootCommand.Parse(args).Invoke();
 
 void ConvertCsvToResw(string srcPath, string outPath, IEnumerable<string> languages, string defaultLanguage)
 {
